@@ -7,4 +7,892 @@
 created by laksidu
  DONT COPY
 */
-const _0x3f1829=_0x21fd;function _0xb7c7(){const _0x48e3a7=['\x0a\x0a>\x20QUEEN\x20ISHU\x20MD\x0a╚══════✮❁•°❀°•❁✮══════╝\x0a','PREFIX','log','823085gscErM','MODE','\x20\x0a*》*\x20*✂\x20AUTO_VOICE:*\x20➤\x20',']\x0a*》*\x20*✂\x20FAKE_RECORDING:*\x20➤\x20','1952055QSdYBl','\x20\x0a*》*\x20*✂\x20ALIVE_IMG:*\x20➤\x20','\x20\x0a*》*\x20*✂\x20ALIVE_MSG:*\x20➤\x20','AUTO_READ_STATUS','settings','ANTI_BAD','133404UWvqzt','\x20\x0a*》*\x20*✂\x20PREFIX:*\x20➤\x20[','AUTO_STICKER','BOT_NAME','\x20\x0a*》*\x20*✂\x20AUTO_REPLY:*\x20➤\x20','\x20\x0a*》*\x20*✂\x20BOT_NAME:*\x20➤\x20','901809sTzlVa','\x0a*》*\x20*✂\x20MODE:*\x20➤\x20','axios','ANTI_LINK','Get\x20bot\x27s\x20settings\x20list.','.menu','env','main','OWNER_REACT','64GOiscQ','28483jebGFe','setting','\x20\x0a*》*\x20*✂\x20ANTI_BAD:*\x20➤\x20','AUTO_VOICE','\x20\x0a*》*\x20*✂\x20AUTO_STICKER:*\x20➤\x20','287528TWdABI','6DfBqAL','2494326rFhItA','FAKE_RECORDING','\x20\x0a*》*\x20*✂\x20AUTO_REACT:*\x20➤\x20','\x20\x0a*》*\x20*✂\x20OWNER_REACT:*\x20➤\x20','AUTO_REPLY'];_0xb7c7=function(){return _0x48e3a7;};return _0xb7c7();}(function(_0x113a78,_0x250631){const _0x495308=_0x21fd,_0x28a5c1=_0x113a78();while(!![]){try{const _0x5d5431=parseInt(_0x495308(0x1cc))/0x1+-parseInt(_0x495308(0x1bc))/0x2+parseInt(_0x495308(0x1a9))/0x3*(-parseInt(_0x495308(0x1a8))/0x4)+-parseInt(_0x495308(0x1b2))/0x5+-parseInt(_0x495308(0x1aa))/0x6+parseInt(_0x495308(0x1b6))/0x7+-parseInt(_0x495308(0x1cb))/0x8*(-parseInt(_0x495308(0x1c2))/0x9);if(_0x5d5431===_0x250631)break;else _0x28a5c1['push'](_0x28a5c1['shift']());}catch(_0x1ed880){_0x28a5c1['push'](_0x28a5c1['shift']());}}}(_0xb7c7,0x4dac8));function _0x21fd(_0x222132,_0x5a59cd){const _0xb7c7ae=_0xb7c7();return _0x21fd=function(_0x21fd26,_0x5cdca2){_0x21fd26=_0x21fd26-0x1a6;let _0x551738=_0xb7c7ae[_0x21fd26];return _0x551738;},_0x21fd(_0x222132,_0x5a59cd);}const config=require('../config'),{cmd,commands}=require('../command'),os=require('os'),{runtime}=require('../lib/functions'),axios=require(_0x3f1829(0x1c4));cmd({'pattern':_0x3f1829(0x1ba),'react':'⚙️','alias':[_0x3f1829(0x1cd),_0x3f1829(0x1c8)],'desc':_0x3f1829(0x1c6),'category':_0x3f1829(0x1c9),'use':_0x3f1829(0x1c7),'filename':__filename},async(_0x589275,_0x1fa984,_0x3339c7,{from:_0xd47a9a,l:_0x17aad0,quoted:_0x3e4667,body:_0x32cb77,isCmd:_0x31c67e,umarmd:_0x5c3e22,args:_0x1d5690,q:_0x19efe1,isGroup:_0x4d9892,sender:_0x1bcb2b,senderNumber:_0x3bfb9e,botNumber2:_0x358503,botNumber:_0xc4a12,pushname:_0x40285d,isMe:_0x2503ae,isOwner:_0x5ab122,groupMetadata:_0x43208b,groupName:_0x4159c6,participants:_0x559b3c,groupAdmins:_0x49c31f,isBotAdmins:_0x1d6a30,isAdmins:_0x29cc79,reply:_0x54fa5e})=>{const _0x4481bb=_0x3f1829;try{let _0x406dfd='*╔═════\x20°❀•°✮SETTINGS°•❀°═════╗*\x20\x0a*》*\x20*✂\x20AUTO_READ_STATUS:*\x20➤\x20'+config[_0x4481bb(0x1b9)]+_0x4481bb(0x1c3)+config[_0x4481bb(0x1b3)]+_0x4481bb(0x1b4)+config[_0x4481bb(0x1a6)]+_0x4481bb(0x1a7)+config[_0x4481bb(0x1be)]+_0x4481bb(0x1c0)+config[_0x4481bb(0x1ae)]+_0x4481bb(0x1b7)+config['ALIVE_IMG']+_0x4481bb(0x1b8)+config['ALIVE_MSG']+'\x20\x0a*》*\x20*✂\x20ANTI_LINK:*\x20➤\x20'+config[_0x4481bb(0x1c5)]+_0x4481bb(0x1ce)+config[_0x4481bb(0x1bb)]+_0x4481bb(0x1bd)+config[_0x4481bb(0x1b0)]+_0x4481bb(0x1b5)+config[_0x4481bb(0x1ab)]+_0x4481bb(0x1ac)+config['AUTO_REACT']+_0x4481bb(0x1ad)+config[_0x4481bb(0x1ca)]+_0x4481bb(0x1c1)+config[_0x4481bb(0x1bf)]+_0x4481bb(0x1af);await _0x589275['sendMessage'](_0xd47a9a,{'image':{'url':config['ALIVE_IMG']},'caption':_0x406dfd},{'quoted':_0x1fa984});}catch(_0x4d9a6c){console[_0x4481bb(0x1b1)](_0x4d9a6c),_0x54fa5e(''+_0x4d9a6c);}});
+
+const { updateEnv, readEnv } = require('../lib/database')
+const EnvVar = require('../lib/mongodbenv')
+const { cmd } = require('../command')
+const sensitiveData = require('../dila_md_licence/a/b/c/d/dddamsbs')
+async function handleUpdate(reply, key, newValue, validation, errorMsg) {
+  if (validation && !validation(newValue)) {
+    return reply(errorMsg)
+  }
+  try {
+    await updateEnv(key, newValue)
+    reply(`*This is success...✅*\n${newValue}`)
+  } catch (err) {
+    console.error(`Error updating ${key}: ` + err.message)
+    reply(`🙇‍♂️ *Failed to update ${key}. Please try again.*\n` + err)
+  }
+}
+cmd(
+  {
+    pattern: 'settings',
+    alias: ['setting'],
+    react: '\uD83D\uDDDD️',
+    desc: 'Check bot online or not.',
+    category: 'main',
+    filename: __filename,
+  },
+  async (
+    conn,
+    mek,
+    m,
+    {
+      from,
+      quoted,
+      body,
+      isCmd,
+      command,
+      args,
+      q,
+      isGroup,
+      sender,
+      senderNumber,
+      botNumber2,
+      botNumber,
+      pushname,
+      isMe,
+      isOwner,
+      groupMetadata,
+      groupName,
+      participants,
+      groupAdmins,
+      isBotAdmins,
+      isAdmins,
+      reply,
+    }
+  ) => {
+    try {
+      return await conn.sendMessage(
+        from,
+        {
+          image: { url: 'https://telegra.ph/file/959a00b8f92106a8856de.jpg' },
+          caption: `*${sensitiveData.ahahabsbsbdb}*\n\n𝗬𝗢𝗨𝗥 𝗦𝗘𝗧𝗧𝗜𝗡𝗚𝗦\ntype - .mysetting\n\n𝗢𝗪𝗡𝗘𝗥 𝗡𝗔𝗠𝗘\nex - .ownername ${sensitiveData.ajababaaaaaa}\n\n𝗢𝗪𝗡𝗘𝗥 𝗡𝗨𝗠𝗕𝗘𝗥\nex - .ownernumber 94777xxxxxx\n\n𝗢𝗪𝗡𝗘𝗥 𝗙𝗥𝗢𝗠\nex - .ownerfrom matara\n\n𝗢𝗪𝗡𝗘𝗥 𝗔𝗚𝗘\nex - .ownerage 20\n\n𝗢𝗪𝗡𝗘𝗥 𝗖𝗢𝗠𝗠𝗔𝗡𝗗\nex - .ownercommand dilo\n\n𝗔𝗟𝗜𝗩𝗘𝗜𝗠𝗚\nex - .aliveimg (img url)\n\n𝗔𝗟𝗜𝗩𝗘𝗠𝗦𝗚\nex - .alivemsg (your alive msg)\n\n𝗣𝗥𝗘𝗙𝗜𝗫\nex - .prefix,*&%$#\n\n𝗔𝗨𝗧𝗢𝗦𝗧𝗔𝗧𝗘𝗦\n*true or false*\nex - .autostates true\n\n𝗠𝗢𝗗𝗘\n*private, public, groups, inbox*\nex - .mode public\n\n𝗔𝗨𝗧𝗢𝗩𝗢𝗜𝗖𝗘\n*true or false*\nex - .autovoice true\n\n𝗔𝗨𝗧𝗢𝗜𝗠𝗚\n*true or false*\nex - .autoimg true\n\n𝗔𝗨𝗧𝗢𝗩𝗜𝗗𝗘𝗢\n*true or false*\nex - .autovideo true\n\n𝗔𝗨𝗧𝗢𝗦𝗧𝗜𝗖𝗞𝗘𝗥\n*true or false*\nex - .autosticker true\n\n𝗔𝗨𝗧𝗢𝗥𝗘𝗣𝗟𝗬\n*true or false*\nex - .autoreply true\n\n𝗔𝗜𝗖𝗛𝗔𝗧\n*true or false*\nex - .aichat true\n\n𝗪𝗔𝗥𝗡𝗖𝗢𝗨𝗡𝗧\nex - .warncount 10\n\n𝗔𝗡𝗧𝗜𝗟𝗜𝗡𝗞\n*delete, warn, kick, off*\nex - .antilink delete\n\n𝗔𝗡𝗧𝗜𝗕𝗔𝗗\n*delete, warn, kick, off*\nex - .antibad delete\n\n𝗔𝗡𝗧𝗜𝗩𝗢𝗜𝗖𝗘\n*delete, warn, kick, off*\nex - .antivoice delete\n\n𝗔𝗡𝗧𝗜𝗦𝗧𝗜𝗖𝗞𝗘𝗥\n*delete, warn, kick, off*\nex - .antisticker delete\n\n𝗔𝗡𝗧𝗜𝗜𝗠𝗚\n*delete, warn, kick, off*\nex - .antiimg delete\n\n𝗔𝗡𝗧𝗜𝗩𝗜𝗗𝗘𝗢\n*delete, warn, kick, off*\nex - .antivideo delete`,
+        },
+        { quoted: mek }
+      )
+    } catch (e) {
+      console.log(e)
+      reply(`${e}`)
+    }
+  }
+)
+cmd(
+  {
+    pattern: 'mysettings',
+    alias: ['mysetting', 'botsettings', 'botsetting', 'welcomestates'],
+    desc: 'List all current bot settings',
+    category: 'owner',
+    react: '\uD83D\uDCDC',
+    thumbnail: 'https://telegra.ph/file/959a00b8f92106a8856de.jpg',
+    filename: __filename,
+  },
+  async (conn, mek, m, { reply, isOwner }) => {
+    if (!isOwner) {
+      return reply('_ඔබ බොට් හිමිකරු නොවේ...\uD83D\uDEAB_')
+    }
+    try {
+      const allEnvVars = await EnvVar.find({})
+      const envList = allEnvVars
+        .map((env) => `${env.key}: ${env.value}`)
+        .join('\n')
+      return reply(`𝗬𝗢𝗨𝗥 𝗦𝗘𝗧𝗧𝗜𝗡𝗚\n\n${envList}`)
+    } catch (err) {
+      console.error('Error fetching environment variables: ' + err.message)
+      return reply(
+        '\uD83D\uDE47‍\u2642️ *Failed to fetch settings. Please try again.*'
+      )
+    }
+  }
+)
+cmd(
+  {
+    pattern: 'ownernumber',
+    desc: "Update the owner's WhatsApp number",
+    category: 'owner',
+    react: '\u2705',
+    filename: __filename,
+  },
+  async (conn, mek, m, { q, reply, isOwner }) => {
+    if (!isOwner) {
+      return reply('_ඔබ බොට් හිමිකරු නොවේ...\uD83D\uDEAB_')
+    }
+    if (!q) {
+      return reply(
+        'Please set your number using the correct format:\n\nExample: `.ownernumber 94777xxxxxx`'
+      )
+    }
+    const formattedNumber = q.endsWith('@s.whatsapp.net')
+      ? q
+      : `${q}@s.whatsapp.net`
+    handleUpdate(
+      reply,
+      'OWNER_NUMBER',
+      formattedNumber,
+      (val) => val.endsWith('@s.whatsapp.net'),
+      '\uD83D\uDE13 *Invalid WhatsApp number format.* Please use: `94777xxxxxx`'
+    )
+  }
+)
+cmd(
+  {
+    pattern: 'aliveimg',
+    desc: 'Update the alive image URL',
+    category: 'owner',
+    react: '\u2705',
+    filename: __filename,
+  },
+  async (conn, mek, m, { q, reply, isOwner }) => {
+    if (!isOwner) {
+      return reply('_ඔබ බොට් හිමිකරු නොවේ...\uD83D\uDEAB_')
+    }
+    if (!q) {
+      return reply(
+        'Please set your image URL using the correct format:\n\nExample: `.aliveimg https://example.com/image.jpg`'
+      )
+    }
+    handleUpdate(
+      reply,
+      'ALIVE_IMG',
+      q,
+      (val) => val.startsWith('https://'),
+      '\uD83D\uDE13 *Invalid URL format. Please provide a valid image URL.*'
+    )
+  }
+)
+cmd(
+  {
+    pattern: 'alivemsg',
+    desc: 'Update the alive message',
+    category: 'owner',
+    react: '\u2705',
+    filename: __filename,
+  },
+  async (conn, mek, m, { q, reply, isOwner }) => {
+    if (!isOwner) {
+      return reply('_ඔබ බොට් හිමිකරු නොවේ...\uD83D\uDEAB_')
+    }
+    if (!q) {
+      return reply(
+        'Please set your alive message using the correct format:\n\nExample: `.alivemsg Your alive message here`'
+      )
+    }
+    handleUpdate(reply, 'ALIVE_MSG', q, null, null)
+  }
+)
+cmd(
+  {
+    pattern: 'prefix',
+    desc: 'Update the command prefix',
+    category: 'owner',
+    react: '\u2705',
+    filename: __filename,
+  },
+  async (conn, mek, m, { q, reply, isOwner }) => {
+    if (!isOwner) {
+      return reply('_ඔබ බොට් හිමිකරු නොවේ...\uD83D\uDEAB_')
+    }
+    if (!q || q.length > 3) {
+      return reply(
+        'Please set a valid prefix (1-3 characters) using the correct format:\n\nExample: `.prefix !`'
+      )
+    }
+    handleUpdate(reply, 'PREFIX', q, null, null)
+  }
+)
+cmd(
+  {
+    pattern: 'autostates',
+    desc: 'Enable or disable auto-read status',
+    category: 'owner',
+    react: '\u2705',
+    filename: __filename,
+  },
+  async (conn, mek, m, { q, reply, isOwner }) => {
+    if (!isOwner) {
+      return reply('_ඔබ බොට් හිමිකරු නොවේ...\uD83D\uDEAB_')
+    }
+    const validModes = ['true', 'false']
+    handleUpdate(
+      reply,
+      'AUTO_READ_STATUS',
+      q,
+      (val) => ['true', 'false'].includes(val),
+      '\uD83D\uDE13 *Invalid value. Please use `true` or `false`.*'
+    )
+  }
+)
+cmd(
+  {
+    pattern: 'mode',
+    desc: 'Update bot mode',
+    category: 'owner',
+    react: '\u2705',
+    filename: __filename,
+  },
+  async (conn, mek, m, { q, reply, isOwner }) => {
+    if (!isOwner) {
+      return reply('_ඔබ බොට් හිමිකරු නොවේ...\uD83D\uDEAB_')
+    }
+    const validModes = ['private', 'public', 'groups', 'inbox']
+    handleUpdate(
+      reply,
+      'MODE',
+      q,
+      (val) => validModes.includes(val),
+      `😒 *Invalid mode. Valid modes are: ${validModes.join(', ')}*`
+    )
+  }
+)
+cmd(
+  {
+    pattern: 'autovoice',
+    desc: 'Enable or disable auto voice',
+    category: 'owner',
+    react: '\u2705',
+    filename: __filename,
+  },
+  async (conn, mek, m, { q, reply, isOwner }) => {
+    if (!isOwner) {
+      return reply('_ඔබ බොට් හිමිකරු නොවේ...\uD83D\uDEAB_')
+    }
+    const validModes = ['true', 'false']
+    handleUpdate(
+      reply,
+      'AUTO_VOICE',
+      q,
+      (val) => ['true', 'false'].includes(val),
+      '\uD83D\uDE13 *Invalid value. Please use `true` or `false`.*'
+    )
+  }
+)
+cmd(
+  {
+    pattern: 'autoimg',
+    desc: 'Enable or disable auto image',
+    category: 'owner',
+    react: '\u2705',
+    filename: __filename,
+  },
+  async (conn, mek, m, { q, reply, isOwner }) => {
+    if (!isOwner) {
+      return reply('_ඔබ බොට් හිමිකරු නොවේ...\uD83D\uDEAB_')
+    }
+    const validModes = ['true', 'false']
+    handleUpdate(
+      reply,
+      'AUTO_IMAGE',
+      q,
+      (val) => ['true', 'false'].includes(val),
+      '\uD83D\uDE13 *Invalid value. Please use `true` or `false`.*'
+    )
+  }
+)
+cmd(
+  {
+    pattern: 'autovideo',
+    desc: 'Enable or disable auto video',
+    category: 'owner',
+    react: '\u2705',
+    filename: __filename,
+  },
+  async (conn, mek, m, { q, reply, isOwner }) => {
+    if (!isOwner) {
+      return reply('_ඔබ බොට් හිමිකරු නොවේ...\uD83D\uDEAB_')
+    }
+    const validModes = ['true', 'false']
+    handleUpdate(
+      reply,
+      'AUTO_VIDEO',
+      q,
+      (val) => ['true', 'false'].includes(val),
+      '\uD83D\uDE13 *Invalid value. Please use `on` or `off`.*'
+    )
+  }
+)
+cmd(
+  {
+    pattern: 'autosticker',
+    desc: 'Enable or disable auto sticker',
+    category: 'owner',
+    react: '\u2705',
+    filename: __filename,
+  },
+  async (conn, mek, m, { q, reply, isOwner }) => {
+    if (!isOwner) {
+      return reply('_ඔබ බොට් හිමිකරු නොවේ...\uD83D\uDEAB_')
+    }
+    const validModes = ['true', 'false']
+    handleUpdate(
+      reply,
+      'AUTO_STICKER',
+      q,
+      (val) => ['true', 'false'].includes(val),
+      '\uD83D\uDE13 *Invalid value. Please use `true` or `false`.*'
+    )
+  }
+)
+cmd(
+  {
+    pattern: 'autoreply',
+    desc: 'Enable or disable auto reply',
+    category: 'owner',
+    react: '\u2705',
+    filename: __filename,
+  },
+  async (conn, mek, m, { q, reply, isOwner }) => {
+    if (!isOwner) {
+      return reply('_ඔබ බොට් හිමිකරු නොවේ...\uD83D\uDEAB_')
+    }
+    const validModes = ['true', 'false']
+    handleUpdate(
+      reply,
+      'AUTO_REPLY',
+      q,
+      (val) => ['true', 'false'].includes(val),
+      '\uD83D\uDE13 *Invalid value. Please use `true` or `false`.*'
+    )
+  }
+)
+cmd(
+  {
+    pattern: 'aichat',
+    desc: 'Enable or disable AI chat',
+    category: 'owner',
+    react: '\u2705',
+    filename: __filename,
+  },
+  async (conn, mek, m, { q, reply, isOwner }) => {
+    if (!isOwner) {
+      return reply('_ඔබ බොට් හිමිකරු නොවේ...\uD83D\uDEAB_')
+    }
+    const validModes = ['true', 'false']
+    handleUpdate(
+      reply,
+      'AUTO_AI',
+      q,
+      (val) => ['true', 'false'].includes(val),
+      '\uD83D\uDE13 *Invalid value. Please use `true` or `false`.*'
+    )
+  }
+)
+cmd(
+  {
+    pattern: 'warncount',
+    desc: 'Set the warn count limit',
+    category: 'owner',
+    react: '\u2705',
+    filename: __filename,
+  },
+  async (conn, mek, m, { q, reply, isOwner }) => {
+    if (!isOwner) {
+      return reply('_ඔබ බොට් හිමිකරු නොවේ...\uD83D\uDEAB_')
+    }
+    if (!q || isNaN(q) || q <= 0) {
+      return reply(
+        '\uD83D\uDE13 *Invalid number. Please provide a valid number greater than 0 for warn count.*\n\nExample: `.warncount 3`'
+      )
+    }
+    handleUpdate(
+      reply,
+      'WARN_COUNT',
+      q,
+      (val) => !isNaN(val),
+      '\uD83D\uDE13 *Invalid number. Please provide a valid number for warn count.*'
+    )
+  }
+)
+cmd(
+  {
+    pattern: 'antilink',
+    desc: 'Set anti-link action',
+    category: 'owner',
+    react: '\u2705',
+    filename: __filename,
+  },
+  async (conn, mek, m, { q, reply, isOwner }) => {
+    if (!isOwner) {
+      return reply('_ඔබ බොට් හිමිකරු නොවේ...\uD83D\uDEAB_')
+    }
+    const validActions = ['delete', 'warn', 'kick', 'off']
+    handleUpdate(
+      reply,
+      'ANTI_LINK',
+      q,
+      (val) => validActions.includes(val),
+      `😓 *Invalid action. Valid actions are: ${validActions.join(', ')}*`
+    )
+  }
+)
+cmd(
+  {
+    pattern: 'antibad',
+    desc: 'Set anti-bad-words action',
+    category: 'owner',
+    react: '\u2705',
+    filename: __filename,
+  },
+  async (conn, mek, m, { q, reply, isOwner }) => {
+    if (!isOwner) {
+      return reply('_ඔබ බොට් හිමිකරු නොවේ...\uD83D\uDEAB_')
+    }
+    const validActions = ['delete', 'warn', 'kick', 'off']
+    handleUpdate(
+      reply,
+      'ANTI_BAD',
+      q,
+      (val) => validActions.includes(val),
+      `😓 *Invalid action. Valid actions are: ${validActions.join(', ')}*`
+    )
+  }
+)
+cmd(
+  {
+    pattern: 'antivoice',
+    desc: 'Set anti-voice action',
+    category: 'owner',
+    react: '\u2705',
+    filename: __filename,
+  },
+  async (conn, mek, m, { q, reply, isOwner }) => {
+    if (!isOwner) {
+      return reply('_ඔබ බොට් හිමිකරු නොවේ...\uD83D\uDEAB_')
+    }
+    const validActions = ['delete', 'warn', 'kick', 'off']
+    handleUpdate(
+      reply,
+      'ANTI_VOICE',
+      q,
+      (val) => validActions.includes(val),
+      `😓 *Invalid action. Valid actions are: ${validActions.join(', ')}*`
+    )
+  }
+)
+cmd(
+  {
+    pattern: 'antisticker',
+    desc: 'Set anti-sticker action',
+    category: 'owner',
+    react: '\u2705',
+    filename: __filename,
+  },
+  async (conn, mek, m, { q, reply, isOwner }) => {
+    if (!isOwner) {
+      return reply('_ඔබ බොට් හිමිකරු නොවේ...\uD83D\uDEAB_')
+    }
+    const validActions = ['delete', 'warn', 'kick', 'off']
+    handleUpdate(
+      reply,
+      'ANTI_STICKER',
+      q,
+      (val) => validActions.includes(val),
+      `😓 *Invalid action. Valid actions are: ${validActions.join(', ')}*`
+    )
+  }
+)
+cmd(
+  {
+    pattern: 'antiimg',
+    desc: 'Set anti-photo action',
+    category: 'owner',
+    react: '\u2705',
+    filename: __filename,
+  },
+  async (conn, mek, m, { q, reply, isOwner }) => {
+    if (!isOwner) {
+      return reply('_ඔබ බොට් හිමිකරු නොවේ...\uD83D\uDEAB_')
+    }
+    const validActions = ['delete', 'warn', 'kick', 'off']
+    handleUpdate(
+      reply,
+      'ANTI_PHOTO',
+      q,
+      (val) => validActions.includes(val),
+      `😓 *Invalid action. Valid actions are: ${validActions.join(', ')}*`
+    )
+  }
+)
+cmd(
+  {
+    pattern: 'antivideo',
+    desc: 'Set anti-video action',
+    category: 'owner',
+    react: '\u2705',
+    filename: __filename,
+  },
+  async (conn, mek, m, { q, reply, isOwner }) => {
+    if (!isOwner) {
+      return reply('_ඔබ බොට් හිමිකරු නොවේ...\uD83D\uDEAB_')
+    }
+    const validActions = ['delete', 'warn', 'kick', 'off']
+    handleUpdate(
+      reply,
+      'ANTI_VIDEO',
+      q,
+      (val) => validActions.includes(val),
+      `😓 *Invalid action. Valid actions are: ${validActions.join(', ')}*`
+    )
+  }
+)
+cmd(
+  {
+    pattern: 'ownername',
+    desc: 'Update the owner name',
+    category: 'owner',
+    react: '\u2705',
+    filename: __filename,
+  },
+  async (conn, mek, m, { q, reply, isOwner }) => {
+    if (!isOwner) {
+      return reply('_ඔබ බොට් හිමිකරු නොවේ...\uD83D\uDEAB_')
+    }
+    if (!q) {
+      return reply(
+        '\uD83D\uDE13 *Please set your name.*\nExample: `.ownername Dila`'
+      )
+    }
+    handleUpdate(reply, 'WCPROFILENAME', q, null, null)
+  }
+)
+cmd(
+  {
+    pattern: 'ownerfrom',
+    desc: 'Update the owner from',
+    category: 'owner',
+    react: '\u2705',
+    filename: __filename,
+  },
+  async (conn, mek, m, { q, reply, isOwner }) => {
+    if (!isOwner) {
+      return reply('_ඔබ බොට් හිමිකරු නොවේ...\uD83D\uDEAB_')
+    }
+    if (!q) {
+      return reply(
+        '\uD83D\uDE13 *Please set your location.*\nExample: `.ownerfrom Matara`'
+      )
+    }
+    handleUpdate(reply, 'WCPROFILEFROM', q, null, null)
+  }
+)
+cmd(
+  {
+    pattern: 'ownerage',
+    desc: 'Update the owner age',
+    category: 'owner',
+    react: '\u2705',
+    filename: __filename,
+  },
+  async (conn, mek, m, { q, reply, isOwner }) => {
+    if (!isOwner) {
+      return reply('_ඔබ බොට් හිමිකරු නොවේ...\uD83D\uDEAB_')
+    }
+    if (!q) {
+      return reply(
+        '\uD83D\uDE13 *Please set your age.*\nExample: `.ownerage 20`'
+      )
+    }
+    handleUpdate(
+      reply,
+      'WCPROFILEAGE',
+      q,
+      (val) => !isNaN(val),
+      '\uD83D\uDE13 *Invalid age. Please provide a valid number.*'
+    )
+  }
+)
+cmd(
+  {
+    pattern: 'ownercommand',
+    desc: 'Update the owner command',
+    category: 'owner',
+    react: '\u2705',
+    filename: __filename,
+  },
+  async (conn, mek, m, { q, reply, isOwner }) => {
+    if (!isOwner) {
+      return reply('_ඔබ බොට් හිමිකරු නොවේ...\uD83D\uDEAB_')
+    }
+    if (!q) {
+      return reply(
+        '\uD83D\uDE13 *Please set the command.*\nExample: `.ownercommand dilo`'
+      )
+    }
+    handleUpdate(reply, 'WCPROFILEMSG', q, null, null)
+  }
+)
+cmd(
+  {
+    pattern: 'xxxxxxxxxjs',
+    desc: 'Update the alive message',
+    category: 'owner',
+    react: '\u2705',
+    filename: __filename,
+  },
+  async (conn, mek, m, { q, reply, isOwner }) => {
+    if (!isOwner) {
+      return reply('_ඔබ බොට් හිමිකරු නොවේ...\uD83D\uDEAB_')
+    }
+    if (!q) {
+      return reply(
+        'Please set your msg using the correct format:\n\nExample: `.grouptime group id/open time/close time`'
+      )
+    }
+    handleUpdate(reply, 'GROUP_TIME', q, null, null)
+  }
+)
+cmd(
+  {
+    pattern: 'welcome',
+    desc: 'Enable or disable welcome msg',
+    category: 'owner',
+    react: '\u2705',
+    filename: __filename,
+  },
+  async (conn, mek, m, { q, reply, isOwner }) => {
+    if (!isOwner) {
+      return reply('_ඔබ බොට් හිමිකරු නොවේ...\uD83D\uDEAB_')
+    }
+    const validModes = ['true', 'false']
+    handleUpdate(
+      reply,
+      'WELCOME',
+      q,
+      (val) => ['true', 'false'].includes(val),
+      '\uD83D\uDE13 *Invalid value. Please use `true` or `false`.*'
+    )
+  }
+)
+cmd(
+  {
+    pattern: 'welcomealert',
+    desc: 'Enable or disable welcomealert',
+    category: 'owner',
+    react: '\u2705',
+    filename: __filename,
+  },
+  async (conn, mek, m, { q, reply, isOwner }) => {
+    if (!isOwner) {
+      return reply('_ඔබ බොට් හිමිකරු නොවේ...\uD83D\uDEAB_')
+    }
+    const validModes = ['true', 'false']
+    handleUpdate(
+      reply,
+      'WELCOME_ALERT',
+      q,
+      (val) => ['true', 'false'].includes(val),
+      '\uD83D\uDE13 *Invalid value. Please use `true` or `false`.*'
+    )
+  }
+)
+cmd(
+  {
+    pattern: 'welcomeset',
+    desc: 'Update the alive welcome message',
+    category: 'owner',
+    react: '\u2705',
+    filename: __filename,
+  },
+  async (conn, mek, m, { q, reply, isOwner }) => {
+    if (!isOwner) {
+      return reply('_ඔබ බොට් හිමිකරු නොවේ...\uD83D\uDEAB_')
+    }
+    if (!q) {
+      return reply(
+        'Please set your welcome message using the correct format:\n\nExample: `.welcomeset Your welcome message here`'
+      )
+    }
+    handleUpdate(reply, 'WELCOME_SET', q, null, null)
+  }
+)
+cmd(
+  {
+    pattern: 'groupstimes',
+    desc: 'Update the groups open close times',
+    category: 'owner',
+    react: '\u2705',
+    filename: __filename,
+  },
+  async (conn, mek, m, { q, reply, isOwner }) => {
+    if (!isOwner) {
+      return reply('_ඔබ බොට් හිමිකරු නොවේ...\uD83D\uDEAB_')
+    }
+    if (!q) {
+      return reply(
+        'Please set your welcome message using the correct format:\n\nExample: `.groupstimes (A Group ID)(Open Times)(Close Times)/(B Group ID)(Open Time)(Close Time)`\n\n_උදාහරණයක් ලෙස_\n\n.groupstimes (120363339144214528@g.us)(08:00,12:00,18:00)(09:00,14:00,22:00)/(120354639144214528@g.us)(08:30,09:45)(09:00,23:30)/(715563339144214528@g.us)(06:00)(23:00)'
+      )
+    }
+    handleUpdate(reply, 'GROUPS_TIMES', q, null, null)
+  }
+)
+cmd(
+  {
+    pattern: 'statesmsgkkkkkk',
+    desc: 'Enable or disable states mag',
+    category: 'owner',
+    react: '\u2705',
+    filename: __filename,
+  },
+  async (conn, mek, m, { q, reply, isOwner }) => {
+    if (!isOwner) {
+      return reply('_ඔබ බොට් හිමිකරු නොවේ...\uD83D\uDEAB_')
+    }
+    const validModes = ['true', 'false']
+    handleUpdate(
+      reply,
+      'STATES_MSG_SEND',
+      q,
+      (val) => ['true', 'false'].includes(val),
+      '\uD83D\uDE13 *Invalid value. Please use `true` or `false`.*'
+    )
+  }
+)
+cmd(
+  {
+    pattern: 'statesrep',
+    desc: 'Update the states  message',
+    category: 'owner',
+    react: '\u2705',
+    filename: __filename,
+  },
+  async (conn, mek, m, { q, reply, isOwner }) => {
+    if (!isOwner) {
+      return reply('_ඔබ බොට් හිමිකරු නොවේ...\uD83D\uDEAB_')
+    }
+    if (!q) {
+      return reply(
+        'Please set your alive message using the correct format:\n\nExample: `.statesrep Your message here`'
+      )
+    }
+    handleUpdate(reply, 'STATES_MSG', q, null, null)
+  }
+)
+cmd(
+  {
+    pattern: 'autoreact',
+    desc: 'Enable or disable autoreact',
+    category: 'owner',
+    react: '\u2705',
+    filename: __filename,
+  },
+  async (conn, mek, m, { q, reply, isOwner }) => {
+    if (!isOwner) {
+      return reply('_ඔබ බොට් හිමිකරු නොවේ...\uD83D\uDEAB_')
+    }
+    const validModes = ['true', 'false']
+    handleUpdate(
+      reply,
+      'AUTO_REACT',
+      q,
+      (val) => ['true', 'false'].includes(val),
+      '\uD83D\uDE13 *Invalid value. Please use `true` or `false`.*'
+    )
+  }
+)
+cmd(
+  {
+    pattern: 'allowsonline',
+    desc: 'Enable or disable allows online',
+    category: 'owner',
+    react: '\u2705',
+    filename: __filename,
+  },
+  async (conn, mek, m, { q, reply, isOwner }) => {
+    if (!isOwner) {
+      return reply('_ඔබ බොට් හිමිකරු නොවේ...\uD83D\uDEAB_')
+    }
+    const validModes = ['true', 'false']
+    handleUpdate(
+      reply,
+      'ALLOWS_ONLINE',
+      q,
+      (val) => ['true', 'false'].includes(val),
+      '\uD83D\uDE13 *Invalid value. Please use `true` or `false`.*'
+    )
+  }
+)
+cmd(
+  {
+    pattern: 'autosave',
+    desc: 'Enable or disable auto save',
+    category: 'owner',
+    react: '\u2705',
+    filename: __filename,
+  },
+  async (conn, mek, m, { q, reply, isOwner }) => {
+    if (!isOwner) {
+      return reply('_ඔබ බොට් හිමිකරු නොවේ...\uD83D\uDEAB_')
+    }
+    const validModes = ['true', 'false']
+    handleUpdate(
+      reply,
+      'AUTO_SAVE',
+      q,
+      (val) => ['true', 'false'].includes(val),
+      '\uD83D\uDE13 *Invalid value. Please use `true` or `false`.*'
+    )
+  }
+)
+cmd(
+  {
+    pattern: 'statesmsgsend',
+    desc: 'Enable or disable auto states message ',
+    category: 'owner',
+    react: '\u2705',
+    filename: __filename,
+  },
+  async (conn, mek, m, { q, reply, isOwner }) => {
+    if (!isOwner) {
+      return reply('_ඔබ බොට් හිමිකරු නොවේ...\uD83D\uDEAB_')
+    }
+    const validModes = ['true', 'false']
+    handleUpdate(
+      reply,
+      'STATES_SEEN_MESSAGE_SEND_SEND',
+      q,
+      (val) => ['true', 'false'].includes(val),
+      '\uD83D\uDE13 *Invalid value. Please use `true` or `false`.*'
+    )
+  }
+)
+cmd(
+  {
+    pattern: 'statesmsg',
+    desc: 'Update the states  message',
+    category: 'owner',
+    react: '\u2705',
+    filename: __filename,
+  },
+  async (conn, mek, m, { q, reply, isOwner }) => {
+    if (!isOwner) {
+      return reply('_ඔබ බොට් හිමිකරු නොවේ...\uD83D\uDEAB_')
+    }
+    if (!q) {
+      return reply(
+        'Please set your alive message using the correct format:\n\nExample: `.statesmsg Your states message here`'
+      )
+    }
+    handleUpdate(reply, 'STATES_SEEN_MESSAGE', q, null, null)
+  }
+)
+cmd(
+  {
+    pattern: 'statesdownload',
+    desc: 'Enable or disable auto states statesdownload ',
+    category: 'owner',
+    react: '\u2705',
+    filename: __filename,
+  },
+  async (conn, mek, m, { q, reply, isOwner }) => {
+    if (!isOwner) {
+      return reply('_ඔබ බොට් හිමිකරු නොවේ...\uD83D\uDEAB_')
+    }
+    const validModes = ['true', 'false']
+    handleUpdate(
+      reply,
+      'STATES_DOWNLOAD',
+      q,
+      (val) => ['true', 'false'].includes(val),
+      '\uD83D\uDE13 *Invalid value. Please use `true` or `false`.*'
+    )
+  }
+)
