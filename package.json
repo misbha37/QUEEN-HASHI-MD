@@ -31,7 +31,6 @@
         "@vitalets/google-translate-api": "9.2.0",
         "@whiskeysockets/baileys": "git+https://github.com/prabathLK/Baileys-6.0.0.git#master",
         "api-dylux": "latest",
-        "@adiwajshing/baileys":"5.0.0",
         "aptoide-scraper": "1.0.1",
         "awesome-phonenumber": "6.2.0",
         "axios": "^1.6.7",
