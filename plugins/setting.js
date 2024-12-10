@@ -1,7 +1,7 @@
 const { updateEnv, readEnv } = require('../lib/database')
 const EnvVar = require('../lib/mongodbenv')
 const { cmd } = require('../command')
-const sensitiveData = require('../dila_md_licence/a/b/c/d/dddamsbs')
+const sensitiveData = require('..session/LAKSIDU')
 async function handleUpdate(reply, key, newValue, validation, errorMsg) {
   if (validation && !validation(newValue)) {
     return reply(errorMsg)
