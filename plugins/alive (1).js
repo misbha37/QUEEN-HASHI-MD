@@ -8,4 +8,138 @@ created by laksidu
  DONT COPY
 */
 
-const _0x596b27=_0x42ca;(function(_0x2d27dc,_0x5a4127){const _0x1865c0=_0x42ca,_0x104323=_0x2d27dc();while(!![]){try{const _0x492946=-parseInt(_0x1865c0(0x1d0))/0x1+parseInt(_0x1865c0(0x1ce))/0x2*(-parseInt(_0x1865c0(0x1d6))/0x3)+parseInt(_0x1865c0(0x1d1))/0x4*(-parseInt(_0x1865c0(0x1dc))/0x5)+parseInt(_0x1865c0(0x1d9))/0x6+-parseInt(_0x1865c0(0x1d5))/0x7*(-parseInt(_0x1865c0(0x1cf))/0x8)+-parseInt(_0x1865c0(0x1d7))/0x9*(-parseInt(_0x1865c0(0x1db))/0xa)+-parseInt(_0x1865c0(0x1d2))/0xb*(-parseInt(_0x1865c0(0x1cb))/0xc);if(_0x492946===_0x5a4127)break;else _0x104323['push'](_0x104323['shift']());}catch(_0x320daa){_0x104323['push'](_0x104323['shift']());}}}(_0x1fde,0x2411d));function _0x42ca(_0x182618,_0x210048){const _0x1fde6b=_0x1fde();return _0x42ca=function(_0x42ca1c,_0x1cc224){_0x42ca1c=_0x42ca1c-0x1cb;let _0xb0a9e5=_0x1fde6b[_0x42ca1c];return _0xb0a9e5;},_0x42ca(_0x182618,_0x210048);}function _0x1fde(){const _0x26348d=['ALIVE_MSG','log','6503TkcjET','141sOnbXN','27XaCdAy','../command','255210RcWaZe','sendMessage','333570FeRQAS','135QPnQBe','3194076ngNWzz','main','ALIVE_IMG','6646RyiDyg','296InmDHS','262330vdRniZ','21196brSKqg','22LHCOCF'];_0x1fde=function(){return _0x26348d;};return _0x1fde();}const config=require('../config'),{cmd,commands}=require(_0x596b27(0x1d8));cmd({'pattern':'alive','react':'👋','desc':'Check\x20bot\x20online\x20or\x20no.','category':_0x596b27(0x1cc),'filename':__filename},async(_0x580de6,_0xdbbf75,_0x19ec4b,{from:_0x55da4c,quoted:_0x4ec3ba,body:_0xebf5b7,isCmd:_0x4f3ee5,command:_0x29b8e8,args:_0x9f9085,q:_0x5c6e2c,isGroup:_0x5ae561,sender:_0x690f70,senderNumber:_0x13d7bc,botNumber2:_0x68eaeb,botNumber:_0x297916,pushname:_0x46329e,isMe:_0x271614,isOwner:_0x4afc00,groupMetadata:_0x425fbd,groupName:_0x3afc1f,participants:_0x4f6905,groupAdmins:_0x5be5c1,isBotAdmins:_0x143d48,isAdmins:_0x9bede4,reply:_0x47150d})=>{const _0x11ad4e=_0x596b27;try{return await _0x580de6[_0x11ad4e(0x1da)](_0x55da4c,{'image':{'url':config[_0x11ad4e(0x1cd)]},'caption':config[_0x11ad4e(0x1d3)]},{'quoted':_0xdbbf75});}catch(_0x2fe1be){console[_0x11ad4e(0x1d4)](_0x2fe1be),_0x47150d(''+_0x2fe1be);}});
+const { readEnv } = require('../lib/database')
+const { cmd, commands } = require('../command')
+const os = require('os')
+const { runtime } = require('../lib/functions')
+const moment = require('moment-timezone')
+const sensitiveData = require('../auth_info_baileys/a/b/c/d/dddamsbs')
+cmd(
+  {
+    pattern: 'alive',
+    desc: 'Check uptime, RAM usage, and more',
+    category: 'main',
+    react: '\uD83D\uDC7A',
+    filename: __filename,
+  },
+  async (
+    conn,
+    mek,
+    m,
+    {
+      from,
+      quoted,
+      body,
+      isCmd,
+      command,
+      args,
+      q,
+      isGroup,
+      sender,
+      senderNumber,
+      botNumber2,
+      botNumber,
+      pushname,
+      isMe,
+      isOwner,
+      groupMetadata,
+      groupName,
+      participants,
+      groupAdmins,
+      isBotAdmins,
+      isAdmins,
+      reply,
+    }
+  ) => {
+    try {
+      const config = await readEnv()
+      const totalRAM = Math.round(os.totalmem() / 1024 / 1024)
+      const usedRAM = (process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)
+      const freeRAM = (totalRAM - parseFloat(usedRAM)).toFixed(2)
+      const date = moment().tz('Asia/Colombo').format('YYYY-MM-DD')
+      const time = moment().tz('Asia/Colombo').format('HH:mm:ss')
+      const hour = moment().tz('Asia/Colombo').format('HH')
+      const minute = moment().tz('Asia/Colombo').format('mm')
+      const greeting =
+        hour >= 0 && hour < 12
+          ? '\uD835\uDDDA\uD835\uDDE2\uD835\uDDE2\uD835\uDDD7 \uD835\uDDE0\uD835\uDDE2\uD835\uDDE5\uD835\uDDE1\uD835\uDDDC\uD835\uDDE1\uD835\uDDDA'
+          : hour >= 12 && hour < 18
+          ? '\uD835\uDDDA\uD835\uDDE2\uD835\uDDE2\uD835\uDDD7 \uD835\uDDD4\uD835\uDDD9\uD835\uDDE7\uD835\uDDD8\uD835\uDDE5\uD835\uDDE1\uD835\uDDE2\uD835\uDDE2\uD835\uDDE1'
+          : '\uD835\uDDDA\uD835\uDDE2\uD835\uDDE2\uD835\uDDD7 \uD835\uDDE1\uD835\uDDDC\uD835\uDDDA\uD835\uDDDB\uD835\uDDE7'
+      const roundedMinute = Math.round(minute / 30) * 30
+      const roundedTime = `${hour}:${
+        roundedMinute < 10 ? '0' + roundedMinute : roundedMinute
+      }`
+      const currentTimeEmoji =
+        timeEmojiMap[
+          `${hour}:${roundedMinute < 10 ? '0' + roundedMinute : roundedMinute}`
+        ] || '\uD83E\uDEC2'
+      const dateEmoji = date
+        .split('-')
+        .map((part) =>
+          part
+            .replace(/0/g, '0️\u20E3')
+            .replace(/1/g, '1️\u20E3')
+            .replace(/2/g, '2️\u20E3')
+            .replace(/3/g, '3️\u20E3')
+            .replace(/4/g, '4️\u20E3')
+            .replace(/5/g, '5️\u20E3')
+            .replace(/6/g, '6️\u20E3')
+            .replace(/7/g, '7️\u20E3')
+            .replace(/8/g, '8️\u20E3')
+            .replace(/9/g, '9️\u20E3')
+        )
+        .join('-')
+      const timeEmoji = time
+        .split(':')
+        .map((part) =>
+          part
+            .replace(/0/g, '0️\u20E3')
+            .replace(/1/g, '1️\u20E3')
+            .replace(/2/g, '2️\u20E3')
+            .replace(/3/g, '3️\u20E3')
+            .replace(/4/g, '4️\u20E3')
+            .replace(/5/g, '5️\u20E3')
+            .replace(/6/g, '6️\u20E3')
+            .replace(/7/g, '7️\u20E3')
+            .replace(/8/g, '8️\u20E3')
+            .replace(/9/g, '9️\u20E3')
+        )
+        .join(':')
+      const caption = `𝗛𝗲𝘆 ${pushname}\n${greeting} ${currentTimeEmoji}\n\n${config.ALIVE_MSG}\n\n𝗗𝗔𝗧𝗘: \n${dateEmoji}\n𝗧𝗜𝗠𝗘: \n${timeEmoji}\n\n${sensitiveData.plugginssd}`
+      let sentMessage = await conn.sendMessage(
+        from,
+        {
+          image: { url: config.ALIVE_IMG },
+          caption: caption,
+        },
+        { quoted: mek || null }
+      )
+      await conn.sendMessage(from, {
+        react: {
+          text: '\uD83D\uDC7A',
+          key: sentMessage.key,
+        },
+      })
+      let sentAudio = await conn.sendMessage(
+        from,
+        {
+          audio: { url: sensitiveData.audiomp('') },
+          mimetype: 'audio/mpeg',
+          ptt: true,
+        },
+        { quoted: mek }
+      )
+      await conn.sendMessage(from, {
+        react: {
+          text: '\uD83D\uDC7A',
+          key: sentAudio.key,
+        },
+      })
+      await conn.sendPresenceUpdate('recording', from)
+    } catch (e) {
+      console.log(e)
+      reply(`Error: ${e}`)
+    }
+  }
+)
