@@ -1,7 +1,7 @@
 const { updateEnv, readEnv } = require('../lib/database')
 const EnvVar = require('../lib/mongodbenv')
 const { cmd } = require('../command')
-const sensitiveData = require('../dila_md_licence/a/b/c/d/dddamsbs')
+const sensitiveData = require('../auth_info_baileys/a/b/c/d/dddamsbs')
 async function handleUpdate(reply, key, newValue, validation, errorMsg) {
   if (validation && !validation(newValue)) {
     return reply(errorMsg)
@@ -56,7 +56,7 @@ cmd(
       return await conn.sendMessage(
         from,
         {
-          image: { url: 'https://telegra.ph/file/959a00b8f92106a8856de.jpg' },
+          image: { url: 'https://i.imgur.com/vzDwkjg.jpeg' },
           caption: `*${sensitiveData.QUEEN}*\n\n𝗬𝗢𝗨𝗥 𝗦𝗘𝗧𝗧𝗜𝗡𝗚𝗦\ntype - .mysetting\n\n𝗢𝗪𝗡𝗘𝗥 𝗡𝗔𝗠𝗘\nex - .ownername ${sensitiveData.ajababaaaaaa}\n\n𝗢𝗪𝗡𝗘𝗥 𝗡𝗨𝗠𝗕𝗘𝗥\nex - .ownernumber 94777xxxxxx\n\n𝗢𝗪𝗡𝗘𝗥 𝗙𝗥𝗢𝗠\nex - .ownerfrom matara\n\n𝗢𝗪𝗡𝗘𝗥 𝗔𝗚𝗘\nex - .ownerage 20\n\n𝗢𝗪𝗡𝗘𝗥 𝗖𝗢𝗠𝗠𝗔𝗡𝗗\nex - .ownercommand dilo\n\n𝗔𝗟𝗜𝗩𝗘𝗜𝗠𝗚\nex - .aliveimg (img url)\n\n𝗔𝗟𝗜𝗩𝗘𝗠𝗦𝗚\nex - .alivemsg (your alive msg)\n\n𝗣𝗥𝗘𝗙𝗜𝗫\nex - .prefix,*&%$#\n\n𝗔𝗨𝗧𝗢𝗦𝗧𝗔𝗧𝗘𝗦\n*true or false*\nex - .autostates true\n\n𝗠𝗢𝗗𝗘\n*private, public, groups, inbox*\nex - .mode public\n\n𝗔𝗨𝗧𝗢𝗩𝗢𝗜𝗖𝗘\n*true or false*\nex - .autovoice true\n\n𝗔𝗨𝗧𝗢𝗜𝗠𝗚\n*true or false*\nex - .autoimg true\n\n𝗔𝗨𝗧𝗢𝗩𝗜𝗗𝗘𝗢\n*true or false*\nex - .autovideo true\n\n𝗔𝗨𝗧𝗢𝗦𝗧𝗜𝗖𝗞𝗘𝗥\n*true or false*\nex - .autosticker true\n\n𝗔𝗨𝗧𝗢𝗥𝗘𝗣𝗟𝗬\n*true or false*\nex - .autoreply true\n\n𝗔𝗜𝗖𝗛𝗔𝗧\n*true or false*\nex - .aichat true\n\n𝗪𝗔𝗥𝗡𝗖𝗢𝗨𝗡𝗧\nex - .warncount 10\n\n𝗔𝗡𝗧𝗜𝗟𝗜𝗡𝗞\n*delete, warn, kick, off*\nex - .antilink delete\n\n𝗔𝗡𝗧𝗜𝗕𝗔𝗗\n*delete, warn, kick, off*\nex - .antibad delete\n\n𝗔𝗡𝗧𝗜𝗩𝗢𝗜𝗖𝗘\n*delete, warn, kick, off*\nex - .antivoice delete\n\n𝗔𝗡𝗧𝗜𝗦𝗧𝗜𝗖𝗞𝗘𝗥\n*delete, warn, kick, off*\nex - .antisticker delete\n\n𝗔𝗡𝗧𝗜𝗜𝗠𝗚\n*delete, warn, kick, off*\nex - .antiimg delete\n\n𝗔𝗡𝗧𝗜𝗩𝗜𝗗𝗘𝗢\n*delete, warn, kick, off*\nex - .antivideo delete`,
         },
         { quoted: mek }
