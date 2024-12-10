@@ -3,7 +3,7 @@ const path = require('path');
 const { readEnv } = require('../lib/database');
 const { cmd, commands } = require('../command');
 const { fetchJson } = require('../lib/functions'); // Assuming you have this function
-const { downloadMediaMessage } = require('@adiwajshing/baileys'); // Ensure you have this package
+const { downloadMediaMessage } = require('@whiskeysockets/baileys'); // Ensure you have this package
 
 // Function to determine the content type of a message
 function getContentType(message) {
