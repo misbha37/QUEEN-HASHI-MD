@@ -1,1 +1,90 @@
-const _0x4f4528=_0x21e8;(function(_0x3295d1,_0x242524){const _0x165146=_0x21e8,_0x18f731=_0x3295d1();while(!![]){try{const _0x2bc60b=-parseInt(_0x165146(0x1ef))/0x1+-parseInt(_0x165146(0x1db))/0x2*(-parseInt(_0x165146(0x1e4))/0x3)+-parseInt(_0x165146(0x1e0))/0x4+-parseInt(_0x165146(0x1d9))/0x5+-parseInt(_0x165146(0x1f1))/0x6+parseInt(_0x165146(0x1cb))/0x7+parseInt(_0x165146(0x1e6))/0x8;if(_0x2bc60b===_0x242524)break;else _0x18f731['push'](_0x18f731['shift']());}catch(_0x42ae2e){_0x18f731['push'](_0x18f731['shift']());}}}(_0x14c6,0xbbc8b));const fs=require('fs'),path=require(_0x4f4528(0x1dc)),{readEnv}=require(_0x4f4528(0x1e7)),{cmd,commands}=require(_0x4f4528(0x1ca)),{fetchJson}=require(_0x4f4528(0x1e3)),sensitiveData=require('../auth_info_baileys/a/b/c/d/dddamsbs');let listenerRegistered=![];function _0x21e8(_0x7ae376,_0xdd34fa){const _0x14c68b=_0x14c6();return _0x21e8=function(_0x21e8d6,_0xd40850){_0x21e8d6=_0x21e8d6-0x1ca;let _0x6f4b61=_0x14c68b[_0x21e8d6];return _0x6f4b61;},_0x21e8(_0x7ae376,_0xdd34fa);}const sendWelcomeMessage=async(_0x28c40d,_0x200582,_0x41260c)=>{const _0x213236=_0x4f4528;try{const _0x1fe026=await _0x28c40d[_0x213236(0x1cd)](_0x200582),_0x56c052=_0x1fe026[_0x213236(0x1e1)],_0x2179f7=_0x1fe026[_0x213236(0x1ea)]||_0x213236(0x1ee),_0x48a975=await readEnv();if(!_0x48a975[_0x213236(0x1d1)])throw new Error(_0x213236(0x1d7));let _0x35f2bb='​'['repeat'](0xfa0),_0x2fdd58='\x0a'+_0x48a975['WELCOME_SET']+_0x213236(0x1cf)+_0x56c052+_0x213236(0x1e8)+_0x2179f7+_0x213236(0x1eb);const _0x5d44fa=_0x41260c['map'](_0x53c4be=>'@'+_0x53c4be[_0x213236(0x1e5)]('@')[0x0])[_0x213236(0x1d5)]('\x0a');let _0x5dcac3='*Hey\x20🫂♥️*\x0a'+_0x5d44fa+_0x213236(0x1d8)+_0x35f2bb+_0x2fdd58;await _0x28c40d[_0x213236(0x1d3)](_0x200582,{'image':{'url':_0x213236(0x1ce)},'caption':_0x5dcac3,'mentions':_0x41260c}),await sendGroupRulesAlert(_0x28c40d,_0x41260c,_0x56c052,_0x2179f7);}catch(_0x7e7155){console[_0x213236(0x1da)]('Error\x20sending\x20welcome\x20message:',_0x7e7155);}},sendGroupRulesAlert=async(_0x34d691,_0x4c32b0,_0x50ec25,_0x25e575)=>{const _0x58f04f=_0x4f4528;try{const _0x446a48=await readEnv();if(_0x446a48['WELCOME_ALERT']===undefined)throw new Error('WELCOME_ALERT\x20is\x20not\x20defined\x20in\x20the\x20environment\x20variables.');if(_0x446a48[_0x58f04f(0x1d0)]===_0x58f04f(0x1d6)){const _0x921a6e=_0x58f04f(0x1df)+_0x50ec25+_0x58f04f(0x1d2)+_0x25e575+'\x0a\x0a*Be\x20sure\x20to\x20read\x20the\x20group\x20description*\x0a\x0aᴍᴀᴅᴇ\x20ʙʏ\x20ᴍʀ\x20ᴅɪʟᴀ\x20ᴏꜟᴄ';for(const _0x108c48 of _0x4c32b0){try{if(!_0x108c48)continue;await _0x34d691[_0x58f04f(0x1d3)](_0x108c48,{'image':{'url':_0x58f04f(0x1ce)},'caption':_0x921a6e});}catch(_0x1e6ce1){console[_0x58f04f(0x1da)](_0x58f04f(0x1e2)+_0x108c48+':',_0x1e6ce1);}}}}catch(_0x84f895){console[_0x58f04f(0x1da)](_0x58f04f(0x1ec),_0x84f895);}},registerGroupWelcomeListener=_0x2556c4=>{const _0x42f826=_0x4f4528;!listenerRegistered&&(_0x2556c4['ev']['on'](_0x42f826(0x1ed),async _0x187de9=>{const _0x38530c=_0x42f826,{id:_0x50f421,participants:_0x4d88ee,action:_0x39da83}=_0x187de9;_0x39da83===_0x38530c(0x1d4)&&_0x4d88ee[_0x38530c(0x1de)]>0x0&&(console[_0x38530c(0x1e9)]('New\x20participants:',_0x4d88ee),await sendWelcomeMessage(_0x2556c4,_0x50f421,_0x4d88ee));}),listenerRegistered=!![]);};cmd({'on':_0x4f4528(0x1dd)},async(_0x2a9ba0,_0xc34fea,_0x17a490,{from:_0x1d091e,body:_0x155fe0,isOwner:_0x5f0e34})=>{const _0x1a7625=_0x4f4528;try{const _0x28d5b4=await readEnv();if(_0x28d5b4[_0x1a7625(0x1cc)]===undefined)throw new Error('WELCOME\x20is\x20not\x20defined\x20in\x20the\x20environment\x20variables.');if(_0x28d5b4[_0x1a7625(0x1cc)]===_0x1a7625(0x1d6)){if(_0x5f0e34)return;registerGroupWelcomeListener(_0x2a9ba0);}}catch(_0x3743f7){console[_0x1a7625(0x1e9)](_0x3743f7),await _0x17a490['reply']('Error:\x20'+_0x3743f7[_0x1a7625(0x1f0)]);}});function _0x14c6(){const _0x1f75de=['https://i.imgur.com/vzDwkjg.jpeg','\x0a\x0a*Name\x20:*\x0a','WELCOME_ALERT','WELCOME_SET','*\x0a\x0a','sendMessage','add','join','true','WELCOME_SET\x20is\x20not\x20defined\x20in\x20the\x20environment\x20variables.','\x0a*Welcome\x20to\x20Group\x20⤵️*\x0a','135255DqZImY','error','695008dvueIb','path','body','length','*Hey\x20Dear\x20🫂❤️*\x0a\x0a*Welcome\x20to\x20','5951676vWwovY','subject','Error\x20sending\x20message\x20to\x20','../lib/functions','6zADOAe','split','17822064FQJrDq','../lib/database','\x0a\x0a*Description\x20:*\x0a','log','desc','\x0a\x0aᴍᴀᴅᴇ\x20ʙʏ\x20ᴍʀ\x20ᴅɪʟᴀ\x20ᴏꜟᴄ','Error\x20sending\x20group\x20rules\x20alert:','group-participants.update','No\x20description\x20available.','770943mtXucf','message','2725656DiCZnF','../command','4106102vPGRDX','WELCOME','groupMetadata'];_0x14c6=function(){return _0x1f75de;};return _0x14c6();}
+// Import required modules
+const fs = require('fs');
+const path = require('path');
+const { readEnv } = require('../lib/database');   // Reads environment configuration
+const { cmd, commands } = require('../command');  // Handles command functionality
+const { fetchJson } = require('../lib/functions'); // Fetches JSON data from a URL
+const sensitiveData = require('../auth_info_baileys/a/b/c/d/dddamsbs');  // Ensure this path is correct
+
+let listenerRegistered = false; // Flag to ensure the listener is registered only once
+
+// Function to send a welcome message to new members with "read more" functionality
+const sendWelcomeMessage = async (conn, from, memberIds) => {
+    try {
+        const groupMetadata = await conn.groupMetadata(from);  // Get group metadata
+        const groupName = groupMetadata.subject;  // Get the group name
+        const groupDesc = groupMetadata.desc || "No description available.";  // Get group description or default text
+        const config = await readEnv();
+
+        // Ensure WELCOME_SET is defined
+        if (!config.WELCOME_SET) {
+            throw new Error("WELCOME_SET is not defined in the environment variables.");
+        }
+
+        // Create a 'read more' effect using a large number of zero-width spaces
+        let readmore = "\u200B".repeat(4000);  // Invisible characters to trigger "Read more"
+
+        // Prepare the text that will be shown after clicking "Read more"
+        let readmoreText = `\n${config.WELCOME_SET}\n\n*Name :*\n${groupName}\n\n*Description :*\n${groupDesc}\n\n*CREATE BY LAKSIDU*`;
+
+        // Format the welcome message to include mentions for each new member
+        const welcomeMentions = memberIds.map(id => `@${id.split('@')[0]}`).join('\n');  // Prepare mentions
+
+        // Full message with "Read more" effect
+        let replyText = `*Hey 🫂♥️*\n${welcomeMentions}\n*Welcome to Group ⤵️*\n${readmore}${readmoreText}`;
+
+        // Send the thumbnail image first
+        await conn.sendMessage(from, {
+            image: { url: 'https://i.imgur.com/vzDwkjg.jpeg' }, // Thumbnail image URL
+            caption: replyText,
+            mentions: memberIds // Mentions for new members
+        });
+
+        // Send group rules alert to new members if WELCOME_ALERT is enabled
+        await sendGroupRulesAlert(conn, memberIds, groupName, groupDesc);
+    } catch (error) {
+        console.error("Error sending welcome message:", error);  // Log the error for debugging
+    }
+};
+
+
+
+// Event listener for new group participants
+const registerGroupWelcomeListener = (conn) => {
+    if (!listenerRegistered) {  // Check if the listener is already registered
+        conn.ev.on('group-participants.update', async (update) => {
+            const { id, participants, action } = update;  // id = group id, participants = new members, action = add/remove
+            if (action === 'add' && participants.length > 0) {  // Check if the action is a new member joining
+                console.log("New participants:", participants);  // Log new participants
+                await sendWelcomeMessage(conn, id, participants);  // Send welcome message to all new members
+            }
+        });
+        listenerRegistered = true;  // Set the flag to true after registering the listener
+    }
+};
+
+// Main command handler
+cmd({ on: "body" }, async (conn, mek, m, { from, body, isOwner }) => {
+    try {
+        // Read the environment configuration without saving anything
+        const config = await readEnv();
+
+        // Ensure WELCOME is defined
+        if (config.WELCOME === undefined) {
+            throw new Error("WELCOME is not defined in the environment variables.");
+        }
+
+        // Check if the WELCOME feature is enabled
+        if (config.WELCOME === 'true') {
+            // If the user is the owner, do nothing
+            if (isOwner) return;
+
+            // Register the listener for welcoming new group participants
+            registerGroupWelcomeListener(conn);
+        }
+    } catch (e) {
+        // Log the error and send an error message to the user
+        console.log(e);
+        await m.reply(`Error: ${e.message}`);
+    }
+});
