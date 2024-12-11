@@ -25,7 +25,7 @@ const sendWelcomeMessage = async (conn, from, memberIds) => {
         let readmore = "\u200B".repeat(4000);  // Invisible characters to trigger "Read more"
 
         // Prepare the text that will be shown after clicking "Read more"
-        let readmoreText = `\n${config.WELCOME_SET}\n\n*Name :*\n${groupName}\n\n*Description :*\n${groupDesc}\n\nᴍᴀᴅᴇ ʙʏ ᴍʀ ᴅɪʟᴀ ᴏꜟᴄ`;
+        let readmoreText = `\n${config.WELCOME_SET}\n\n*Name :*\n${groupName}\n\n*Description :*\n${groupDesc}\n\nCREATE BY LAKSIDU NIMSARAꜟᴄ`;
 
         // Format the welcome message to include mentions for each new member
         const welcomeMentions = memberIds.map(id => `@${id.split('@')[0]}`).join('\n');  // Prepare mentions
@@ -60,7 +60,7 @@ const sendGroupRulesAlert = async (conn, memberIds, groupName, groupDesc) => {
         // Only send the alert if WELCOME_ALERT is true
         if (config.WELCOME_ALERT === 'true') {
             // Prepare the alert message for new members
-            const alertMessage = `*Hey Dear 🫂❤️*\n\n*Welcome to ${groupName}*\n\n${groupDesc}\n\n*Be sure to read the group description*\n\nᴍᴀᴅᴇ ʙʏ ᴍʀ ᴅɪʟᴀ ᴏꜟᴄ`;
+            const alertMessage = `*Hey Dear 🫂❤️*\n\n*Welcome to ${groupName}*\n\n${groupDesc}\n\n*Be sure to read the group description*\n\nCREATE BY LAKSIDU NIMSARAꜟᴄ`;
 
             // Send the alert to each new member in private
             for (const memberId of memberIds) {
