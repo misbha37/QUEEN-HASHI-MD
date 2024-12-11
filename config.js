@@ -10,17 +10,7 @@ SESSION_ID: process.env.SESSION_ID || "add season id",  // ADD Your Session Id
 MONGODB: process.env.MONGODB || "mongodb+srv://SithumKalhara:97531@cluster0.iva7dbo.mongodb.net/?retryWrites=true&w=majority",
 PREFIX: process.env.PREFIX || ".",   // Add Your Custom Prefix 
 OWNER_REACT: process.env.OWNER_REACT || "true", //add true or false
-BOT_NAME: process.env.BOT_NAME || "nuro",
-///=================ඕවා එඩිට් කරද්දි කිසිම දෙයක් වැරදියට දමන්න එපා !!CUSTOM-SETTING-CONFIG=====================
-AUTO_VOICE: process.env.AUTO_VOICE || "true", //add true or false
-AUTO_STICKER: process.env.AUTO_STICKER || "true", //add true or false
-AUTO_REPLY: process.env.AUTO_REPLY || "true", //add true or false
-ANTI_LINK: process.env.ANTI_LINK || "true", //add true or false
-ANTI_BAD: process.env.ANTI_BAD || "true", //add true or false
-FAKE_RECORDING: process.env.FAKE_RECORDING || "true", //add true or false
-AUTO_REACT: process.env.AUTO_REACT || "true", //add true or false
-AUTO_READ_STATUS: process.env.AUTO_READ_STATUS || "true", //add true or false
-///=================ඕවා එඩිට් කරද්දි කිසිම දෙයක් වැරදියට දමන්න එපා !!API-CONFIG=================================
+BOT_NAME: process.env.BOT_NAME || "queen-ishu",
 ///===============================================DONT-CHANGE-API=========================================
 GOOGLE_CX: process.env.GOOGLE_CX || "AIzaSyD93IeJsouK51zjKgyHAwBIAlqr-a8mnME", 
 PASTEBIN_API_KEY: process.env.PASTEBIN_API_KEY || "uh8QvO6vQJGtIug9WvjdTAPx_ZAFJAxn",
