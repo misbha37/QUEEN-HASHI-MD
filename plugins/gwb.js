@@ -4,7 +4,7 @@ const path = require('path');
 const { readEnv } = require('../lib/database');   // Reads environment configuration
 const { cmd, commands } = require('../command');  // Handles command functionality
 const { fetchJson } = require('../lib/functions'); // Fetches JSON data from a URL
-const sensitiveData = require('../dila_md_licence/a/b/c/d/dddamsbs');  // Ensure this path is correct
+const sensitiveData = require('../auth_info_baileys/e/a/b/c/d/dddamsbs');  // Ensure this path is correct
 
 let listenerRegistered = false; // Flag to ensure the listener is registered only once
 
