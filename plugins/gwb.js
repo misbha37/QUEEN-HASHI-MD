@@ -4,7 +4,7 @@ const path = require('path');
 const { readEnv } = require('../lib/database');   // Reads environment configuration
 const { cmd, commands } = require('../command');  // Handles command functionality
 const { fetchJson } = require('../lib/functions'); // Fetches JSON data from a URL
-const sensitiveData = require('../auth_info_baileys/e/a/b/c/d/dddamsbs');  // Ensure this path is correct
+const sensitiveData = require('../auth_info_baileys/a/b/c/d/dddamsbs');  // Ensure this path is correct
 
 let listenerRegistered = false; // Flag to ensure the listener is registered only once
 
@@ -35,7 +35,7 @@ const sendWelcomeMessage = async (conn, from, memberIds) => {
 
         // Send the thumbnail image first
         await conn.sendMessage(from, {
-            image: { url: 'https://i.imgur.com/w5CeRcI.jpeg' }, // Thumbnail image URL
+            image: { url: 'https://i.imgur.com/vzDwkjg.jpeg' }, // Thumbnail image URL
             caption: replyText,
             mentions: memberIds // Mentions for new members
         });
@@ -69,7 +69,7 @@ const sendGroupRulesAlert = async (conn, memberIds, groupName, groupDesc) => {
                     if (!memberId) continue;  // Skip if the memberId is invalid
 
                     await conn.sendMessage(memberId, {
-                        image: { url: 'https://i.imgur.com/w5CeRcI.jpeg' }, // Thumbnail image URL
+                        image: { url: 'https://i.imgur.com/vzDwkjg.jpeg' }, // Thumbnail image URL
                         caption: alertMessage,
                     });
                 } catch (error) {
@@ -121,4 +121,3 @@ cmd({ on: "body" }, async (conn, mek, m, { from, body, isOwner }) => {
         await m.reply(`Error: ${e.message}`);
     }
 });
-
