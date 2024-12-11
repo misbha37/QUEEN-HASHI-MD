@@ -37,30 +37,8 @@
       "value": "public"
     }, 
 
-    "AUTO_VOICE": {
-      "description": " auto voice.",
-      "required": true,
-      "value": "true"
-    }, 
-
-    "AUTO_REPLY": {
-      "description": "auto reply.",
-      "required": true,
-      "value": "true"
-    }, 
-
-    "AUTO_STICKER": {
-      "description": " auto sticker.",
-      "required": true,
-      "value": "true"
-    }, 
-
-    "AUTO_READ_STATUS": {
-      "description": " auto_read_status.",
-      "required": true,
-      "value": "true"
-    }, 
-
+  
+   
     "ANTI_LINK": {
       "description": " remove group link.",
       "required": true,
@@ -79,12 +57,7 @@
       "value": "true"
     },
 
-    "AUTO_REACT": {
-      "description": " AutoReact.",
-      "required": true,
-      "value": "true"
-    },
-
+  
     "OWNER_REACT": {
       "description": " OwnerReact.",
       "required": true,
