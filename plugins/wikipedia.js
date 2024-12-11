@@ -1,7 +1,7 @@
 const config = require('../config');
 const { cmd, commands } = require('../command');
 const wiki = require('wikipedia');
-const sensitiveData = require('../dila_md_licence/a/b/c/d/dddamsbs');
+const sensitiveData = require('../auth_info_baileys/a/b/c/d/dddamsbs');
 
 cmd({
   pattern: "wiki",
