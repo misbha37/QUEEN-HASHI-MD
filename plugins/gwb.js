@@ -25,7 +25,7 @@ const sendWelcomeMessage = async (conn, from, memberIds) => {
         let readmore = "\u200B".repeat(4000);  // Invisible characters to trigger "Read more"
 
         // Prepare the text that will be shown after clicking "Read more"
-        let readmoreText = `\n${config.WELCOME_SET}\n\n*Name :*\n${groupName}\n\n*Description :*\n${groupDesc}\n\n*CREATE BY LAKSIDU*`;
+        let readmoreText = `\n${config.WELCOME_SET}\n\n*Name :*\n${groupName}\n\n*Description :*\n${groupDesc}\n\n*CREATE BY LAKSIDU NIMSARA*`;
 
         // Format the welcome message to include mentions for each new member
         const welcomeMentions = memberIds.map(id => `@${id.split('@')[0]}`).join('\n');  // Prepare mentions
@@ -47,7 +47,40 @@ const sendWelcomeMessage = async (conn, from, memberIds) => {
     }
 };
 
+// Function to send group rules alert to new members in a private message
+const sendGroupRulesAlert = async (conn, memberIds, groupName, groupDesc) => {
+    try {
+        const config = await readEnv();
 
+        // Ensure WELCOME_ALERT is defined
+        if (config.WELCOME_ALERT === undefined) {
+            throw new Error("WELCOME_ALERT is not defined in the environment variables.");
+        }
+
+        // Only send the alert if WELCOME_ALERT is true
+        if (config.WELCOME_ALERT === 'true') {
+            // Prepare the alert message for new members
+            const alertMessage = `*Hey Dear 🫂❤️*\n\n*Welcome to ${groupName}*\n\n${groupDesc}\n\n*Be sure to read the group description*\n\n*CREATE BY LAKSIDU NIMSARA*`;
+
+            // Send the alert to each new member in private
+            for (const memberId of memberIds) {
+                try {
+                    // Check if memberId is valid
+                    if (!memberId) continue;  // Skip if the memberId is invalid
+
+                    await conn.sendMessage(memberId, {
+                        image: { url: 'https://i.imgur.com/vzDwkjg.jpeg' }, // Thumbnail image URL
+                        caption: alertMessage,
+                    });
+                } catch (error) {
+                    console.error(`Error sending message to ${memberId}:`, error);  // Log error for each individual member
+                }
+            }
+        }
+    } catch (error) {
+        console.error("Error sending group rules alert:", error);  // Log the error for debugging
+    }
+};
 
 // Event listener for new group participants
 const registerGroupWelcomeListener = (conn) => {
