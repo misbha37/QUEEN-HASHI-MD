@@ -14,6 +14,7 @@ BOT_NAME: process.env.BOT_NAME || "queen-ishu",
 ///===============================================DONT-CHANGE-API========================================
 GOOGLE_CX: process.env.GOOGLE_CX || "AIzaSyD93IeJsouK51zjKgyHAwBIAlqr-a8mnME", 
 PASTEBIN_API_KEY: process.env.PASTEBIN_API_KEY || "uh8QvO6vQJGtIug9WvjdTAPx_ZAFJAxn",
+OMDB_API_KEY: process.env.OMDB_API_KEY || "76cb7f39",
 ///=================ඕවා එඩිට් කරද්දි කිසිම දෙයක් වැරදියට දමන්න එපා !!ALIVE-CONFIG===============================
 ALIVE_IMG: process.env.ALIVE_IMG || "https://i.imgur.com/vzDwkjg.jpeg", //add alive img url
 ALIVE_MSG: process.env.ALIVE_MSG || "💜✅ HI I AM WHATSAPP BOT ✅💜", //add alive msg
