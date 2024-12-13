@@ -41,7 +41,6 @@
         "cc-suite": "1.0.5",
         "chart.js": "^4.4.0",
         "chatgpt-scraper": "^1.0.1",
-        "cheerio": "^1.0.0-rc.12",
         "crypto-digest-sync": "^1.0.0",
         "crypto-js": "latest",
         "dandi-api": "1.2.0",
@@ -95,7 +94,6 @@
         "sinhala-cricket-newsjs": "1.0.0",
         "sinhala-unicode": "2.0.0",
         "tesseract.js": "2.0.1",
-         "fluent-ffmpeg": "^2.1.3",
         "tiktokdl": "0.0.4",
         "translatte": "^3.0.1",
         "turndown": "7.1.3",
@@ -112,7 +110,6 @@
         "ytdl-secktor": "latest",
         "ytmp3-scrap":"1.0.0",
         "bing-translate-api":"4.0.2", 
-        "ruhend-scraper" : "8.0.3",
         "dark-yasiya-sinhalasub.lk": "1.0.1",
         "moment-timezone": "^0.5.43",
         "mfiredlcore-vihangayt": "^1.0.0",
@@ -121,7 +118,6 @@
         "mongoose":"8.5.3",
         "@mrnima/tiktok-downloader": "latest",
         "@mrnima/facebook-downloader":"1.0.0",
-        "@sl-code-lords/movie-api": "^1.0.0",
         "pixaldrain-sinhalasub": "git+https://github.com/DarkMakerofc/pixaldrain-sinhalasub.git"
     }
 }
