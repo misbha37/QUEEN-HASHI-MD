@@ -82,7 +82,7 @@ const { SinhalaSub } = require('@sl-code-lords/movie-api'),
     _0x32ae43 = _0x4e316a()
   _0x32ae43.setInterval(_0x2d9700, 4000)
 })()
-const config = require('../settings')
+const config = require('../config')
 const { igdl } = require('ruhend-scraper'),
   ffmpegPath = require('@ffmpeg-installer/ffmpeg').path,
   cheerio = require('cheerio'),
