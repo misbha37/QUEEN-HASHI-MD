@@ -19,7 +19,7 @@
       "value": "https://i.imgur.com/vzDwkjg.jpeg"
     }, 
     
-    "ALIVE_MSG": {
+    "MONGODB": {
       "description": " alive message ",
       "required": true,
       "value": "HI"
