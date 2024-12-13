@@ -1,11 +1,45 @@
-/*
-███████╗  ██╗   ██╗ ███████╗ ███████╗ ███╗   ██╗       ███   █████████    ███     ███    ███     ███
-██╔═══██╗ ██║   ██║ ██╔════╝ ██╔════╝ ████╗  ██║       ███   ███          ███     ███    ███     ███
-██║   ██║ ██║   ██║ █████╗   █████╗   ██╔██╗ ██║       ███   █████████    ███████████    ███     ███
-██║▄▄ ██║ ██║   ██║ ██╔══╝   ██╔══╝   ██║╚██╗██        ███         ███    ███     ███    ███████████
-╚██████╔╝ ╚██████╔╝ ███████╗ ███████╗ ██║ ╚████║       ███   █████████    ███     ███      ███████
-created by laksidu
- DONT COPY
-*/
+const config = require('../config');
+let fs = require('fs');
+const { exec } = require('child_process');
+const { cmd } = require('../command');
 
-const _0x17d91a=_0x2acf;(function(_0xfa7b65,_0x383806){const _0x141264=_0x2acf,_0x29e5d2=_0xfa7b65();while(!![]){try{const _0x402d0e=-parseInt(_0x141264(0xa8))/0x1+parseInt(_0x141264(0xb2))/0x2*(-parseInt(_0x141264(0xaf))/0x3)+parseInt(_0x141264(0xb3))/0x4+-parseInt(_0x141264(0xb8))/0x5*(parseInt(_0x141264(0xa9))/0x6)+-parseInt(_0x141264(0xa1))/0x7*(-parseInt(_0x141264(0xa2))/0x8)+-parseInt(_0x141264(0xa0))/0x9+parseInt(_0x141264(0xb7))/0xa;if(_0x402d0e===_0x383806)break;else _0x29e5d2['push'](_0x29e5d2['shift']());}catch(_0x6c9230){_0x29e5d2['push'](_0x29e5d2['shift']());}}}(_0x3425,0xd2b38));const config=require('../config');let fs=require('fs');const {exec}=require('child_process'),{cmd}=require(_0x17d91a(0xb5));function _0x3425(){const _0x35cb30=['existsSync','33703740QNlphE','8261845QZnXRJ','message','8214201lxgNzH','21xbUZxt','1009088OaaakT','https://github.com/laksidunimsara1/QUEEN-ISHU-MD.git','\x20pull','git\x20clone\x20','mkdirSync','Update\x20folder\x20from\x20GitHub','838988nvrBvt','6mThUfn','git\x20-C\x20','.update','Git\x20command\x20failed:\x20','sendMessage','*Error\x20during\x20update:*\x20','12057EyhPgY','system','*✅\x20Update\x20completed\x20successfully!*','154QVWIBf','3311036PHnTit','plugins','../command'];_0x3425=function(){return _0x35cb30;};return _0x3425();}function _0x2acf(_0x713122,_0x3f9d35){const _0x3425ef=_0x3425();return _0x2acf=function(_0x2acfc5,_0x4eb1c3){_0x2acfc5=_0x2acfc5-0x9f;let _0x5c231f=_0x3425ef[_0x2acfc5];return _0x5c231f;},_0x2acf(_0x713122,_0x3f9d35);}cmd({'pattern':'update','react':'🔄','desc':_0x17d91a(0xa7),'category':_0x17d91a(0xb0),'use':_0x17d91a(0xab),'filename':__filename},async(_0x489b4d,_0x525bd0,_0x2b8178,{from:_0xb0827f,reply:_0x57934a})=>{const _0x459ba2=_0x17d91a;try{const _0x185ffa=_0x459ba2(0xa3),_0x1fa186=_0x459ba2(0xb4);!fs[_0x459ba2(0xb6)](_0x1fa186)&&fs[_0x459ba2(0xa6)](_0x1fa186);const _0x1f18e3=fs[_0x459ba2(0xb6)](_0x1fa186+'/.git')?_0x459ba2(0xaa)+_0x1fa186+_0x459ba2(0xa4):_0x459ba2(0xa5)+_0x185ffa+'\x20'+_0x1fa186;await new Promise((_0x48469f,_0x4cbcdd)=>{exec(_0x1f18e3,(_0x3c15d3,_0x2285b1,_0x52a5b9)=>{const _0x4f4d95=_0x2acf;_0x3c15d3?_0x4cbcdd(_0x4f4d95(0xac)+_0x52a5b9):_0x48469f(_0x2285b1);});}),await _0x489b4d[_0x459ba2(0xad)](_0xb0827f,{'text':_0x459ba2(0xb1)},{'quoted':_0x525bd0});}catch(_0x5e3a18){console['error'](_0x5e3a18),_0x57934a(_0x459ba2(0xae)+_0x5e3a18[_0x459ba2(0x9f)]);}});
+cmd({
+    pattern: "update",
+    react: "🔄",
+    desc: "Update folder from GitHub",
+    category: "system",
+    use: '.update',
+    filename: __filename
+}, async (conn, mek, m, { from, reply }) => {
+    try {
+        const repoUrl = 'https://github.com/Awais-star-a11y/AWAIS-MD.git'; // لینک مخزن گیت‌هاب
+        const targetFolder = 'plugins'; // پوشه‌ای که باید به‌روز شود
+
+        // بررسی وجود پوشه هدف
+        if (!fs.existsSync(targetFolder)) {
+            fs.mkdirSync(targetFolder); // ساخت پوشه در صورت عدم وجود
+        }
+
+        // تعیین دستور مناسب گیت
+        const gitCommand = fs.existsSync(`${targetFolder}/.git`)
+            ? `git -C ${targetFolder} pull`
+            : `git clone ${repoUrl} ${targetFolder}`;
+
+        // اجرای دستور گیت
+        await new Promise((resolve, reject) => {
+            exec(gitCommand, (err, stdout, stderr) => {
+                if (err) {
+                    reject(`Git command failed: ${stderr}`);
+                } else {
+                    resolve(stdout);
+                }
+            });
+        });
+
+        // ارسال پیام موفقیت
+        await conn.sendMessage(from, { text: '*✅ Update completed successfully!*' }, { quoted: mek });
+    } catch (error) {
+        console.error(error);
+        reply(`*Error during update:* ${error.message}`);
+    }
+});
