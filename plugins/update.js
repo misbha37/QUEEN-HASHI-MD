@@ -4,7 +4,7 @@ const { exec } = require('child_process');
 const { cmd } = require('../command');
 
 cmd({
-    pattern: "update",
+    pattern: "version",
     react: "🔄",
     desc: "Update folder from GitHub",
     category: "system",
@@ -12,7 +12,7 @@ cmd({
     filename: __filename
 }, async (conn, mek, m, { from, reply }) => {
     try {
-        const repoUrl = 'https://github.com/Awais-star-a11y/AWAIS-MD.git'; // لینک مخزن گیت‌هاب
+        const repoUrl = 'https://github.com/laksidunimsara1/QUEEN-ISHU-MD.git'; // لینک مخزن گیت‌هاب
         const targetFolder = 'plugins'; // پوشه‌ای که باید به‌روز شود
 
         // بررسی وجود پوشه هدف
