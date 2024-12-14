@@ -106,7 +106,7 @@ function extractYouTubeId(_0x28fee7) {
 function convertYouTubeLink(_0x24246c) {
   const _0x3d7feb = extractYouTubeId(_0x24246c)
   if (_0x3d7feb) {
-    return 'https://www.youtube.com/watch?v=' + _0x3d7feb
+    return 'https://youtube.com/watch?v=' + _0x3d7feb
   }
   return _0x24246c
 }
