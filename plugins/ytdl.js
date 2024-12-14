@@ -1,55 +1,23 @@
 const { cmd, commands } = require('../command'),
-  fg = require('api-dylux'),
   yts = require('yt-search'),
   { fetchJson } = require('../lib/functions'),
   axios = require('axios'),
   cheerio = require('cheerio')
-async function dlyta(_0x465252) {
+async function ytmp4(_0x3980bd, _0x4211c2) {
   try {
-    for (let _0x17c02 = 0; _0x17c02 < 10; _0x17c02++) {
-      const _0x3d3a92 = await fetch(
-          'https://api-pink-venom.vercel.app/api/ytdl?url=' + _0x465252
-        ),
-        _0x18f84d = await _0x3d3a92.json()
-      if (_0x18f84d.result.download_url) {
-        return {
-          status: true,
-          dl_link: _0x18f84d.result.download_url,
-        }
-      }
-    }
-    return (
-      await new Promise((_0x1f796d) => setTimeout(_0x1f796d, 4000)),
-      {
-        status: false,
-        msg: 'error',
-      }
-    )
-  } catch (_0x2d99bf) {
-    return (
-      console.error(_0x2d99bf),
-      {
-        status: false,
-        msg: _0x2d99bf.message,
-      }
-    )
-  }
-}
-async function ytmp4(_0x38f2d0, _0x37febb) {
-  try {
-    if (!_0x38f2d0 || !_0x37febb) {
+    if (!_0x3980bd || !_0x4211c2) {
       throw new Error('url and format parameters are required.')
     }
-    const _0xddc26c = parseInt(_0x37febb.replace('p', ''), 10),
-      _0x494d72 = 'https://ab.cococococ.com/ajax/download.php',
-      _0x465a10 = {
+    const _0x16eb8d = parseInt(_0x4211c2.replace('p', ''), 10),
+      _0x2577af = 'https://ab.cococococ.com/ajax/download.php',
+      _0xc27ef2 = {
         button: 1,
         start: 1,
         end: 1,
-        format: _0xddc26c,
-        url: _0x38f2d0,
+        format: _0x16eb8d,
+        url: _0x3980bd,
       },
-      _0x22c766 = {
+      _0x2cd7d7 = {
         Accept: '*/*',
         'Accept-Encoding': 'gzip, deflate, br',
         'Accept-Language': 'en-GB,en-US;q=0.9,en;q=0.8',
@@ -64,51 +32,52 @@ async function ytmp4(_0x38f2d0, _0x37febb) {
         'User-Agent':
           'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36',
       },
-      _0x517a10 = await axios.get(_0x494d72, {
-        params: _0x465a10,
-        headers: _0x22c766,
+      _0x12280e = await axios.get(_0x2577af, {
+        params: _0xc27ef2,
+        headers: _0x2cd7d7,
       }),
-      _0x81a9c7 = _0x517a10.data.id,
-      _0x52e7d4 = async () => {
-        const _0x40c4c2 = 'https://p.oceansaver.in/ajax/progress.php',
-          _0x2d9332 = { id: _0x81a9c7 }
+      _0x5b8de8 = _0x12280e.data.id,
+      _0x516474 = async () => {
+        const _0x23d43d = { id: _0x5b8de8 }
         try {
-          const _0x58fe8c = await axios.get(_0x40c4c2, {
-              params: _0x2d9332,
-              headers: _0x22c766,
-            }),
+          const _0x336b9c = await axios.get(
+              'https://p.oceansaver.in/ajax/progress.php',
+              {
+                params: _0x23d43d,
+                headers: _0x2cd7d7,
+              }
+            ),
             {
-              progress: _0x2f50d4,
-              download_url: _0x5baf10,
-              text: _0x388032,
-            } = _0x58fe8c.data
-          return _0x388032 === 'Finished'
-            ? _0x5baf10
-            : (await new Promise((_0x15ef8b) => setTimeout(_0x15ef8b, 1000)),
-              _0x52e7d4())
-        } catch (_0x1afa0e) {
-          throw new Error('Error in progress check: ' + _0x1afa0e.message)
+              progress: _0x4d40f8,
+              download_url: _0x38b33a,
+              text: _0x18cba7,
+            } = _0x336b9c.data
+          return _0x18cba7 === 'Finished'
+            ? _0x38b33a
+            : (await new Promise((_0x23ae03) => setTimeout(_0x23ae03, 1000)),
+              _0x516474())
+        } catch (_0x5bfafc) {
+          throw new Error('Error in progress check: ' + _0x5bfafc.message)
         }
       }
-    return await _0x52e7d4()
-  } catch (_0x174ca8) {}
+    return await _0x516474()
+  } catch (_0x2a0e7e) {
+    return console.error('Error:', _0x2a0e7e), { error: _0x2a0e7e.message }
+  }
 }
-module.exports = {
-  dlyta: dlyta,
-  ytmp4: ytmp4,
-}
-function extractYouTubeId(_0x28fee7) {
-  const _0x275f6e = _0x28fee7.match(
+module.exports = { ytmp4: ytmp4 }
+function extractYouTubeId(_0x1b9638) {
+  const _0x2087a0 = _0x1b9638.match(
     /(?:https?:\/\/)?(?:www\.)?(?:youtube\.com\/(?:watch\?v=|embed\/|v\/|shorts\/|playlist\?list=)|youtu\.be\/)([a-zA-Z0-9_-]{11})/
   )
-  return _0x275f6e ? _0x275f6e[1] : null
+  return _0x2087a0 ? _0x2087a0[1] : null
 }
-function convertYouTubeLink(_0x24246c) {
-  const _0x3d7feb = extractYouTubeId(_0x24246c)
-  if (_0x3d7feb) {
-    return 'https://www.youtube.com/watch?v=' + _0x3d7feb
+function convertYouTubeLink(_0x3e1474) {
+  const _0xefb47c = extractYouTubeId(_0x3e1474)
+  if (_0xefb47c) {
+    return 'https://www.youtube.com/watch?v=' + _0xefb47c
   }
-  return _0x24246c
+  return _0x3e1474
 }
 cmd(
   {
@@ -120,139 +89,144 @@ cmd(
     filename: __filename,
   },
   async (
-    _0x59dad9,
-    _0x51ee69,
-    _0x43ab1a,
+    _0x43bccf,
+    _0xc36936,
+    _0x2221ed,
     {
-      from: _0x53b0a3,
-      quoted: _0x46e221,
-      body: _0x14ecd4,
-      isCmd: _0x411b52,
-      command: _0x4c4082,
-      args: _0x5767b4,
-      q: _0x1c806a,
-      isGroup: _0x131bca,
-      sender: _0x3e4d24,
-      senderNumber: _0xd4a342,
-      botNumber2: _0x7db29f,
-      botNumber: _0x2903be,
-      pushname: _0x9097e4,
-      isMe: _0x504171,
-      isOwner: _0x1b3bda,
-      groupMetadata: _0x516921,
-      groupName: _0x304995,
-      participants: _0x118f30,
-      groupAdmins: _0x7ef745,
-      isBotAdmins: _0x36cff5,
-      isAdmins: _0x37bef4,
-      reply: _0xc6cd15,
+      from: _0x4bb6a0,
+      quoted: _0x11c3ad,
+      body: _0x81afff,
+      isCmd: _0x575e5b,
+      command: _0x2fd985,
+      args: _0x1cc9c2,
+      q: _0x3767c3,
+      isGroup: _0x1c9e96,
+      sender: _0x4f43f6,
+      senderNumber: _0x10ed07,
+      botNumber2: _0x297b1f,
+      botNumber: _0x4e9065,
+      pushname: _0x347247,
+      isMe: _0x3356fa,
+      isOwner: _0x1d038a,
+      groupMetadata: _0x38c4ea,
+      groupName: _0x4dc96,
+      participants: _0x288046,
+      groupAdmins: _0x259687,
+      isBotAdmins: _0x55e247,
+      isAdmins: _0x1c9ab4,
+      reply: _0x4080f2,
     }
   ) => {
     try {
-      if (!_0x1c806a) {
-        return _0xc6cd15('Please give me a URL or title.')
+      if (!_0x3767c3) {
+        return _0x4080f2('Please give me a URL or title.')
       }
-      _0x1c806a = convertYouTubeLink(_0x1c806a)
-      const _0x5bc20f = await yts(_0x1c806a),
-        _0x7a5448 = _0x5bc20f.videos[0],
-        _0x22edaa = _0x7a5448.url
-      let _0x14110d =
-        '\n*\u256D\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500*\n\u2502*QUEEN ISHU SONG DOWNLOADING\u21E9*\n*\u2060\u2060\u2060\u2060\u2570\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500*\n*\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500*\n\u274D *Title:* ' +
-        _0x7a5448.title +
-        ' \n\u274D *Duration:* ' +
-        _0x7a5448.timestamp +
-        ' \n\u274D *Views:* ' +
-        _0x7a5448.views +
-        ' \n\u274D *Uploaded On:* ' +
-        _0x7a5448.ago +
-        ' \n\u274D *Link:* ' +
-        _0x7a5448.url +
-        '\n*\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500*\n\u256D\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\n\u2502 *\u2AF7ʀᴇᴘʟʏ ʙᴇʟᴏᴡ ᴛʜᴇ ɴᴜᴍʙᴇʀ\u2AF8*\n\u2502\n\u2502 *1*    _(ᴀᴜᴅɪᴏ)_\n\u2502 *2*    _(ᴅᴏᴄᴜᴍᴇɴᴛ)_\n\u2060\u2060\u2060\u2060\u2570\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\n\n*\xA9 CREATED BY LAKSIDU \xB7 \xB7 \xB7*\n> QUEEN-ISHU-MD \u2756    \n'
-      const _0x135377 = await _0x59dad9.sendMessage(_0x53b0a3, {
-          image: { url: _0x7a5448.thumbnail },
-          caption: _0x14110d,
-        }),
-        _0x116257 = _0x135377.key.id
-      _0x59dad9.ev.on('messages.upsert', async (_0x1d2659) => {
-        const _0x56d9f6 = _0x1d2659.messages[0]
-        if (!_0x56d9f6.message) {
+      _0x3767c3 = convertYouTubeLink(_0x3767c3)
+      const _0x1a6653 = await yts(_0x3767c3),
+        _0x46d3ed = _0x1a6653.videos[0],
+        _0x1a0ef5 = _0x46d3ed.url
+      let _0x3778c9 =
+          '\n*QUEEN-ISHU-MD*\n*\u2554\u2550\u2550\u2550\u2550\u2550\u2550\u272E\u2741\u2022\xB0\u265B\xB0\u2022\u2741\u272E \u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2557*\n*\u2764️️\uD835\uDC08\uD835\uDC12\uD835\uDC07\uD835\uDC14  \uD835\uDC12\uD835\uDC0E\uD835\uDC0D\uD835\uDC06 \uD835\uDC03\uD835\uDC0E\uD835\uDC16\uD835\uDC0D\uD835\uDC0B\uD835\uDC0E\uD835\uDC00\uD835\uDC03\uD835\uDC04\uD835\uDC11\u2764️*\n*\u255A\u2550\u2550\u2550\u2550\u2550\u2550\u272E\u2741\u2022\xB0\u265B\xB0\u2022\u2741\u272E \u2550\u2550\u2550\u2550\u2550\u2550\u2550\u255D*\n*\u2554\u2550\u2550\u2550\u2550\u2550\u2550\u272E\u2741\u2022\xB0\u265B\xB0\u2022\u2741\u272E \u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2557*\n*\u2B55\u27A5Title* : ' +
+          _0x46d3ed.title +
+          '\n*\u2B55\u27A5Duration* :* ' +
+          _0x46d3ed.timestamp +
+          '\n*\u2B55\u27A5Views* :* ' +
+          _0x46d3ed.views +
+          '\n*\u2B55\u27A5Uploaded*  : ' +
+          _0x46d3ed.ago +
+          '\n*\u255A\u2550\u2550\u2550\u2550\u2550\u2550\u272E\u2741\u2022\xB0\u265B\xB0\u2022\u2741\u272E \u2550\u2550\u2550\u2550\u2550\u2550\u2550\u255D*\n\n\n\uD83D\uDD22 *REPLY NUMBER*\n\n*\uD835\uDE3C\uD835\uDE50\uD835\uDE3F\uD835\uDE44\uD835\uDE4A \uD835\uDE41\uD835\uDE44\uD835\uDE47\uD835\uDE40 \uD83C\uDFA7*\n\n*1*       *AUDIO*\n\n*\uD835\uDC03\uD835\uDC0E\uD835\uDC16\uD835\uDC0D\uD835\uDC0B\uD835\uDC0E\uD835\uDC00\uD835\uDC03 \uD835\uDDD7\uD835\uDDE2\uD835\uDDD6\uD835\uDDE8\uD835\uDDE0\uD835\uDDE1\uD835\uDDD8\uD835\uDDE7 \uD83D\uDCC1*\n\n*2*       *DOCUMENT*\n\n> *QUEEN-ISHU-MD-BOT*\n',
+        _0xf716e8 = '\n*\xA9 CREATED BY LAKSIDU NIMSARA* \xB7 \xB7 \n '
+      const _0x313c23 = await _0x43bccf.sendMessage(
+          _0x4bb6a0,
+          {
+            image: { url: _0x46d3ed.thumbnail },
+            caption: _0x3778c9,
+          },
+          { quoted: _0xc36936 }
+        ),
+        _0x4b638e = _0x313c23.key.id
+      _0x43bccf.ev.on('messages.upsert', async (_0x54e280) => {
+        const _0x522e57 = _0x54e280.messages[0]
+        if (!_0x522e57.message) {
           return
         }
-        const _0x205ed2 =
-            _0x56d9f6.message.conversation ||
-            _0x56d9f6.message.extendedTextMessage?.text,
-          _0x3a9fe1 = _0x56d9f6.key.remoteJid,
-          _0x44240e = _0x56d9f6.key.participant || _0x56d9f6.key.remoteJid,
-          _0x4a5d34 =
-            _0x56d9f6.message.extendedTextMessage &&
-            _0x56d9f6.message.extendedTextMessage.contextInfo.stanzaId ===
-              _0x116257
-        if (_0x4a5d34) {
-          await _0x59dad9.sendMessage(_0x3a9fe1, {
+        const _0x1cf2df =
+            _0x522e57.message.conversation ||
+            _0x522e57.message.extendedTextMessage?.text,
+          _0x24b64e = _0x522e57.key.remoteJid,
+          _0x3274f2 = _0x522e57.key.participant || _0x522e57.key.remoteJid,
+          _0x2fe982 =
+            _0x522e57.message.extendedTextMessage &&
+            _0x522e57.message.extendedTextMessage.contextInfo.stanzaId ===
+              _0x4b638e
+        if (_0x2fe982) {
+          await _0x43bccf.sendMessage(_0x24b64e, {
             react: {
               text: '\u2B07️',
-              key: _0x56d9f6.key,
+              key: _0x522e57.key,
             },
           })
-          const _0x4954a2 = await dlyta('' + _0x22edaa),
-            _0x30eba2 = _0x4954a2.dl_link
-          await _0x59dad9.sendMessage(_0x3a9fe1, {
+          const _0xd1a4c5 = await fetchJson(
+              'https://api-pink-venom.vercel.app/api/ytmp3?url=' + _0x1a0ef5
+            ),
+            _0x41a400 = _0xd1a4c5.result.dl_link
+          await _0x43bccf.sendMessage
+          await _0x43bccf.sendMessage(_0x24b64e, {
             react: {
               text: '\u2B06️',
-              key: _0x56d9f6.key,
+              key: _0x522e57.key,
             },
           })
-          if (_0x205ed2 === '1') {
-            await _0x59dad9.sendMessage(
-              _0x3a9fe1,
+          if (_0x1cf2df === '1') {
+            await _0x43bccf.sendMessage(
+              _0x24b64e,
               {
-                audio: { url: _0x30eba2 },
+                audio: { url: _0x41a400 },
                 mimetype: 'audio/mpeg',
                 contextInfo: {
                   externalAdReply: {
-                    title: _0x7a5448.title,
-                    body: _0x7a5448.videoId,
+                    title: _0x46d3ed.title,
+                    body: _0x46d3ed.videoId,
                     mediaType: 1,
-                    sourceUrl: _0x7a5448.url,
-                    thumbnailUrl: _0x7a5448.thumbnail,
+                    sourceUrl: _0x46d3ed.url,
+                    thumbnailUrl: _0x46d3ed.thumbnail,
                     renderLargerThumbnail: true,
                     showAdAttribution: true,
                   },
                 },
               },
-              { quoted: _0x56d9f6 }
+              { quoted: _0x522e57 }
             )
-            await _0x59dad9.sendMessage(_0x3a9fe1, {
+            await _0x43bccf.sendMessage(_0x24b64e, {
               react: {
                 text: '\u2705',
-                key: _0x56d9f6.key,
+                key: _0x522e57.key,
               },
             })
           } else {
-            _0x205ed2 === '2' &&
-              (await _0x59dad9.sendMessage(
-                _0x3a9fe1,
+            _0x1cf2df === '2' &&
+              (await _0x43bccf.sendMessage(
+                _0x24b64e,
                 {
-                  document: { url: _0x30eba2 },
+                  document: { url: _0x41a400 },
                   mimetype: 'audio/mp3',
-                  fileName: _0x7a5448.title + '.mp3',
-                  caption:
-                    '\n*\xA9 CREATED BY LAKSIDU NIMSARA \xB7 \xB7 \xB7\u2078\u2078\u2077*\n ',
+                  fileName: _0x46d3ed.title + '.mp3',
+                  caption: _0xf716e8,
                 },
-                { quoted: _0x56d9f6 }
+                { quoted: _0x522e57 }
               ),
-              await _0x59dad9.sendMessage(_0x3a9fe1, {
+              await _0x43bccf.sendMessage(_0x24b64e, {
                 react: {
                   text: '\u2705',
-                  key: _0x56d9f6.key,
+                  key: _0x522e57.key,
                 },
               }))
           }
         }
       })
-    } catch (_0xada7b2) {
-      console.log(_0xada7b2)
-      _0xc6cd15('' + _0xada7b2)
+    } catch (_0x38ef6b) {
+      console.log(_0x38ef6b)
+      _0x4080f2('' + _0x38ef6b)
     }
   }
 )
@@ -265,279 +239,290 @@ cmd(
     filename: __filename,
   },
   async (
-    _0x500f25,
-    _0x1dd8fb,
-    _0x31a051,
+    _0x450ace,
+    _0x222b3f,
+    _0x61c7dc,
     {
-      from: _0x300abc,
-      quoted: _0x496bb2,
-      body: _0x4039f4,
-      isCmd: _0x54c2a2,
-      command: _0x531b69,
-      args: _0x38f4f1,
-      q: _0x4396fc,
-      isGroup: _0x3b2170,
-      sender: _0x5ca060,
-      senderNumber: _0x314ed3,
-      botNumber2: _0x44e180,
-      botNumber: _0x2b99ac,
-      pushname: _0x21ed0b,
-      isMe: _0x5c2f13,
-      isOwner: _0x5efc83,
-      groupMetadata: _0xe58a90,
-      groupName: _0x3987ca,
-      participants: _0x1d9be5,
-      groupAdmins: _0x2ac763,
-      isBotAdmins: _0x47ccc3,
-      isAdmins: _0x58ede4,
-      reply: _0xd9dc6f,
+      from: _0x25ec4a,
+      quoted: _0x1244b7,
+      body: _0x38beba,
+      isCmd: _0x13a42e,
+      command: _0x35fc0b,
+      args: _0x15f038,
+      q: _0x5211d6,
+      isGroup: _0x48fd6e,
+      sender: _0x4fd336,
+      senderNumber: _0x1b369c,
+      botNumber2: _0x1e3d0a,
+      botNumber: _0x2cddaf,
+      pushname: _0x40e314,
+      isMe: _0x2e1004,
+      isOwner: _0x31ec6e,
+      groupMetadata: _0x2e24ef,
+      groupName: _0x52841c,
+      participants: _0x12e097,
+      groupAdmins: _0x3961a0,
+      isBotAdmins: _0xf424ad,
+      isAdmins: _0x21b72e,
+      reply: _0x27c1ab,
     }
   ) => {
     try {
-      if (!_0x4396fc) {
-        return _0xd9dc6f('Please give me a URL or title.')
+      if (!_0x5211d6) {
+        return _0x27c1ab('Please give me a URL or title.')
       }
-      _0x4396fc = convertYouTubeLink(_0x4396fc)
-      const _0x31277c = await yts(_0x4396fc),
-        _0x393b6e = _0x31277c.videos[0],
-        _0x3074df = _0x393b6e.url
-      let _0x5a576a =
-          '\n*\u256D\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500*\n\u2502*QUEEN ISHU VIDEO DOWNLOADING\u27F1*\n*\u2060\u2060\u2060\u2060\u2570\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500*\n*\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500*\n\u274D *Title:* ' +
-          _0x393b6e.title +
-          ' \n\u274D *Duration:* ' +
-          _0x393b6e.timestamp +
-          ' \n\u274D *Views:* ' +
-          _0x393b6e.views +
-          ' \n\u274D *Uploaded On:* ' +
-          _0x393b6e.ago +
-          ' \n\u274D *Link:* ' +
-          _0x393b6e.url +
-          '\n*\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500*\n\u256D\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\n\u2502 *\u2AF7ʀᴇᴘʟʏ ʙᴇʟᴏᴡ ᴛʜᴇ ɴᴜᴍʙᴇʀ\u2AF8*\n\u2502\n\u2502 ᴅᴏᴡɴʟᴏᴀᴅɪɴɢ ᴠɪᴅᴇᴏ ꜰɪʟᴇ \u2743\n\u2502 _1.1 (360ᴘ)_\n\u2502 _1.2 (480ᴘ)_\n\u2502 _1.3 (720ᴘ)_\n\u2502 _1.4 (1080ᴘ)_\n\u2502ᴅᴏᴡɴʟᴏᴀᴅɪɴɢ ᴅᴏᴄᴜᴍᴇɴᴛ \u2743\n\u2502 _2.1 (360ᴘ)_\n\u2502 _2.2 (480ᴘ)_\n\u2502 _2.3 (720ᴘ)_\n\u2502 _2.4 (1080ᴘ)_\n\u2060\u2060\u2060\u2060\u2570\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\n\n*\xA9 CREATED BY LAKSIDU NIMSARA \xB7 \xB7\u2078\u2078\u2077 \xB7*\n> QUEEN -ISHU-MD \uD83D\uDD17\n',
-        _0x10c80f =
-          '\n*\xA9 ᴄʀᴇᴀᴛᴇᴅ ʙʏ ᴀᴡᴀɪsX20ᴍᴅ \xB7 \xB7 \xB7\u2078\u2078\u2077*\n'
-      const _0x4d2591 = await _0x500f25.sendMessage(_0x300abc, {
-          image: { url: _0x393b6e.thumbnail },
-          caption: _0x5a576a,
-        }),
-        _0x55586c = _0x4d2591.key.id
-      _0x500f25.ev.on('messages.upsert', async (_0x3354b6) => {
-        const _0x4693cd = _0x3354b6.messages[0]
-        if (!_0x4693cd.message) {
+      _0x5211d6 = convertYouTubeLink(_0x5211d6)
+      const _0x4fb3ea = await yts(_0x5211d6),
+        _0x42fb3d = _0x4fb3ea.videos[0],
+        _0x29b6f3 = _0x42fb3d.url
+      let _0x57470e =
+          '\n*QUEEN-ISHU-MD*\n\n*\u2554\u2550\u2550\u2550\u2550\u2550\u2550\u272E\u2741\u2022\xB0\u265B\xB0\u2022\u2741\u272E \u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2557*\n\u2503*\u2764️️\uD835\uDC08\uD835\uDC12\uD835\uDC07\uD835\uDC14 \uD835\uDC15\uD835\uDC08\uD835\uDC03\uD835\uDC04\uD835\uDC0E \uD835\uDC03\uD835\uDC0E\uD835\uDC16\uD835\uDC0D\uD835\uDC0B\uD835\uDC0E\uD835\uDC00\uD835\uDC03\uD835\uDC04\uD835\uDC11\u2764️ *\n*\u255A\u2550\u2550\u2550\u2550\u2550\u2550\u272E\u2741\u2022\xB0\u265B\xB0\u2022\u2741\u272E \u2550\u2550\u2550\u2550\u2550\u2550\u2550\u255D*\n*\u2554\u2550\u2550\u2550\u2550\u2550\u2550\u272E\u2741\u2022\xB0\u265B\xB0\u2022\u2741\u272E \u2550\u2550\u2550\u2550\u2550\u2550\u2557*\n\u2B55*\u27A5Title* :* ' +
+          _0x42fb3d.title +
+          '\n*\u2B55\u27A5Duration* : ' +
+          _0x42fb3d.timestamp +
+          '\n*\u2B55\u27A5Views:*  ' +
+          _0x42fb3d.views +
+          '\n*\u2B55\u27A5Uploaded*  : ' +
+          _0x42fb3d.ago +
+          '\n*\u255A\u2550\u2550\u2550\u2550\u2550\u2550\u272E\u2741\u2022\xB0\u2740\xB0\u2022\u2741\u272E\u2550\u2550\u2550\u2550\u2550\u2550\u2550*\n\n\n\uD83D\uDD22 *REPLY NUMBER*\n\n*\uD835\uDC03\uD835\uDC0E\uD835\uDC16\uD835\uDC0D\uD835\uDC0B\uD835\uDC0E\uD835\uDC00\uD835\uDC03 VIDEO \uD83C\uDFAC*\n\n*1.1*       *360ᴘ*\n\n\n*\uD835\uDDD7\uD835\uDDE2\uD835\uDDD6\uD835\uDDE8\uD835\uDDE0\uD835\uDDE1\uD835\uDDD8\uD835\uDDE7 \uD835\uDC03\uD835\uDC0E\uD835\uDC16\uD835\uDC0D\uD835\uDC0B\uD835\uDC0E\uD835\uDC00\uD835\uDC03 \uD83D\uDCC1*\n\n*2.1*       *360ᴘ*\n\n\n> *QUEEN-ISHU--MD-BOT* \n',
+        _0x233807 = '\n*\xA9 CREATED BY LAKSIDU NIMSARA* \xB7 \xB7 \n'
+      const _0x3aa194 = await _0x450ace.sendMessage(
+        _0x25ec4a,
+        {
+          image: { url: _0x42fb3d.thumbnail },
+          caption: _0x57470e,
+        },
+        { quoted: _0x222b3f }
+      )
+      const _0x56ad08 = _0x3aa194.key.id
+      _0x450ace.ev.on('messages.upsert', async (_0x538cf9) => {
+        const _0x28682c = _0x538cf9.messages[0]
+        if (!_0x28682c.message) {
           return
         }
-        const _0x10401d =
-            _0x4693cd.message.conversation ||
-            _0x4693cd.message.extendedTextMessage?.text,
-          _0x3667d1 = _0x4693cd.key.remoteJid,
-          _0x295cea = _0x4693cd.key.participant || _0x4693cd.key.remoteJid,
-          _0x56dcf7 =
-            _0x4693cd.message.extendedTextMessage &&
-            _0x4693cd.message.extendedTextMessage.contextInfo.stanzaId ===
-              _0x55586c
-        if (_0x56dcf7) {
-          await _0x500f25.sendMessage(_0x3667d1, {
+        const _0x7941bd =
+            _0x28682c.message.conversation ||
+            _0x28682c.message.extendedTextMessage?.text,
+          _0x558ccc = _0x28682c.key.remoteJid,
+          _0x315d9c = _0x28682c.key.participant || _0x28682c.key.remoteJid,
+          _0x16facb =
+            _0x28682c.message.extendedTextMessage &&
+            _0x28682c.message.extendedTextMessage.contextInfo.stanzaId ===
+              _0x56ad08
+        if (_0x16facb) {
+          await _0x450ace.sendMessage(_0x558ccc, {
             react: {
               text: '\u2B07️',
-              key: _0x4693cd.key,
+              key: _0x28682c.key,
             },
           })
-          if (_0x10401d === '1.1') {
-            const _0x544a4e = await ytmp4('' + _0x3074df, '360p'),
-              _0x4f88fd = _0x544a4e
-            await _0x500f25.sendMessage(_0x3667d1, {
+          if (_0x7941bd === '1.1') {
+            const _0x5248f3 = await ytmp4('' + _0x29b6f3, '360p'),
+              _0x3a373b = _0x5248f3
+            await _0x450ace.sendMessage
+            await _0x450ace.sendMessage(_0x558ccc, {
               react: {
                 text: '\u2B06️',
-                key: _0x4693cd.key,
+                key: _0x28682c.key,
               },
             })
-            await _0x500f25.sendMessage(
-              _0x3667d1,
+            await _0x450ace.sendMessage(
+              _0x558ccc,
               {
-                video: { url: _0x4f88fd },
-                caption: _0x10c80f,
+                video: { url: _0x3a373b },
+                caption: _0x233807,
               },
-              { quoted: _0x4693cd }
+              { quoted: _0x28682c }
             )
-            await _0x500f25.sendMessage(_0x3667d1, {
+            await _0x450ace.sendMessage(_0x558ccc, {
               react: {
                 text: '\u2705',
-                key: _0x4693cd.key,
+                key: _0x28682c.key,
               },
             })
           } else {
-            if (_0x10401d === '1.2') {
-              const _0x2bf024 = await ytmp4('' + _0x3074df, '480'),
-                _0x4a2b13 = _0x2bf024
-              await _0x500f25.sendMessage(_0x3667d1, {
+            if (_0x7941bd === '1.2') {
+              const _0x558ebb = await ytmp4('' + _0x29b6f3, '480'),
+                _0xcb9abe = _0x558ebb
+              await _0x450ace.sendMessage(_0x558ccc, { delete: _0x3aa194.key })
+              await _0x450ace.sendMessage(_0x558ccc, {
                 react: {
                   text: '\u2B06️',
-                  key: _0x4693cd.key,
+                  key: _0x28682c.key,
                 },
               })
-              await _0x500f25.sendMessage(
-                _0x3667d1,
+              await _0x450ace.sendMessage(
+                _0x558ccc,
                 {
-                  video: { url: _0x4a2b13 },
-                  caption: _0x10c80f,
+                  video: { url: _0xcb9abe },
+                  caption: _0x233807,
                 },
-                { quoted: _0x4693cd }
+                { quoted: _0x28682c }
               )
-              await _0x500f25.sendMessage(_0x3667d1, {
+              await _0x450ace.sendMessage(_0x558ccc, {
                 react: {
                   text: '\u2705',
-                  key: _0x4693cd.key,
+                  key: _0x28682c.key,
                 },
               })
             } else {
-              if (_0x10401d === '1.3') {
-                const _0xe07896 = await ytmp4('' + _0x3074df, '720'),
-                  _0x37b8dd = _0xe07896
-                await _0x500f25.sendMessage(_0x3667d1, {
+              if (_0x7941bd === '1.3') {
+                const _0x523325 = await ytmp4('' + _0x29b6f3, '720'),
+                  _0x5654d6 = _0x523325
+                await _0x450ace.sendMessage
+                await _0x450ace.sendMessage(_0x558ccc, {
                   react: {
                     text: '\u2B06️',
-                    key: _0x4693cd.key,
+                    key: _0x28682c.key,
                   },
                 })
-                await _0x500f25.sendMessage(
-                  _0x3667d1,
+                await _0x450ace.sendMessage(
+                  _0x558ccc,
                   {
-                    video: { url: _0x37b8dd },
-                    caption: _0x10c80f,
+                    video: { url: _0x5654d6 },
+                    caption: _0x233807,
                   },
-                  { quoted: _0x4693cd }
+                  { quoted: _0x28682c }
                 )
-                await _0x500f25.sendMessage(_0x3667d1, {
+                await _0x450ace.sendMessage(_0x558ccc, {
                   react: {
                     text: '\u2705',
-                    key: _0x4693cd.key,
+                    key: _0x28682c.key,
                   },
                 })
               } else {
-                if (_0x10401d === '1.4') {
-                  const _0x1fa6ce = await ytmp4('' + _0x3074df, '1080'),
-                    _0x34af56 = _0x1fa6ce
-                  await _0x500f25.sendMessage(_0x3667d1, {
+                if (_0x7941bd === '1.4') {
+                  const _0x324d03 = await ytmp4('' + _0x29b6f3, '1080'),
+                    _0x56da10 = _0x324d03
+                  await _0x450ace.sendMessage
+                  await _0x450ace.sendMessage(_0x558ccc, {
                     react: {
                       text: '\u2B06️',
-                      key: _0x4693cd.key,
+                      key: _0x28682c.key,
                     },
                   })
-                  await _0x500f25.sendMessage(
-                    _0x3667d1,
+                  await _0x450ace.sendMessage(
+                    _0x558ccc,
                     {
-                      video: { url: _0x34af56 },
-                      caption: _0x10c80f,
+                      video: { url: _0x56da10 },
+                      caption: _0x233807,
                     },
-                    { quoted: _0x4693cd }
+                    { quoted: _0x28682c }
                   )
-                  await _0x500f25.sendMessage(_0x3667d1, {
+                  await _0x450ace.sendMessage(_0x558ccc, {
                     react: {
                       text: '\u2705',
-                      key: _0x4693cd.key,
+                      key: _0x28682c.key,
                     },
                   })
                 } else {
-                  if (_0x10401d === '2.1') {
-                    const _0x22038e = await ytmp4('' + _0x3074df, '360'),
-                      _0x412b7e = _0x22038e
-                    await _0x500f25.sendMessage(_0x3667d1, {
+                  if (_0x7941bd === '2.1') {
+                    const _0x291d0a = await ytmp4('' + _0x29b6f3, '360'),
+                      _0x182091 = _0x291d0a
+                    await _0x450ace.sendMessage(_0x558ccc, {
+                      delete: _0x3aa194.key,
+                    })
+                    await _0x450ace.sendMessage(_0x558ccc, {
                       react: {
                         text: '\u2B06️',
-                        key: _0x4693cd.key,
+                        key: _0x28682c.key,
                       },
                     })
-                    await _0x500f25.sendMessage(
-                      _0x3667d1,
+                    await _0x450ace.sendMessage(
+                      _0x558ccc,
                       {
-                        document: { url: _0x412b7e },
+                        document: { url: _0x182091 },
                         mimetype: 'video/mp4',
-                        fileName: _0x393b6e.title + '.mp4',
-                        caption: _0x10c80f,
+                        fileName: _0x42fb3d.title + '.mp4',
+                        caption: _0x233807,
                       },
-                      { quoted: _0x4693cd }
+                      { quoted: _0x28682c }
                     )
-                    await _0x500f25.sendMessage(_0x3667d1, {
+                    await _0x450ace.sendMessage(_0x558ccc, {
                       react: {
                         text: '\u2705',
-                        key: _0x4693cd.key,
+                        key: _0x28682c.key,
                       },
                     })
                   } else {
-                    if (_0x10401d === '2.2') {
-                      const _0x4a60a1 = await ytmp4('' + _0x3074df, '480'),
-                        _0x2e6bd6 = _0x4a60a1
-                      await _0x500f25.sendMessage(_0x3667d1, {
+                    if (_0x7941bd === '2.2') {
+                      const _0xf955da = await ytmp4('' + _0x29b6f3, '480'),
+                        _0x409de1 = _0xf955da
+                      await _0x450ace.sendMessage
+                      await _0x450ace.sendMessage(_0x558ccc, {
                         react: {
                           text: '\u2B06️',
-                          key: _0x4693cd.key,
+                          key: _0x28682c.key,
                         },
                       })
-                      await _0x500f25.sendMessage(
-                        _0x3667d1,
+                      await _0x450ace.sendMessage(
+                        _0x558ccc,
                         {
-                          document: { url: _0x2e6bd6 },
+                          document: { url: _0x409de1 },
                           mimetype: 'video/mp4',
-                          fileName: _0x393b6e.title + '.mp4',
-                          caption: _0x10c80f,
+                          fileName: _0x42fb3d.title + '.mp4',
+                          caption: _0x233807,
                         },
-                        { quoted: _0x4693cd }
+                        { quoted: _0x28682c }
                       )
-                      await _0x500f25.sendMessage(_0x3667d1, {
+                      await _0x450ace.sendMessage(_0x558ccc, {
                         react: {
                           text: '\u2705',
-                          key: _0x4693cd.key,
+                          key: _0x28682c.key,
                         },
                       })
                     } else {
-                      if (_0x10401d === '2.3') {
-                        const _0x58ba4f = await ytmp4('' + _0x3074df, '720'),
-                          _0x2681db = _0x58ba4f
-                        await _0x500f25.sendMessage(_0x3667d1, {
+                      if (_0x7941bd === '2.3') {
+                        const _0x30ae53 = await ytmp4('' + _0x29b6f3, '720'),
+                          _0x3a0e21 = _0x30ae53
+                        await _0x450ace.sendMessage
+                        await _0x450ace.sendMessage(_0x558ccc, {
                           react: {
                             text: '\u2B06️',
-                            key: _0x4693cd.key,
+                            key: _0x28682c.key,
                           },
                         })
-                        await _0x500f25.sendMessage(
-                          _0x3667d1,
+                        await _0x450ace.sendMessage(
+                          _0x558ccc,
                           {
-                            document: { url: _0x2681db },
+                            document: { url: _0x3a0e21 },
                             mimetype: 'video/mp4',
-                            fileName: _0x393b6e.title + '.mp4',
-                            caption: _0x10c80f,
+                            fileName: _0x42fb3d.title + '.mp4',
+                            caption: _0x233807,
                           },
-                          { quoted: _0x4693cd }
+                          { quoted: _0x28682c }
                         )
-                        await _0x500f25.sendMessage(_0x3667d1, {
+                        await _0x450ace.sendMessage(_0x558ccc, {
                           react: {
                             text: '\u2705',
-                            key: _0x4693cd.key,
+                            key: _0x28682c.key,
                           },
                         })
                       } else {
-                        if (_0x10401d === '2.4') {
-                          const _0x4effbb = await ytmp4('' + _0x3074df, '1080'),
-                            _0x2fbc9f = _0x4effbb
-                          await _0x500f25.sendMessage(_0x3667d1, {
+                        if (_0x7941bd === '2.4') {
+                          const _0x58ff1b = await ytmp4('' + _0x29b6f3, '1080'),
+                            _0x387a08 = _0x58ff1b
+                          await _0x450ace.sendMessage
+                          await _0x450ace.sendMessage(_0x558ccc, {
                             react: {
                               text: '\u2B06️',
-                              key: _0x4693cd.key,
+                              key: _0x28682c.key,
                             },
                           })
-                          await _0x500f25.sendMessage(
-                            _0x3667d1,
+                          await _0x450ace.sendMessage(
+                            _0x558ccc,
                             {
-                              document: { url: _0x2fbc9f },
+                              document: { url: _0x387a08 },
                               mimetype: 'video/mp4',
-                              fileName: _0x393b6e.title + '.mp4',
-                              caption: _0x10c80f,
+                              fileName: _0x42fb3d.title + '.mp4',
+                              caption: _0x233807,
                             },
-                            { quoted: _0x4693cd }
+                            { quoted: _0x28682c }
                           )
-                          await _0x500f25.sendMessage(_0x3667d1, {
+                          await _0x450ace.sendMessage(_0x558ccc, {
                             react: {
                               text: '\u2705',
-                              key: _0x4693cd.key,
+                              key: _0x28682c.key,
                             },
                           })
                         }
@@ -550,9 +535,9 @@ cmd(
           }
         }
       })
-    } catch (_0x2c27dd) {
-      console.log(_0x2c27dd)
-      _0xd9dc6f('' + _0x2c27dd)
+    } catch (_0x45c27a) {
+      console.log(_0x45c27a)
+      _0x27c1ab('' + _0x45c27a)
     }
   }
 )
@@ -565,39 +550,42 @@ cmd(
     filename: __filename,
   },
   async (
-    _0x266399,
-    _0x599584,
-    _0xe4f2c5,
-    { from: _0xf08ebd, q: _0x1442b5, reply: _0x337a1e }
+    _0x108a5b,
+    _0x4bb37e,
+    _0x22e7aa,
+    { from: _0x13d495, q: _0x543cc4, reply: _0x11443e }
   ) => {
     try {
-      if (!_0x1442b5) {
-        return await _0x337a1e('*Need a YouTube URL!*')
+      if (!_0x543cc4) {
+        return await _0x11443e('*Need a YouTube URL!*')
       }
-      const _0x533188 = await dlyta(_0x1442b5)
-      await _0x266399.sendMessage(
-        _0xf08ebd,
+      const _0x5f2011 = await fetchJson(
+          'https://api-pink-venom.vercel.app/api/ytmp3?url=' + _0x543cc4
+        ),
+        _0x475684 = _0x5f2011.result.dl_link
+      await _0x108a5b.sendMessage(
+        _0x13d495,
         {
-          audio: { url: _0x533188.dl_link },
+          audio: { url: _0x475684 },
           mimetype: 'audio/mpeg',
         },
-        { quoted: _0x599584 }
+        { quoted: _0x4bb37e }
       )
-    } catch (_0x1d9362) {
-      console.log('First attempt failed:', _0x1d9362)
+    } catch (_0x3024e5) {
+      console.log('First attempt failed:', _0x3024e5)
       try {
-        const _0x2d1d44 = await dlyta(_0x1442b5)
-        await _0x266399.sendMessage(
-          _0xf08ebd,
+        const _0x2a20f5 = await dlyta(_0x543cc4)
+        await _0x108a5b.sendMessage(
+          _0x13d495,
           {
-            audio: { url: _0x2d1d44.dl_link },
+            audio: { url: _0x2a20f5.dl_link },
             mimetype: 'audio/mpeg',
           },
-          { quoted: _0x599584 }
+          { quoted: _0x4bb37e }
         )
-      } catch (_0x197465) {
-        console.log('Second attempt failed:', _0x197465)
-        await _0x337a1e(
+      } catch (_0x1605c5) {
+        console.log('Second attempt failed:', _0x1605c5)
+        await _0x11443e(
           '*Failed to process the request. Please try again later!*'
         )
       }
