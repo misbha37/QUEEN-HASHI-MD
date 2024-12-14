@@ -11,7 +11,7 @@ const config = require('../config'),
     sleep,
     fetchJson,
   } = require('../lib/functions'),
-  { sinhalaSub } = require('mrnima-moviedl'),
+  { sinhalaSub } = require('@sl-code-lords/si-subdl'),
   axios = require('axios'),
   cheerio = require('cheerio'),
   fetch = require('node-fetch')
