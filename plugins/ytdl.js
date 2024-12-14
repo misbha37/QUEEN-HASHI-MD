@@ -8,7 +8,7 @@ async function dlyta(_0x465252) {
   try {
     for (let _0x17c02 = 0; _0x17c02 < 10; _0x17c02++) {
       const _0x3d3a92 = await fetch(
-          'https://api-pink-venom.vercel.app/api/ytdl?url=' + _0x465252
+          'https://www.dark-yasiya-api.site/download/ytmp3?url=' + _0x465252
         ),
         _0x18f84d = await _0x3d3a92.json()
       if (_0x18f84d.result.download_url) {
