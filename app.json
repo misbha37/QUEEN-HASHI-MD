@@ -22,7 +22,7 @@
     "MONGODB": {
       "description": " alive message ",
       "required": true,
-      "value": "HI"
+      "value": "mongodb+srv://SithumKalhara:97531@cluster0.iva7dbo.mongodb.net/?retryWrites=true&w=majority"
     },
     
     "PREFIX": {
