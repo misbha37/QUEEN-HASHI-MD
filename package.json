@@ -41,7 +41,7 @@
         "cc-suite": "1.0.5",
         "chart.js": "^4.4.0",
         "chatgpt-scraper": "^1.0.1",
-        "cheerio": "cheerio",
+        "cheerio": "1.0.0",
         "crypto-digest-sync": "^1.0.0",
         "crypto-js": "latest",
         "dandi-api": "1.2.0",
