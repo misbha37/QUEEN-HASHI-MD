@@ -167,7 +167,7 @@ cmd(
             },
           })
           const _0xd1a4c5 = await fetchJson(
-              'https://deliriussapi-oficial.vercel.app/download/ytmp3?url=' + _0x1a0ef5
+              'https://www.dark-yasiya-api.site/download/ytmp3?url=' + _0x1726ad,
             ),
             _0x41a400 = _0xd1a4c5.result.dl_link
           await _0x43bccf.sendMessage
