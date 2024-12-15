@@ -20,9 +20,9 @@
     }, 
     
     "MONGODB": {
-      "description": " alive message ",
+      "description": " add mongodb url ",
       "required": true,
-      "value": "mongodb+srv://SithumKalhara:97531@cluster0.iva7dbo.mongodb.net/?retryWrites=true&w=majority"
+      "value": ""
     },
     
     "PREFIX": {
@@ -65,10 +65,10 @@
     
     }, 
 
-    "BOT_NAME": {
-      "description": " your name.",
+    "ALIVE_MSG": {
+      "description": " alive msg.",
       "required": true,
-      "value": "QUEEN ISHU"
+      "value": "HI AME QUEEN ISHU MD"
     }, 
 
     "HEART_REACT": {
