@@ -1,4 +1,4 @@
-const config = require('../settings'),
+const config = require('../config'),
   l = console.log,
   { cmd, commands } = require('../lib/command'),
   { ytmp3, ytmp4 } = require('../lib/ytdl'),
