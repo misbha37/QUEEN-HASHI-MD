@@ -1,7 +1,6 @@
 const { cmd, commands } = require('../command');
 const fg = require('api-dylux');
 const yts = require('yt-search');
-const { getBuffer, getGroupAdmins, getRandom, h2k, isUrl, Json, runtime, sleep, fetchJson} = require('../lib/functions')
 const axios = require('axios')
 const config = require('../config')
 const {readEnv} = require('../lib/database')
