@@ -96,7 +96,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 ┃✰ .𝙼𝚎𝚗𝚞
 |✰ .𝚁𝚎𝚙𝚘
 ╰━━━━━━━━━━━━━━━⪼
-*ALL COMMAND SEND .MENU`;)
+*ALL COMMAND SEND .MENU`);
                         break;
                     case '2':               
                         reply(`╔══════✮❁•°♛°•❁✮ ══════╗
@@ -109,7 +109,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 *HOSTNAME:➠ 55883f65-3d07-4bc2-b842-37cac3ce8e0b*
 
 *OWNER:➠ LAKSIDU NIMSARA*
-╚══════✮❁•°❀°•❁✮═══════╝`;)
+╚══════✮❁•°❀°•❁✮═══════╝`);
                         break;
                     case '3':               
                         reply(`*╔════════✮❁•°♛°•❁✮ ═══╗*
@@ -132,7 +132,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 ┃
 ┃ *2 || [ Qᴜᴇᴇɴ ɪꜱʜᴜ ꜱʏꜱᴛᴇᴍ ]*
 ┗━━⬣🩸⃟༑⌁⃰梨🐉 ⌟  
- ⓿ᴄʀᴇᴀᴛᴇ ʙʏ ʟᴀᴋꜱɪᴅᴜ ɴɪᴍꜱᴀʀᴀ⓿`;)
+ ⓿ᴄʀᴇᴀᴛᴇ ʙʏ ʟᴀᴋꜱɪᴅᴜ ɴɪᴍꜱᴀʀᴀ⓿`);
                         break;
                     case '4':               
                         reply(`*╔════════✮❁•°♛°•❁✮ ═══╗*
@@ -155,7 +155,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 ┃
 ┃ *2 || [ Qᴜᴇᴇɴ ɪꜱʜᴜ ꜱʏꜱᴛᴇᴍ ]*
 ┗━━⬣🩸⃟༑⌁⃰梨🐉 ⌟  
- ⓿ᴄʀᴇᴀᴛᴇ ʙʏ ʟᴀᴋꜱɪᴅᴜ ɴɪᴍꜱᴀʀᴀ⓿`;)
+ ⓿ᴄʀᴇᴀᴛᴇ ʙʏ ʟᴀᴋꜱɪᴅᴜ ɴɪᴍꜱᴀʀᴀ⓿`);
                         break;
                     case '5':               
                         reply(`*╔════════✮❁•°♛°•❁✮ ═══╗*
@@ -178,7 +178,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 ┃
 ┃ *2 || [ Qᴜᴇᴇɴ ɪꜱʜᴜ ꜱʏꜱᴛᴇᴍ ]*
 ┗━━⬣🩸⃟༑⌁⃰梨🐉 ⌟  
- ⓿ᴄʀᴇᴀᴛᴇ ʙʏ ʟᴀᴋꜱɪᴅᴜ ɴɪᴍꜱᴀʀᴀ⓿`;)
+ ⓿ᴄʀᴇᴀᴛᴇ ʙʏ ʟᴀᴋꜱɪᴅᴜ ɴɪᴍꜱᴀʀᴀ⓿`);
                         break;
                     case '6':               
                         reply(`*╔════════✮❁•°♛°•❁✮ ═══╗*
@@ -201,7 +201,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 ┃
 ┃ *2 || [ Qᴜᴇᴇɴ ɪꜱʜᴜ ꜱʏꜱᴛᴇᴍ ]*
 ┗━━⬣🩸⃟༑⌁⃰梨🐉 ⌟  
- ⓿ᴄʀᴇᴀᴛᴇ ʙʏ ʟᴀᴋꜱɪᴅᴜ ɴɪᴍꜱᴀʀᴀ⓿`;)
+ ⓿ᴄʀᴇᴀᴛᴇ ʙʏ ʟᴀᴋꜱɪᴅᴜ ɴɪᴍꜱᴀʀᴀ⓿`);
                         break;
                     case '7':               
                         reply(`*╔════════✮❁•°♛°•❁✮ ═══╗*
@@ -224,7 +224,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 ┃
 ┃ *2 || [ Qᴜᴇᴇɴ ɪꜱʜᴜ ꜱʏꜱᴛᴇᴍ ]*
 ┗━━⬣🩸⃟༑⌁⃰梨🐉 ⌟  
- ⓿ᴄʀᴇᴀᴛᴇ ʙʏ ʟᴀᴋꜱɪᴅᴜ ɴɪᴍꜱᴀʀᴀ⓿`;)
+ ⓿ᴄʀᴇᴀᴛᴇ ʙʏ ʟᴀᴋꜱɪᴅᴜ ɴɪᴍꜱᴀʀᴀ⓿`);
                        break;
                     case '8':               
                         reply(`*╔════════✮❁•°♛°•❁✮ ═══╗*
@@ -247,7 +247,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 ┃
 ┃ *2 || [ Qᴜᴇᴇɴ ɪꜱʜᴜ ꜱʏꜱᴛᴇᴍ ]*
 ┗━━⬣🩸⃟༑⌁⃰梨🐉 ⌟  
- ⓿ᴄʀᴇᴀᴛᴇ ʙʏ ʟᴀᴋꜱɪᴅᴜ ɴɪᴍꜱᴀʀᴀ⓿`;)
+ ⓿ᴄʀᴇᴀᴛᴇ ʙʏ ʟᴀᴋꜱɪᴅᴜ ɴɪᴍꜱᴀʀᴀ⓿`);
 
                         break;
                     case '10':               
@@ -271,7 +271,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 ┃
 ┃ *2 || [ Qᴜᴇᴇɴ ɪꜱʜᴜ ꜱʏꜱᴛᴇᴍ ]*
 ┗━━⬣🩸⃟༑⌁⃰梨🐉 ⌟  
- ⓿ᴄʀᴇᴀᴛᴇ ʙʏ ʟᴀᴋꜱɪᴅᴜ ɴɪᴍꜱᴀʀᴀ⓿`;)
+ ⓿ᴄʀᴇᴀᴛᴇ ʙʏ ʟᴀᴋꜱɪᴅᴜ ɴɪᴍꜱᴀʀᴀ⓿`);
 
 
                         break;
