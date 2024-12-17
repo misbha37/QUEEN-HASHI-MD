@@ -21,4 +21,5 @@ OMDB_API_KEY: process.env.OMDB_API_KEY || "76cb7f39",
 ALIVE_IMG: process.env.ALIVE_IMG || "https://i.imgur.com/vzDwkjg.jpeg", //add alive img url
 ANTI_LINK: process.env.ANTI_LINK || "true", //add true or false
 ANTI_BAD: process.env.ANTI_BAD || "true", //add true or false
+ALIVE_MSG: process.env.ALIVE_MSG || "💜✅ HI I AM WHATSAPP BOT ✅💜", //add alive msg
 };
