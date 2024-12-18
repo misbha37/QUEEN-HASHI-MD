@@ -13,7 +13,7 @@ async(conn, mek, m, {from, mnu, quoted, body, isCmd, command, args, q, isGroup, 
 try {
     if (!q) return reply('Please Provide A Name');
     await conn.sendMessage(from, { 
-        image: { url: https://dummyimage.com/600x400/&text=${q} }, 
+        image: { url: 'https://dummyimage.com/600x400/&text=${q}' }, 
         caption: '> CREATED BY LAKSIDU NIMSARA' 
     }, {quoted: mek});
 
