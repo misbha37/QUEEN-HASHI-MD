@@ -4,8 +4,8 @@ const { getBuffer, getGroupAdmins, getRandom, h2k, isUrl, Json, runtime, sleep, 
 
 
 cmd({
-    pattern: "movie",
-    alias: ["movi","tests"],
+    pattern: "movie2",
+    alias: ["movi2","tests"],
     use: '.movie <query>',
     react: "🔎",
     desc: "Moive downloader",
