@@ -208,7 +208,7 @@ cmd({
      
  Darksadas YT`,
             mimetype: "video/mp4",
-            fileName: ${datas}🎬QUEEN ISHU🎬.mp4,
+            fileName: ${datas}🎬QUEEN ISHU 🎬.mp4,
         };
 
         await conn.sendMessage(config.JID, message);
