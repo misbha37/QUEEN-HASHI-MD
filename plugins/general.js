@@ -1,13 +1,3 @@
-/**
- Copyright (C) 2023.
- Licensed under the  GPL-3.0 License;
- You may not use this file except in compliance with the License.
- It is supplied in the hope that it may be useful.
- * @project_name : SITHUWA-MD
- * @author : sithumkalhara <https://github.com/Sithuwa>
- * @description : SITHUWA, A Multi-functional whatsapp bot.
- * @version 0.0.6
- **/
 
 const { tlang, botpic, cmd, prefix, runtime, Config , sleep } = require('../lib')
 const axios = require('axios')
@@ -33,8 +23,8 @@ cmd({
 
 //---------------------------------------------------------------------------
 cmd({
-    pattern: "chat",
-    alias :['gpt'],
+    pattern: "aichat",
+    alias :['aigpt'],
     desc: "chat with an AI(GPT)",
     category: "AI",
     use: '<Hii,blade>',
@@ -84,7 +74,7 @@ async(Void, citel,text) => {
 )
 
 cmd({
-    pattern: "dalle",
+    pattern: "aiimg",
     alias : ['dall','dall-e'],
     desc: "Create Image by AI",
     category: "AI",
@@ -152,7 +142,7 @@ https://dashboard.heroku.com/new?button-url=https://github.com/Sithuwa/SITHUWA-M
             headerType: 4,
             contextInfo: {
                 externalAdReply: {
-                    title: "Sithuwa-Repo",
+                    title: "Qᴜᴇᴇɴ ɪꜱʜᴜ ᴍᴅ-Repo",
                     body: "Easy to Use",
                     thumbnail: log0,
                     mediaType: 4,
@@ -223,8 +213,8 @@ cmd({
 async(Void, citel,text,{isCreator}) => {
 
 if(!isCreator) return citel.reply(tlang().owner);
-let str="*All available themes in ꜱɪᴛʜᴜᴡᴀ-ᴍᴅ*"
-str+=`  \n1. blade-md\n15. PATRICK\n\n these are the themes of ꜱɪᴛʜᴜᴡᴀ-ᴍᴅ Userbot.\_Reply ${prefix}setvar THEME:sithuwa-md`
+let str="*All available themes in Qᴜᴇᴇɴ ɪꜱʜᴜ ᴍᴅ*"
+str+=`  \n1. blade-md\n15. PATRICK\n\n these are the themes of Qᴜᴇᴇɴ ɪꜱʜᴜ ᴍᴅ Userbot.\_Reply ${prefix}setvar THEME:Qᴜᴇᴇɴ ɪꜱʜᴜ ᴍᴅ`
 return citel.reply(str)
     
 }
