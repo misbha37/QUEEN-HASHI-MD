@@ -29,7 +29,7 @@
 
 # 2 PAIR CODE
 
-<a href="https://queen-ishu.tiiny.site/"><img src="https://img.shields.io/badge/PAIR%20CODE-blue" alt="PAIR CODE" width="150"></a>
+<a href="https://queen-ishu-md.tiiny.site/"><img src="https://img.shields.io/badge/PAIR%20CODE-blue" alt="PAIR CODE" width="150"></a>
   </br>
    <img src="https://i.imgur.com/dBaSKWF.gif" height="90" width="100%">
    <br>
@@ -44,7 +44,7 @@
 
   <hr>
 <h4> Following 👇</h4>
-<h1><a href="https://queen-ishu.tiiny.site/"> QUEEN ISHU OFFICIAL WEB SITE</a></h1>
+<h1><a href="https://queen-ishu-md.tiiny.site/"> QUEEN ISHU OFFICIAL WEB SITE</a></h1>
 <p>
 <body>
 
@@ -53,7 +53,7 @@
 
 # BOT DIPLOY USE OUR WEBSITE
 
- <a href="https://queen-ishu.tiiny.site/"><img src="https://img.shields.io/badge/OFFIACIAL%20WEB SITE-yellow" alt="OFFIACIAL WEB SITE" width="350"></a>
+ <a href="https://queen-ishu-md.tiiny.site/"><img src="https://img.shields.io/badge/OFFIACIAL%20WEB SITE-yellow" alt="OFFIACIAL WEB SITE" width="350"></a>
   </br>
    <img src="https://i.imgur.com/dBaSKWF.gif" height="180" width="100%">
 
