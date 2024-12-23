@@ -145,7 +145,7 @@ cmd({
           'body': "ʟᴀᴋꜱɪᴅᴜ ɴɪᴍꜱᴀʀᴀ,
           'mediaType': 0x1,
           'sourceUrl': "https://github.com/laksidunimsara1",
-          'thumbnailUrl': "https://raw.githubusercontent.com/tharumin/Alexa_Voice/refs/heads/main/20241214_204755.jpg",
+          'thumbnailUrl': "https://i.imgur.com/7nlY0Gt.jpeg",
           'renderLargerThumbnail': false,
           'showAdAttribution': true
         }
@@ -327,7 +327,7 @@ cmd({
           'body': "ʟᴀᴋꜱɪᴅᴜ ɴɪᴍꜱᴀʀᴀ",
           'mediaType': 0x1,
           'sourceUrl': "https://github.com/laksidunimsara1",
-          'thumbnailUrl': "https://raw.githubusercontent.com/tharumin/Alexa_Voice/refs/heads/main/20241214_204755.jpg",
+          'thumbnailUrl': "https://i.imgur.com/7nlY0Gt.jpeg",
           'renderLargerThumbnail': false,
           'showAdAttribution': true
         }
@@ -630,7 +630,7 @@ cmd({
                         'fileName': _0x2ed68e.title + ".mp4",
                         'caption': "\n*ᴄʀᴇᴀᴛᴇᴅ ʙʏ ʟᴀᴋꜱɪᴅᴜ ɴɪᴍꜱᴀʀᴀ*\n",
                         'contextInfo': {
-                          'mentionedJid': ['94779062397@s.whatsapp.net'],
+                          'mentionedJid': ['94760698006@s.whatsapp.net'],
                           'groupMentions': [],
                           'forwardingScore': 0x1,
                           'isForwarded': true,
@@ -678,7 +678,7 @@ cmd({
                           'fileName': _0x2ed68e.title + '.mp4',
                           'caption': "\n*ᴄʀᴇᴀᴛᴇᴅ ʙʏ ʟᴀᴋꜱɪᴅᴜ ɴɪᴍꜱᴀʀᴀ*\n",
                           'contextInfo': {
-                            'mentionedJid': ['94779062397@s.whatsapp.net'],
+                            'mentionedJid': ['94760698006@s.whatsapp.net'],
                             'groupMentions': [],
                             'forwardingScore': 0x1,
                             'isForwarded': true,
