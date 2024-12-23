@@ -142,7 +142,7 @@ cmd({
         },
         'externalAdReply': {
           'title': "QUEEN ISHU",
-          'body': "ʟᴀᴋꜱɪᴅᴜ ɴɪᴍꜱᴀʀᴀ,
+          'body': "ʟᴀᴋꜱɪᴅᴜ ɴɪᴍꜱᴀʀᴀ",
           'mediaType': 0x1,
           'sourceUrl': "https://github.com/laksidunimsara1",
           'thumbnailUrl': "https://i.imgur.com/7nlY0Gt.jpeg",
