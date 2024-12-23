@@ -9,7 +9,7 @@ const {
 const {
   ytsearch,
   ytmp3
-} = require("api-dylux");
+} = require("@distube/ytdl-core");
 const axios = require('axios');
 async function ytmp4(_0x5b7b1c, _0x21e1ec) {
   try {
