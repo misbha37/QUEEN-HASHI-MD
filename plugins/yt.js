@@ -57,7 +57,7 @@ cmd(
           _0x404968.views +
           '\n\n*\u2605| URL :* ' +
           _0x404968.url +
-          '\n\n\uD83D\uDCE5 | Choose Download Format\n\n1. \uD83C\uDFA7 Audio File \n\n2. \uD83D\uDCD9 Document File\n\n> *Made By Dark Cyber Maker \u2122*',
+          '\n\n\uD83D\uDCE5 | Choose Download Format\n\n1. \uD83C\uDFA7 Audio File \n\n2. \uD83D\uDCD9 Document File\n\n> *create by laksidu nimsara \u2122*',
         _0x3175e3 = await fg.yta(_0x1816d0),
         _0x1b0736 = _0x3175e3.dl_url
       const _0x5293dd = await _0x4ed46a.sendMessage(
@@ -182,7 +182,7 @@ cmd(
           _0x1e9340.views +
           '\n\n*\u2605| URL :* ' +
           _0x1e9340.url +
-          '\n\n\uD83D\uDCE5 | Choose Download Format\n\n1. \uD83C\uDFA7 Video File \n\n2. \uD83D\uDCD9 Document File\n\n> *Made By Dark Cyber Maker \u2122*',
+          '\n\n\uD83D\uDCE5 | Choose Download Format\n\n1. \uD83C\uDFA7 Video File \n\n2. \uD83D\uDCD9 Document File\n\n> *create by laksidu nimsara \u2122*',
         _0x30043d = await fg.ytv(_0xacc2cb),
         _0x552a08 = _0x30043d.dl_url
       const _0x26c67c = await _0x2e46b2.sendMessage(
