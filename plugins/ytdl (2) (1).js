@@ -137,14 +137,14 @@ cmd({
         'isForwarded': true,
         'forwardedNewsletterMessageInfo': {
           'newsletterJid': "",
-          'newsletterName': "Qᴜᴇᴇɴ-ɪꜱʜᴜ ✻",
+          'newsletterName': "Queen Ishu",
           'serverMessageId': 0x3e7
         },
         'externalAdReply': {
           'title': "QUEEN ISHU",
-          'body': "ʟᴀᴋꜱɪᴅᴜ ɴɪᴍꜱᴀʀᴀ",
+          'body': "ʟᴀᴋꜱɪᴅᴜ ɴɪᴍꜱᴀʀᴀ,
           'mediaType': 0x1,
-          'sourceUrl': "https://github.com/sadiyamin",
+          'sourceUrl': "https://github.com/laksidunimsara1",
           'thumbnailUrl': "https://raw.githubusercontent.com/tharumin/Alexa_Voice/refs/heads/main/20241214_204755.jpg",
           'renderLargerThumbnail': false,
           'showAdAttribution': true
@@ -188,13 +188,13 @@ cmd({
               'forwardingScore': 0x1,
               'isForwarded': true,
               'forwardedNewsletterMessageInfo': {
-                'newsletterJid': '120363192254044294@newsletter',
-                'newsletterName': "Qᴜᴇᴇɴ-ɪꜱʜᴜ ✻",
+                'newsletterJid': 'Qᴜᴇᴇɴ ɪꜱʜᴜ',
+                'newsletterName': "Qᴜᴇᴇɴ-ɪꜱʜᴜ",
                 'serverMessageId': 0x3e7
               },
               'externalAdReply': {
-                'title': "LARA MD",
-                'body': "ꜱᴀᴅᴇᴇꜱʜᴀ ᴛʜᴀʀᴜᴍɪɴ",
+                'title': "🅠🅤🅔🅔🅝 🅘🅢🅗🅤",
+                'body': "ʟᴀᴋꜱɪᴅᴜ ɴɪᴍꜱᴀʀᴀ",
                 'mediaType': 0x1,
                 'sourceUrl': _0x3856c9.url,
                 'thumbnailUrl': _0x3856c9.thumbnail,
@@ -226,19 +226,19 @@ cmd({
               },
               'mimetype': "audio/mp3",
               'fileName': _0x3856c9.title + '.mp3',
-              'caption': "\n*© ᴄʀᴇᴀᴛᴇᴅ ʙʏ ʟᴀᴋꜱɪᴅᴜ ɴɪᴍꜱᴀʀᴀ · · ·*\n ",
+              'caption': "\n*ᴄʀᴇᴀᴛᴇᴅ ʙʏ ʟᴀᴋꜱɪᴅᴜ ɴɪᴍꜱᴀʀᴀ*\n ",
               'contextInfo': {
                 'mentionedJid': ["94760698006@s.whatsapp.net"],
                 'groupMentions': [],
                 'forwardingScore': 0x1,
                 'isForwarded': true,
                 'forwardedNewsletterMessageInfo': {
-                  'newsletterJid': '120363192254044294@newsletter',
-                  'newsletterName': "Qᴜᴇᴇɴ-ɪꜱʜᴜ ✻",
+                  'newsletterJid': '',
+                  'newsletterName': "Qᴜᴇᴇɴ ɪꜱʜᴜ ᴍᴅ",
                   'serverMessageId': 0x3e7
                 },
                 'externalAdReply': {
-                  'title': "LARA MD",
+                  'title': "🅠🅤🅔🅔🅝 🅘🅢🅗🅤",
                   'body': "ʟᴀᴋꜱɪᴅᴜ ɴɪᴍꜱᴀʀᴀ",
                   'mediaType': 0x1,
                   'sourceUrl': _0x3856c9.url,
@@ -319,14 +319,14 @@ cmd({
         'isForwarded': true,
         'forwardedNewsletterMessageInfo': {
           'newsletterJid': "",
-          'newsletterName': "Qᴜᴇᴇɴ-ɪꜱʜᴜ ✻",
+          'newsletterName': "Qᴜᴇᴇɴ ɪꜱʜᴜ ᴍᴅ",
           'serverMessageId': 0x3e7
         },
         'externalAdReply': {
-          'title': "LARA MD",
+          'title': "🅠🅤🅔🅔🅝 🅘🅢🅗🅤",
           'body': "ʟᴀᴋꜱɪᴅᴜ ɴɪᴍꜱᴀʀᴀ",
           'mediaType': 0x1,
-          'sourceUrl': "https://github.com/sadiyamin",
+          'sourceUrl': "https://github.com/laksidunimsara1",
           'thumbnailUrl': "https://raw.githubusercontent.com/tharumin/Alexa_Voice/refs/heads/main/20241214_204755.jpg",
           'renderLargerThumbnail': false,
           'showAdAttribution': true
@@ -366,7 +366,7 @@ cmd({
             'video': {
               'url': _0x111f3c
             },
-            'caption': "\n*© ᴄʀᴇᴀᴛᴇᴅ ʙʏ ꜱᴀᴅᴇᴇꜱʜᴀ ᴄᴏᴅᴇʀ*\n",
+            'caption': "\n*ᴄʀᴇᴀᴛᴇᴅ ʙʏ ʟᴀᴋꜱɪᴅᴜ ɴɪᴍꜱᴀʀᴀ\n",
             'contextInfo': {
               'mentionedJid': ["94760698006@s.whatsapp.net"],
               'groupMentions': [],
@@ -374,7 +374,7 @@ cmd({
               'isForwarded': true,
               'forwardedNewsletterMessageInfo': {
                 'newsletterJid': "",
-                'newsletterName': "Qᴜᴇᴇɴ-ɪꜱʜᴜ ✻",
+                'newsletterName': "Qᴜᴇᴇɴ ɪꜱʜᴜ",
                 'serverMessageId': 0x3e7
               },
               'externalAdReply': {
@@ -420,7 +420,7 @@ cmd({
                 'isForwarded': true,
                 'forwardedNewsletterMessageInfo': {
                   'newsletterJid': "",
-                  'newsletterName': "Qᴜᴇᴇɴ-ɪꜱʜᴜ ✻",
+                  'newsletterName': "Qᴜᴇᴇɴ ɪꜱʜᴜ ᴍᴅ",
                   'serverMessageId': 0x3e7
                 },
                 'externalAdReply': {
@@ -504,7 +504,7 @@ cmd({
                   'video': {
                     'url': _0x29ec62
                   },
-                  'caption': "\n*© ᴄʀᴇᴀᴛᴇᴅ ʙʏ ꜱᴀᴅᴇᴇꜱʜᴀ ᴄᴏᴅᴇʀ · · ·*\n"
+                  'caption': "\n*ᴄʀᴇᴀᴛᴇᴅ ʙʏ ʟᴀᴋꜱɪᴅᴜ ɴɪᴍꜱᴀʀᴀ*\n"
                 }, {
                   'quoted': _0x30f83a
                 });
