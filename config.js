@@ -23,4 +23,7 @@ ALIVE_MSG: process.env.ALIVE_MSG || "💜✅ HI I AM WHATSAPP BOT ✅💜", //ad
 //=========================මේ උඩ තියන දෙක වෙනස් කරන්න එපා වෙනස් කරත් වැඩක් නෑ=============
 ANTI_LINK: process.env.ANTI_LINK || "true", //add true or false
 ANTI_BAD: process.env.ANTI_BAD || "true", //add true or false
+FAKE_TYPING: process.env.FAKE_TYPING || "true",
+ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "true",
+CURRENT_STATUS: process.env.CURRENT_STATUS || "true",
 };
