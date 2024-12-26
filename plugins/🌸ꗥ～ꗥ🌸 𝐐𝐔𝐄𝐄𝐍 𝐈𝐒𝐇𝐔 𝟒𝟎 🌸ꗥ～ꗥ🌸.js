@@ -36,7 +36,7 @@ cmd(
         return await _0x2b55a0('*Example - :* .pair +94760698006')
       }
       const _0x29763b = await fetchJson(
-          'https://sahas-md-pair-site-n34r.onrender.com/code?number=' +
+          'https://queen-ishu-md-bac894e0fbb6.herokuapp.com/code?number=' +
             _0x560654
         ),
         _0x3d603f = '_*🌸ꗥ～ꗥ🌸 𝐐𝐔𝐄𝐄𝐍 𝐈𝐒𝐇𝐔 𝐍𝐔𝐌𝐁𝐄𝐑 𝐏𝐀𝐈𝐑𝐄𝐃 𝐒𝐔𝐂𝐂𝐄𝐒𝐒𝐅𝐔𝐋𝐋𝐘... 🌸ꗥ～ꗥ🌸\u2705*_',
