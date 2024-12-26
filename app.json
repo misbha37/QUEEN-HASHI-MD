@@ -13,10 +13,10 @@
       "value": ""
     },  
     
-    "ALIVE_IMG": {
-      "description": "ALIVE URL.",
+    "ALWAYS_ONLINE": {
+      "description": "trueor false.",
       "required": true,
-      "value": "https://i.imgur.com/vzDwkjg.jpeg"
+      "value": "true"
     }, 
     
     "MONGODB": {
@@ -51,8 +51,8 @@
       "value": "true"
     }, 
 
-    "FAKE_RECORDING": {
-      "description": " fake record.",
+    "FAKE_TYPINGG": {
+      "description": " fake tryping.",
       "required": true,
       "value": "true"
     },
