@@ -10,7 +10,7 @@
 
 
 
-//🌸ꗥ～ꗥ🌸 𝐐𝐔𝐄𝐄𝐍 𝐈𝐒𝐇𝐔🌸ꗥ～ꗥ🌸//
+//🌸ꗥ～ꗥ🌸 𝐐𝐔𝐄𝐄𝐍 𝐈𝐒𝐇𝐔🌸ꗥ～ꗥ🌸//.
 
 <a href="https://whatsapp.com/channel/0029Vao7dOmDOQISArwnHT0e"><img src="https://img.shields.io/badge/Join%20Our%20WhatsApp%20Channel-green"  width="350"></a>
 
