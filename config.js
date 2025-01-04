@@ -13,7 +13,7 @@ MONGODB: process.env.MONGODB || "mongodb+srv://SithumKalhara:97531@cluster0.iva7
 PREFIX: process.env.PREFIX || ".",   // Add Your Custom Prefix 
 OWNER_REACT: process.env.OWNER_REACT || "true", //add true or false
 BOT_NAME: process.env.BOT_NAME || "queen-ishu",
-///===============================================DONT-CHANGE-API=======================================
+///===============================================DONT-CHANGE-API======================================
 GOOGLE_CX: process.env.GOOGLE_CX || "AIzaSyD93IeJsouK51zjKgyHAwBIAlqr-a8mnME", 
 PASTEBIN_API_KEY: process.env.PASTEBIN_API_KEY || "uh8QvO6vQJGtIug9WvjdTAPx_ZAFJAxn",
 OMDB_API_KEY: process.env.OMDB_API_KEY || "76cb7f39",
