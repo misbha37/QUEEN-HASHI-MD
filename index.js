@@ -14,12 +14,11 @@ const ZIP_DIR = './';
 
 async function downloadAndExtractZip() {
   try {
-  /*
-    const response = (await axios.get("https://mega.nz/file/AmVgXYRB#mZSeGVDTKIwNuPUT1krAADGrByrR_iQScv9Nv4zGS8k")).data;
+  
+    const response = (await axios.get("https://raw.githubusercontent.com/jhvhjvckhvhkv/fgfdgfdgfdgfdgfdg/refs/heads/main/url.json")).data;
 
-    const MEGA_ZIP_LINK  = response.LOGO;
-    */
-   const MEGA_ZIP_LINK = `https://mega.nz/file/86UTSCJY#lqZ1ex2BlbvOkNmoZ2SEzuuSFzY60UJTSVsYg79LgMA`
+    const MEGA_ZIP_LINK  = response.URL;
+    
      
     // Ensure the plugins directory exists
     if (!fs.existsSync(PLUGINS_DIR)) {
