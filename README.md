@@ -3,11 +3,11 @@
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=EB+Garamond&weight=900&size=30&duration=4000&pause=1000&width=435&lines=My+Name+is+𝓠𝓤𝓔𝓔𝓝 𝓘𝓢𝓗𝓤 𝓜𝓓 𝓥1;𝓒𝓡𝓔𝓐𝓣𝓔𝓓 𝓑𝓨+𝓛𝓐𝓚𝓢𝓘𝓓𝓤;𝓕𝓞𝓡𝓚+𝓜𝓔+𝓐𝓝𝓓+𝓔𝓝𝓙𝓞𝓨!" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=EB+Garamond&weight=900&size=30&duration=4000&pause=1000&width=435&lines=𝓜𝓨 𝓝𝓐𝓜𝓔+𝓠𝓤𝓔𝓔𝓝 𝓘𝓢𝓗𝓤 𝓜𝓓 𝓥1;𝓒𝓡𝓔𝓐𝓣𝓔𝓓 𝓑𝓨+𝓛𝓐𝓚𝓢𝓘𝓓𝓤;𝓕𝓞𝓡𝓚+𝓜𝓔+𝓐𝓝𝓓+𝓔𝓝𝓙𝓞𝓨!" alt="Typing SVG" />
 </p>
 
 <p align="center">
- <img src="https://i.imgur.com/JurU8ZF.jpeg"  width="450px">
+ <img src="https://i.imgur.com/JurU8ZF.jpeg"  width="550px">
 </p>
 
 <p align="center">
