@@ -52,44 +52,46 @@
 - 🔥 Fully customizable bug responses.
 - 📦 Lightweight and efficient codebase.
 
-<p align="center">
+<p align="left">
   <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="Separator Line" />
 </p>
 
-<h2 align="center">🛠️ Steps to Get Started</h2>
+<h2 align="center">🛠️ Steps to Get Started</h2
 
 ### 1️⃣ Get Bot Repo FORK
 
 
-<p align="center">
+<p align="left">
   <a href="https://github.com/JustaTz0/CREEPY_MD-V1/fork">
     <img src="https://img.shields.io/badge/Fork%20Repo-black?style=for-the-badge&logo=github" alt="Fork Button" />
   </a>
 </p>
 
 ### 2️⃣ Get Your Session ID
-<p align="center">
+
+<p align="left">
   <a href="https://creepy-session.onrender.com" target="_blank">
     <img src="https://img.shields.io/badge/Get%20Session-ID-blue?style=for-the-badge&logo=key" alt="Get Session ID" />
   </a>
 </p>
 
 
-<p align="center">
+<p align="left">
   <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="Separator Line" />
 </p>
 
 ### 3️⃣ Get Bot Diploy
 
-<h2 align="center">📋 Deployment Tutorial</h2>
+<h2 align="left">📋 Deployment Tutorial</h2>
 
 ### YouTube Bot Hosting  
+
 <a href="https://youtu.be/1f3JA8hMjaU" target="_blank">
   <img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube Tutorial" />
 </a>
 
 ---
-<h2 align="center">📋 Deployment websites</h2>
+<h2 align="left">📋 Deployment websites</h2>
 
 ### main site bot hosting
 <a href="https://bot-hosting.net/?aff=1297254811795722383" target="_blank">
