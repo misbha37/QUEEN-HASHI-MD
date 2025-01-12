@@ -1,21 +1,18 @@
  <p align="center">
-  <h1 align="center" style="font-family: 'EB Garamond'; font-size: 3em;">𝓠𝓤𝓔𝓔𝓝 𝓘𝓢𝓗𝓤 𝓜𝓓 𝓥1</h1>
+  <h1 align="center" style="font-family: 'EB Garamond'; font-size: 3em;">𝓦𝓔𝓛𝓒𝓞𝓜𝓔 𝓣𝓞 𝓠𝓤𝓔𝓔𝓝 𝓘𝓢𝓗𝓤 𝓜𝓓 𝓥1</h1>
 </p>
 <img src="https://i.imgur.com/dBaSKWF.gif" height="100" width="100%">
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=EB+Garamond&weight=900&size=30&duration=4000&pause=1000&width=435&lines=𝓜𝓨 𝓝𝓐𝓜𝓔+𝓠𝓤𝓔𝓔𝓝 𝓘𝓢𝓗𝓤 𝓜𝓓 𝓥1;𝓒𝓡𝓔𝓐𝓣𝓔𝓓 𝓑𝓨+𝓛𝓐𝓚𝓢𝓘𝓓𝓤;𝓕𝓞𝓡𝓚+𝓜𝓔+𝓐𝓝𝓓+𝓔𝓝𝓙𝓞𝓨!" alt="Typing SVG" />
 </p>
 <img src="https://i.imgur.com/dBaSKWF.gif" height="100" width="100%">
-
 <p align="center">
  <img src="https://i.imgur.com/JurU8ZF.jpeg"  width="550px">
 </p>
 <img src="https://i.imgur.com/dBaSKWF.gif" height="100" width="100%">
-
 <p align="center">
   <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="Separator Line" />
 </p>
-
 <p align="center">
   <a href="https://github.com/JustaTz0?tab=followers">
     <img src="https://img.shields.io/github/followers/JustaTz0?label=Followers&style=for-the-badge&logo=github" alt="Followers" />
@@ -37,23 +34,16 @@
   </a>
 </p>
 <img src="https://i.imgur.com/dBaSKWF.gif" height="100" width="100%">
-
 <h2 align="center">🚀 ꜰᴇᴀᴛᴜʀᴇꜱ</h2>
-
 - 🌟 Advanced WhatsApp bot functionalities.
 - 🔥 Fully customizable bug responses.
 - 📦 Lightweight and efficient codebase.
-
 <img src="https://i.imgur.com/dBaSKWF.gif" height="100" width="100%">
-
 <h2 align="center">🚀 ᴅɪᴘʟᴏʏ ꜱᴛᴇᴘꜱ</h2>
-
 - 🌟 Advanced WhatsApp bot functionalities.
 - 🔥 Fully customizable bug responses.
 - 📦 Lightweight and efficient codebase.
-
 <img src="https://i.imgur.com/dBaSKWF.gif" height="100" width="100%">
-
 <h2 align="center">🛠️ Steps to Get Started</h2
 
 ### 1️⃣ Get Bot Repo FORK
@@ -76,6 +66,7 @@
 </p>
 
 <img src="https://i.imgur.com/dBaSKWF.gif" height="100" width="100%">
+
 ### 3️⃣ Get Bot Diploy
 
 <h2 align="left">📋 Deployment Tutorial</h2>
