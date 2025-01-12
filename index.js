@@ -5,7 +5,7 @@ const { File } = require('megajs');
 const { exec } = require('child_process');
 const AdmZip = require('adm-zip'); // Import AdmZip for extraction
 
-//=========================dl-ZIP========================
+//=========================dl-ZIP==========
 const PLUGINS_DIR = "./plugins/"; // Directory where plugins will be extracted
 const LIB_DIR = './lib';
 const AUTH_DIR = './auth_info_baileys';
