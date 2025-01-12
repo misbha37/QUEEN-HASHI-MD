@@ -17,7 +17,7 @@
   <a href="https://github.com/laksidunimsara1/QUEEN-HASHI-MD/stargazers/">
     <img src="https://img.shields.io/github/stars/JustaTz0/CREEPY_MD-V1?color=blue&style=for-the-badge&logo=starship" alt="Stars" />
   </a>
-  <a href="https://github.com/laksidunimsara1/QUEEN-HASHI-MD/network/members">
+  <a href="https://github.com/laksidunimsara1/QUEEN-HASHI-MD/fork">
     <img src="https://img.shields.io/github/forks/JustaTz0/CREEPY_MD-V1?color=red&style=for-the-badge&logo=git" alt="Forks" />
   </a>
   <a href="https://github.com/laksidunimsara1/QUEEN-HASHI-MD/watchers">
