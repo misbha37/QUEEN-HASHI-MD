@@ -3,29 +3,7 @@
 
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=EB+Garamond&weight=900&size=30&duration=4000&pause=1000&width=435&lines=𝐌𝐘 𝐍𝐀𝐌𝐄 𝐈𝐒 𝐐𝐔𝐄𝐄𝐍 𝐇𝐀𝐒𝐇𝐈;𝐂𝐑𝐄𝐀𝐓𝐄𝐃 𝐁𝐘 𝐋𝐀𝐊𝐒𝐈𝐃𝐔;𝐅𝐎𝐑𝐊 𝐌𝐄 𝐀𝐍𝐃 𝐄𝐍𝐉𝐎𝐘!" alt="Typing SVG" />
-</p>
-<p align="center">
- <img src="https://i.imgur.com/JurU8ZF.jpeg"  width="550px">
-</p>
-<p align="center">
-  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="Separator Line" />
-</p>
-  </a>
-  <a href="https://github.com/laksidunimsara1/QUEEN-HASHI-MD/stargazers/">
-    <img src="https://img.shields.io/github/stars/laksidunimsara1/QUEEN-HASHI-MD?color=blue&style=for-the-badge&logo=starship" alt="Stars" />
-  </a>
-  <a href="https://github.com/laksidunimsara1/QUEEN-HASHI-MD/fork">
-    <img src="https://img.shields.io/github/forks/laksidunimsara1/QUEEN-HASHI-MD?color=red&style=for-the-badge&logo=git" alt="Forks" />
-  </a>
-  <a href="https://github.com/laksidunimsara1/QUEEN-HASHI-MD/watchers">
-    <img src="https://img.shields.io/github/watchers/laksidunimsara1/QUEEN-HASHI-MD?label=Watches&style=for-the-badge&color=brightgreen" alt="Watches" />
-  </a>
-  <a href="https://github.com/laksidunimsara1/QUEEN-HASHI-MD/">
-    <img src="https://img.shields.io/github/repo-size/laksidunimsara1/QUEEN-HASHI-MD?style=for-the-badge&color=orange" alt="Repo Size" />
-  </a>
-  <a href="https://github.com/laksidunimsara1/QUEEN-HASHI-MD/graphs/commit-activity">
-    <img src="https://img.shields.io/badge/Maintained%3F-Yes-yellow?style=for-the-badge" alt="Maintenance" />
-  </a>
+
 </p>
 <img src="https://i.imgur.com/dBaSKWF.gif" height="100" width="100%">
 <h2 align="center">🚀 ꜰᴇᴀᴛᴜʀᴇꜱ</h2>
