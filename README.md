@@ -10,9 +10,6 @@
 <p align="center">
   <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="Separator Line" />
 </p>
-<p align="center">
-  <a href="https://github.com/laksidunimsara1?tab=followers">
-    <img src="https://img.shields.io/github/laksidunimsara1/QUEEN-HASHI-MD?label=Followers&style=for-the-badge&logo=github" alt="Followers" />
   </a>
   <a href="https://github.com/laksidunimsara1/QUEEN-HASHI-MD/stargazers/">
     <img src="https://img.shields.io/github/stars/laksidunimsara1/QUEEN-HASHI-MD?color=blue&style=for-the-badge&logo=starship" alt="Stars" />
@@ -89,7 +86,7 @@
 
 ### DUPLOY HEROKU
 <a href="https://dashboard.heroku.com/new?template=https://github.com/laksidunimsara1/QUEEN-HASHI-MD" target="_blank">
-  <img src="https://img.shields.io/badge/Bot%20hosting-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white" alt="Bot hosting" />
+  <img src="https://img.shields.io/HEROKU-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white" alt="Bot hosting" />
 </a>
 
 ---
