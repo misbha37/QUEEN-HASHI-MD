@@ -5,7 +5,7 @@
   <img src="https://readme-typing-svg.demolab.com?font=EB+Garamond&weight=900&size=30&duration=4000&pause=1000&width=435&lines=𝐌𝐘 𝐍𝐀𝐌𝐄 𝐈𝐒 𝐐𝐔𝐄𝐄𝐍 𝐇𝐀𝐒𝐇𝐈;𝐂𝐑𝐄𝐀𝐓𝐄𝐃 𝐁𝐘 𝐋𝐀𝐊𝐒𝐈𝐃𝐔;𝐅𝐎𝐑𝐊 𝐌𝐄 𝐀𝐍𝐃 𝐄𝐍𝐉𝐎𝐘!" alt="Typing SVG" />
 </p>
 
-![Logo]('https://raw.githubusercontent.com/LAKSIDUOFFICIAL/QUEEN-ISHU/refs/heads/main/tinywow_WhatsApp%20Video%202025-01-12%20at%2012.12.59%20PM_72909575.webp?token=GHSAT0AAAAAAC3YA4SNSQSS43PLLL7UDX4KZ4DMZAQ')
+![Logo]('https://raw.githubusercontent.com/LAKSIDUOFFICIAL/QUEEN-ISHU/refs/heads/main/tinywow_WhatsApp%20Video%202025-01-12%20at%2012.12.59%20PM_72909575.webp')
 
 
 <p align="center">
