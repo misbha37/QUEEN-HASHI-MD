@@ -58,16 +58,16 @@
 
 <h2 align="center">🛠️ Steps to Get Started</h2>
 
-### Get Bot Repo FORK
+### 1️⃣ Get Bot Repo FORK
 
-<h3 align="left">1️⃣ 𝔽𝕠𝕣𝕜 𝕥𝕙𝕖 ℝ𝕖𝕡𝕠</h3>
-<p align="left">
+
+<p align="center">
   <a href="https://github.com/JustaTz0/CREEPY_MD-V1/fork">
     <img src="https://img.shields.io/badge/Fork%20Repo-black?style=for-the-badge&logo=github" alt="Fork Button" />
   </a>
 </p>
 
-### Get Your Session ID
+### 2️⃣ Get Your Session ID
 <p align="center">
   <a href="https://creepy-session.onrender.com" target="_blank">
     <img src="https://img.shields.io/badge/Get%20Session-ID-blue?style=for-the-badge&logo=key" alt="Get Session ID" />
@@ -78,6 +78,8 @@
 <p align="center">
   <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="Separator Line" />
 </p>
+
+### 3️⃣ Get Bot Diploy
 
 <h2 align="center">📋 Deployment Tutorial</h2>
 
