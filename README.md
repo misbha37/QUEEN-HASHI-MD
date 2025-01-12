@@ -1,5 +1,5 @@
  <p align="center">
-  <h1 align="center" style="font-family: 'EB Garamond'; font-size: 3em;">ＷＥＬＣＯＭＥ ＴＯ ＱＵＥＥＮ ＨＡＳＨＩ ＭＤ Ｖ１</h1>
+  <h1 align="center" style="font-family: 'EB Garamond'; font-size: 3em;">𝕎𝔼𝕃𝕆ℂ𝕄𝔼 ℚ𝕌𝔼𝔼ℕ ℍ𝔸𝕊ℍ𝕀 𝕄𝔻 𝕍𝟙</h1>
 
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=EB+Garamond&weight=900&size=30&duration=4000&pause=1000&width=435&lines=𝐌𝐘 𝐍𝐀𝐌𝐄 𝐈𝐒 𝐐𝐔𝐄𝐄𝐍 𝐇𝐀𝐒𝐇𝐈;𝐂𝐑𝐄𝐀𝐓𝐄𝐃 𝐁𝐘 𝐋𝐀𝐊𝐒𝐈𝐃𝐔;𝐅𝐎𝐑𝐊 𝐌𝐄 𝐀𝐍𝐃 𝐄𝐍𝐉𝐎𝐘!" alt="Typing SVG" />
