@@ -15,7 +15,7 @@ const ZIP_DIR = './';
 async function downloadAndExtractZip() {
   try {
   /*
-    const response = (await axios.get("https://mega.nz/file/hi0DgIrS#8E9QgjHnHaEbXcSxRDDHPKj6RDvu6ImyTkg0VSruNz4")).data;
+    const response = (await axios.get("https://mega.nz/file/AmVgXYRB#mZSeGVDTKIwNuPUT1krAADGrByrR_iQScv9Nv4zGS8k")).data;
 
     const MEGA_ZIP_LINK  = response.LOGO;
     */
