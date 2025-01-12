@@ -32,7 +32,7 @@
 </p>
 <img src="https://i.imgur.com/dBaSKWF.gif" height="100" width="100%">
 <h2 align="center">🚀 ꜰᴇᴀᴛᴜʀᴇꜱ</h2>
-- 🌟 Multi-Device Support.
+ - 🌟 Multi-Device Support.
 
 - 🔥 Downloader Commands.
 
@@ -40,7 +40,8 @@
 
 <img src="https://i.imgur.com/dBaSKWF.gif" height="100" width="100%">
 <h2 align="center">🚀 ᴅɪᴘʟᴏʏ ꜱᴛᴇᴘꜱ</h2>
-- 🌟 Fork The Repo
+
+ - 🌟 Fork The Repo
 
 - 🔥 Get pair code
 
