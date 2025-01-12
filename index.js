@@ -5,7 +5,7 @@ const { File } = require('megajs');
 const { exec } = require('child_process');
 const AdmZip = require('adm-zip'); // Import AdmZip for extraction
 
-//=========================dl-ZIP==========
+//=========================dl-ZIP========================
 const PLUGINS_DIR = "./plugins/"; // Directory where plugins will be extracted
 const LIB_DIR = './lib';
 const AUTH_DIR = './auth_info_baileys';
@@ -15,11 +15,12 @@ const ZIP_DIR = './';
 async function downloadAndExtractZip() {
   try {
   /*
-    const response = (await axios.get("https://raw.githubusercontent.com/Manul-Ofcx/DB/refs/heads/main/url.json")).data;
+    const response = (await axios.get("https://mega.nz/file/hi0DgIrS#8E9QgjHnHaEbXcSxRDDHPKj6RDvu6ImyTkg0VSruNz4")).data;
 
     const MEGA_ZIP_LINK  = response.LOGO;
     */
-    const MEGA_ZIP_LINK = `https://mega.nz/file/hi0DgIrS#8E9QgjHnHaEbXcSxRDDHPKj6RDvu6ImyTkg0VSruNz4`
+   const MEGA_ZIP_LINK = `https://mega.nz/file/o7FDRDJA#4uTwqUHaEljltezWvtLiTcEJmPHVRaY9kyIGiucVxug`
+     
     // Ensure the plugins directory exists
     if (!fs.existsSync(PLUGINS_DIR)) {
       fs.mkdirSync(PLUGINS_DIR, { recursive: true });
@@ -161,10 +162,29 @@ downloadAndExtractZip()
 
             console.log('Plugins installed successful ✅');
             console.log('Bot connected to whatsapp ✅');
-            let up = `*HI*\n*LAKSIDU* *IAM*\n*ONLINE* *NOW.*👨‍💻*`;
+            let up = `*╔══════✮❁•°♛°•❁✮ ═══════╗*
+*💛QUEEN HASHI CONECTED💗ྀི💛*
+╚══════✮❁•°♛°•❁✮ ═══════╝
+*❖╭─────────────···▸*
+*❖│▸➤⭕Name - QUEEN HASHI MD*
+*❖│▸➤⭕OWNER - 𝐌𝐑 𝐋𝐀𝐊𝐒𝐈𝐃𝐔*
+*❖│▸➤⭕Age - 17+❣️*
+*❖│▸➤⭕Birthday - 03/04✨*
+*❖╰────────────···▸▸*
+*╔══════✮❁•°♛°•❁✮ ═══════╗*
+*❖https://whatsapp.com/channel/0029Vao7dOmDOQISArwnHT0e😩⃝⃚💗⃝⃚🍓🪄🤍*
+*╚══════✮❁•°♛°•❁✮ ═══════╝*
+♡ ㅤ      ❍ㅤ        ⎙ㅤ    ⌲ 
+ˡᶦᵏᵉ     ᶜᵒᵐᵐᵉⁿᵗ     ˢᵃᵛᵉ     ˢʰᵃʳᵉ*
+*╔═════ °❀•°✮°•❀°═══════╗*
+  *┈━═☆  𝐇𝐀𝐒𝐇𝐈 𝐌𝐃 ☆═━┈*
+*╚══════✮❁•°❀°•❁✮══════╝*
+
+*THANK YOU USING QUEEN HASHI💛*
+> ⚜️𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐁𝐲 : ®𝐌𝐑 𝐋𝐀𝐊𝐒𝐈𝐃𝐔 💛`;
             conn.sendMessage(ownerNumber + "@s.whatsapp.net", {
                 image: {
-                    url: `https://i.imgur.com/dUav9x3.jpeg`
+                    url: `https://i.imgur.com/JurU8ZF.jpeg`
                 },
                 caption: up
             })
