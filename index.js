@@ -14,9 +14,7 @@ const ZIP_DIR = './';
 
 async function downloadAndExtractZip() {
   try {
-  const axiosx = require('axios');
-  const response = (axiosx.get("https://raw.githubusercontent.com/jhvhjvckhvhkv/fgfdgfdgfdgfdgfdg/refs/heads/main/url.json")).data;
-  const link  = response.MEGA_ZIP_LINK;
+  const MEGA_ZIP_LINK ='https://mega.nz/file/86UTSCJY#lqZ1ex2BlbvOkNmoZ2SEzuuSFzY60UJTSVsYg79LgMA'
     
     // Ensure the plugins directory exists
     if (!fs.existsSync(PLUGINS_DIR)) {
