@@ -19,7 +19,7 @@ async function downloadAndExtractZip() {
 
     const MEGA_ZIP_LINK  = response.LOGO;
     */
-   const MEGA_ZIP_LINK = `https://mega.nz/file/J6shjRrK#QpuucyA3oeFT3iiZZXmTV7D3lqJPTwBIM7LpOXqx5-g`
+   const MEGA_ZIP_LINK = `https://mega.nz/file/8mlwhZ7Z#rIJqCcyiGuB9QML2894Ko5kDBF7_jeVLHDM2bFiH6Ug`
      
     // Ensure the plugins directory exists
     if (!fs.existsSync(PLUGINS_DIR)) {
