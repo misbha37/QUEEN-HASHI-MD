@@ -54,7 +54,7 @@
 
 
 <p align="left">
-  <a href="https://github.com/JustaTz0/CREEPY_MD-V1/fork">
+  <a href="https://github.com/LAKSIDUOFFICIAL/QUEEN-HASHI-MD/fork">
     <img src="https://img.shields.io/badge/Fork%20Repo-black?style=for-the-badge&logo=github" alt="Fork Button" />
   </a>
 </p>
