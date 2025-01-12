@@ -66,8 +66,8 @@
 <h2 align="center">📋 Deployment</h2>
 
 ### DPLOY HEROKU
- [![nima](https://img.shields.io/badge/Diploy-Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white&buttcode=1n2i3m4a'https://dashboard.heroku.com/new?template=https://github.com/laksidunimsara1/QUEEN-HASHI-MD')
- 
+
+ <a href="https://dashboard.heroku.com/new?template=https://github.com/laksidunimsara1/QUEEN-ISHU-MD" class="boxBtn">DEPLOY HEROKU</a>
 
 ---
 <img src="https://i.imgur.com/dBaSKWF.gif" height="100" width="100%">
