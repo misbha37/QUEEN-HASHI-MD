@@ -85,7 +85,7 @@
 <h2 align="center">📋 Deployment</h2>
 
 ### DPLOY HEROKU
- [![nima](https://img.shields.io/badge/nuro_md_deploy_on_heroku-430098?style=for-the-badge&logo=heroku&logoColor=white&buttcode=1n2i3m4a)](https://dashboard.heroku.com/new?template=https://github.com/ASITHA-MD/ASITHA-MD-V2)
+ [![nima](https://img.shields.io/badge/diploy Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white&buttcode=1n2i3m4a)](https://dashboard.heroku.com/new?template=https://github.com/laksidunimsara1/QUEEN-HASHI-MD)
  
 
 ---
