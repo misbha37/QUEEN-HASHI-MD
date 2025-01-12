@@ -1,9 +1,9 @@
  <p align="center">
-  <h1 align="center" style="font-family: 'EB Garamond'; font-size: 3em;">ⓆⓊⒺⒺⓃ ⒾⓈⒽⓊ ⓂⒹ</h1>
+  <h1 align="center" style="font-family: 'EB Garamond'; font-size: 3em;">𝓠𝓤𝓔𝓔𝓝 𝓘𝓢𝓗𝓤 𝓜𝓓 𝓥1</h1>
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=EB+Garamond&weight=900&size=30&duration=4000&pause=1000&width=435&lines=My+Name+is+𝓒𝓡𝓔𝓔𝓟𝓨_𝓜𝓓+𝓥𝟏;Created+by+𝒟𝒶𝓃𝓃𝓎;Fork+Me+and+Enjoy!" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=EB+Garamond&weight=900&size=30&duration=4000&pause=1000&width=435&lines=My+Name+is+𝓠𝓤𝓔𝓔𝓝 𝓘𝓢𝓗𝓤 𝓜𝓓 𝓥1;𝓒𝓡𝓔𝓐𝓣𝓔𝓓 𝓑𝓨+𝓛𝓐𝓚𝓢𝓘𝓓𝓤;𝓕𝓞𝓡𝓚+𝓜𝓔+𝓐𝓝𝓓+𝓔𝓝𝓙𝓞𝓨!" alt="Typing SVG" />
 </p>
 
 <p align="center">
