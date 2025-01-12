@@ -39,14 +39,14 @@
   <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="Separator Line" />
 </p>
 
-<h2 align="center">🚀 Features</h2>
+<h2 align="center">🚀 ꜰᴇᴀᴛᴜʀᴇꜱ</h2>
 
 - 🌟 Advanced WhatsApp bot functionalities.
 - 🔥 Fully customizable bug responses.
 - 📦 Lightweight and efficient codebase.
 
 
-<h2 align="center">🚀 DIPLOY STEP</h2>
+<h2 align="center">🚀 ᴅɪᴘʟᴏʏ ꜱᴛᴇᴘꜱ</h2>
 
 - 🌟 Advanced WhatsApp bot functionalities.
 - 🔥 Fully customizable bug responses.
@@ -58,20 +58,14 @@
 
 <h2 align="center">🛠️ Steps to Get Started</h2>
 
-<h3 align="left">1️⃣ Fork the Repo</h3>
+### Get Bot Repo FORK
+
+<h3 align="left">1️⃣ 𝔽𝕠𝕣𝕜 𝕥𝕙𝕖 ℝ𝕖𝕡𝕠</h3>
 <p align="left">
   <a href="https://github.com/JustaTz0/CREEPY_MD-V1/fork">
     <img src="https://img.shields.io/badge/Fork%20Repo-black?style=for-the-badge&logo=github" alt="Fork Button" />
   </a>
 </p>
-
-<h3 align="left">2️⃣ Download the ZIP File</h3>
-<p align="left">
-  <a href="https://github.com/JustaTz0/CREEPY_MD-V1/archive/refs/heads/main.zip">
-    <img src="https://img.shields.io/badge/Download%20ZIP-blue?style=for-the-badge&logo=files" alt="Download ZIP" />
-  </a>
-</p>
-
 
 ### Get Your Session ID
 <p align="center">
@@ -105,13 +99,6 @@
 ### Deploy in Replit  
 <a href="https://repl.it/github.com/JustaTz0/CREEPY_MD-V1" target="_blank">
   <img src="https://img.shields.io/badge/Replit-orange?style=for-the-badge&logo=replit" alt="Deploy in Replit" />
-</a>
-
----
-
-### Deploy in Google Cloud  
-<a href="https://cloud.google.com/shell/?aff=1097457675723341836" target="_blank">
-  <img src="https://img.shields.io/badge/Google%20Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white" alt="Google Cloud" />
 </a>
 
 ---
