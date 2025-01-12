@@ -12,19 +12,19 @@
 </p>
 <p align="center">
   <a href="https://github.com/laksidunimsara1?tab=followers">
-    <img src="https://img.shields.io/github/followers/JustaTz0?label=Followers&style=for-the-badge&logo=github" alt="Followers" />
+    <img src="https://img.shields.io/github/laksidunimsara1/QUEEN-HASHI-MD?label=Followers&style=for-the-badge&logo=github" alt="Followers" />
   </a>
   <a href="https://github.com/laksidunimsara1/QUEEN-HASHI-MD/stargazers/">
-    <img src="https://img.shields.io/github/stars/JustaTz0/CREEPY_MD-V1?color=blue&style=for-the-badge&logo=starship" alt="Stars" />
+    <img src="https://img.shields.io/github/stars/laksidunimsara1/QUEEN-HASHI-MD?color=blue&style=for-the-badge&logo=starship" alt="Stars" />
   </a>
   <a href="https://github.com/laksidunimsara1/QUEEN-HASHI-MD/fork">
-    <img src="https://img.shields.io/github/forks/JustaTz0/CREEPY_MD-V1?color=red&style=for-the-badge&logo=git" alt="Forks" />
+    <img src="https://img.shields.io/github/forks/laksidunimsara1/QUEEN-HASHI-MD?color=red&style=for-the-badge&logo=git" alt="Forks" />
   </a>
   <a href="https://github.com/laksidunimsara1/QUEEN-HASHI-MD/watchers">
-    <img src="https://img.shields.io/github/watchers/JustaTz0/CREEPY_MD-V1?label=Watches&style=for-the-badge&color=brightgreen" alt="Watches" />
+    <img src="https://img.shields.io/github/watchers/laksidunimsara1/QUEEN-HASHI-MD?label=Watches&style=for-the-badge&color=brightgreen" alt="Watches" />
   </a>
   <a href="https://github.com/laksidunimsara1/QUEEN-HASHI-MD/">
-    <img src="https://img.shields.io/github/repo-size/JustaTz0/CREEPY_MD-V1?style=for-the-badge&color=orange" alt="Repo Size" />
+    <img src="https://img.shields.io/github/repo-size/laksidunimsara1/QUEEN-HASHI-MD?style=for-the-badge&color=orange" alt="Repo Size" />
   </a>
   <a href="https://github.com/laksidunimsara1/QUEEN-HASHI-MD/graphs/commit-activity">
     <img src="https://img.shields.io/badge/Maintained%3F-Yes-yellow?style=for-the-badge" alt="Maintenance" />
