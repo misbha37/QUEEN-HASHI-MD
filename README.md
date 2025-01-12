@@ -4,8 +4,9 @@
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=EB+Garamond&weight=900&size=30&duration=4000&pause=1000&width=435&lines=𝐌𝐘 𝐍𝐀𝐌𝐄 𝐈𝐒 𝐐𝐔𝐄𝐄𝐍 𝐇𝐀𝐒𝐇𝐈;𝐂𝐑𝐄𝐀𝐓𝐄𝐃 𝐁𝐘 𝐋𝐀𝐊𝐒𝐈𝐃𝐔;𝐅𝐎𝐑𝐊 𝐌𝐄 𝐀𝐍𝐃 𝐄𝐍𝐉𝐎𝐘!" alt="Typing SVG" />
 
-</p>
-<img src="https://i.imgur.com/dBaSKWF.gif" height="100" width="100%">
+<p align="center">
+ <img src="https://i.imgur.com/JurU8ZF.jpeg"  width="450px">
+
 
 <h2 align="center">🚀 ꜰᴇᴀᴛᴜʀᴇꜱ</h2>
  - 🌟 Multi-Device Support.
