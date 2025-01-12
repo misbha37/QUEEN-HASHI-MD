@@ -42,7 +42,7 @@
 ### 2️⃣ Get Your Session ID
 
 <p align="left">
-  <a href="https://queen-ishu-pair-ccdbb3dbfd89.herokuapp.com/" target="_blank">
+  <a href="https://queen-hashi-pair-d04af713e328.herokuapp.com/" target="_blank">
     <img src="https://img.shields.io/badge/Get%20Session-ID-blue?style=for-the-badge&logo=key" alt="Get Session ID" />
   </a>
 </p>
