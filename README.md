@@ -84,10 +84,9 @@
 
 <h2 align="center">📋 Deployment</h2>
 
-### DUPLOY HEROKU
-<a href="https://dashboard.heroku.com/new?template=https://github.com/laksidunimsara1/QUEEN-HASHI-MD" target="_blank">
-  <img src="https://img.shields.io/HEROKU-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white" alt="Bot hosting" />
-</a>
+### DPLOY HEROKU
+ [![nima](https://img.shields.io/badge/nuro_md_deploy_on_heroku-430098?style=for-the-badge&logo=heroku&logoColor=white&buttcode=1n2i3m4a)](https://dashboard.heroku.com/new?template=https://github.com/ASITHA-MD/ASITHA-MD-V2)
+ 
 
 ---
 <img src="https://i.imgur.com/dBaSKWF.gif" height="100" width="100%">
