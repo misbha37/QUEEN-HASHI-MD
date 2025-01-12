@@ -33,13 +33,19 @@
 <img src="https://i.imgur.com/dBaSKWF.gif" height="100" width="100%">
 <h2 align="center">🚀 ꜰᴇᴀᴛᴜʀᴇꜱ</h2>
 - 🌟 Multi-Device Support.
+
 - 🔥 Downloader Commands.
+
 - 📦 Movie Download
+
 <img src="https://i.imgur.com/dBaSKWF.gif" height="100" width="100%">
 <h2 align="center">🚀 ᴅɪᴘʟᴏʏ ꜱᴛᴇᴘꜱ</h2>
 - 🌟 Fork The Repo
+
 - 🔥 Get pair code
+
 - 📦 Diploy.
+
 <img src="https://i.imgur.com/dBaSKWF.gif" height="100" width="100%">
 <h2 align="center">🛠️ Steps to Get Started</h2
 
