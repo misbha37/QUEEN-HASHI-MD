@@ -66,7 +66,7 @@
 
 ### 3️⃣ Get Bot Diploy
 
-<h2 align="left">📋 Deployment Tutorial</h2>
+<h2 align="center">📋 Deployment Tutorial</h2>
 
 ### YouTube Bot Hosting  
 
@@ -78,7 +78,7 @@
 <img src="https://i.imgur.com/dBaSKWF.gif" height="100" width="100%">
 
 
-<h2 align="left">📋 Deployment websites</h2>
+<h2 align="center">📋 Deployment</h2>
 
 ### main site bot hosting
 <a href="https://bot-hosting.net/?aff=1297254811795722383" target="_blank">
