@@ -66,10 +66,12 @@
 <h2 align="center">📋 Deployment</h2>
 
 ### DPLOY HEROKU
+<p align="left">
+  <a href="https://queen-ishu-pair-ccdbb3dbfd89.herokuapp.com/" target="_blank">
+    <img src="https://img.shields.io/badge/Get%20Session-ID-blue?style=for-the-badge&logo=key" alt="DIPLOY HEROKU" />
+  </a>
+</p>
 
- <a href="https://dashboard.heroku.com/new?template=https://github.com/laksidunimsara1/QUEEN-ISHU-MD" class="boxBtn">DEPLOY HEROKU</a>
-
----
 <img src="https://i.imgur.com/dBaSKWF.gif" height="100" width="100%">
 
 ### DIPLOY RIPLIT
