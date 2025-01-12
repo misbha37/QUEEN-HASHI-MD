@@ -1,14 +1,16 @@
  <p align="center">
   <h1 align="center" style="font-family: 'EB Garamond'; font-size: 3em;">𝓠𝓤𝓔𝓔𝓝 𝓘𝓢𝓗𝓤 𝓜𝓓 𝓥1</h1>
 </p>
-
+<img src="https://i.imgur.com/dBaSKWF.gif" height="100" width="100%">
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=EB+Garamond&weight=900&size=30&duration=4000&pause=1000&width=435&lines=𝓜𝓨 𝓝𝓐𝓜𝓔+𝓠𝓤𝓔𝓔𝓝 𝓘𝓢𝓗𝓤 𝓜𝓓 𝓥1;𝓒𝓡𝓔𝓐𝓣𝓔𝓓 𝓑𝓨+𝓛𝓐𝓚𝓢𝓘𝓓𝓤;𝓕𝓞𝓡𝓚+𝓜𝓔+𝓐𝓝𝓓+𝓔𝓝𝓙𝓞𝓨!" alt="Typing SVG" />
 </p>
+<img src="https://i.imgur.com/dBaSKWF.gif" height="100" width="100%">
 
 <p align="center">
  <img src="https://i.imgur.com/JurU8ZF.jpeg"  width="550px">
 </p>
+<img src="https://i.imgur.com/dBaSKWF.gif" height="100" width="100%">
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="Separator Line" />
@@ -34,10 +36,7 @@
     <img src="https://img.shields.io/badge/Maintained%3F-Yes-yellow?style=for-the-badge" alt="Maintenance" />
   </a>
 </p>
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="Separator Line" />
-</p>
+<img src="https://i.imgur.com/dBaSKWF.gif" height="100" width="100%">
 
 <h2 align="center">🚀 ꜰᴇᴀᴛᴜʀᴇꜱ</h2>
 
@@ -45,6 +44,7 @@
 - 🔥 Fully customizable bug responses.
 - 📦 Lightweight and efficient codebase.
 
+<img src="https://i.imgur.com/dBaSKWF.gif" height="100" width="100%">
 
 <h2 align="center">🚀 ᴅɪᴘʟᴏʏ ꜱᴛᴇᴘꜱ</h2>
 
@@ -52,9 +52,7 @@
 - 🔥 Fully customizable bug responses.
 - 📦 Lightweight and efficient codebase.
 
-<p align="left">
-  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="Separator Line" />
-</p>
+<img src="https://i.imgur.com/dBaSKWF.gif" height="100" width="100%">
 
 <h2 align="center">🛠️ Steps to Get Started</h2
 
@@ -67,6 +65,8 @@
   </a>
 </p>
 
+<img src="https://i.imgur.com/dBaSKWF.gif" height="100" width="100%">
+
 ### 2️⃣ Get Your Session ID
 
 <p align="left">
@@ -75,11 +75,7 @@
   </a>
 </p>
 
-
-<p align="left">
-  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="Separator Line" />
-</p>
-
+<img src="https://i.imgur.com/dBaSKWF.gif" height="100" width="100%">
 ### 3️⃣ Get Bot Diploy
 
 <h2 align="left">📋 Deployment Tutorial</h2>
@@ -91,6 +87,9 @@
 </a>
 
 ---
+<img src="https://i.imgur.com/dBaSKWF.gif" height="100" width="100%">
+
+
 <h2 align="left">📋 Deployment websites</h2>
 
 ### main site bot hosting
@@ -99,6 +98,7 @@
 </a>
 
 ---
+<img src="https://i.imgur.com/dBaSKWF.gif" height="100" width="100%">
 
 ### Deploy in Replit  
 <a href="https://repl.it/github.com/JustaTz0/CREEPY_MD-V1" target="_blank">
@@ -106,6 +106,7 @@
 </a>
 
 ---
+<img src="https://i.imgur.com/dBaSKWF.gif" height="100" width="100%">
 
 ### Deploy in Render  
 <a href="https://dashboard.render.com" target="_blank">
@@ -113,6 +114,7 @@
 </a>
 
 ---
+<img src="https://i.imgur.com/dBaSKWF.gif" height="100" width="100%">
 
 ### Deploy in Codespaces  
 <a href="https://github.com/codespaces/new" target="_blank">
