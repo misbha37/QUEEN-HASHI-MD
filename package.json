@@ -1,12 +1,12 @@
 {
-  "name": "QUEEN-ISHU-MD",
+  "name": "QUEEN-HASHI-MD",
   "version": "2.5.0",
   "description": " WhatsApp bot created using Node.js",
   "main": "index.js",
   "scripts": {
-    "start": "pm2 start index.js --deep-monitoring --attach --name QUEEN-ISHU-MD",
+    "start": "pm2 start index.js --deep-monitoring --attach --name QUEEN-HASHI-MD",
     "stop": "pm2 stop LAKSIDU",
-    "restart": "pm2 restart QUEEN-ISHU-MD"
+    "restart": "pm2 restart QUEEN-HASHI-MD"
   },
   "dependencies": {
         "@adiwajshing/keyed-db": "^0.2.4",
