@@ -45,6 +45,13 @@
 - 🔥 Fully customizable bug responses.
 - 📦 Lightweight and efficient codebase.
 
+
+<h2 align="center">🚀 DIPLOY STEP</h2>
+
+- 🌟 Advanced WhatsApp bot functionalities.
+- 🔥 Fully customizable bug responses.
+- 📦 Lightweight and efficient codebase.
+
 <p align="center">
   <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="Separator Line" />
 </p>
