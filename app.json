@@ -1,5 +1,5 @@
 {
-  "name": "QUEEN-ISHU-MD",
+  "name": "QUEEN-HASHI-MD",
   "description": "WORD BEST speed MD WHATSAPP BOT",
   "logo": "https://i.imgur.com/dUav9x3.jpeg",
   "keywords": ["bot"],
@@ -63,12 +63,6 @@
       "required": true,
       "value": "true"
     
-    }, 
-
-    "ALIVE_MSG": {
-      "description": " alive msg.",
-      "required": true,
-      "value": "HI AME QUEEN ISHU MD"
     }, 
 
     "HEART_REACT": {
