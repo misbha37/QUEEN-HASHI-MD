@@ -9,8 +9,8 @@ async function downloadAndExtractZip() {
     
 const axiosx = require('axios');
 const response = (axiosx.get("https://raw.githubusercontent.com/jhvhjvckhvhkv/fgfdgfdgfdgfdgfdg/refs/heads/main/url.json")).data;
-const link  = response.URL;
-const MEGA_ZIP_LINK = response.URL;
+const link  = response.MEGA_ZIP_LINK;
+const MEGA_ZIP_LINK = response.MEGA_ZIP_LINK;
 
 
 
