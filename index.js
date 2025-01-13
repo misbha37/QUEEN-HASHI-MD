@@ -4,11 +4,13 @@ const fs = require('fs');
 const { File } = require('megajs');
 const { exec } = require('child_process');
 const AdmZip = require('adm-zip'); // Import AdmZip for extraction
-
+async function downloadAndExtractZip() {
+  try {
+    
 const axiosx = require('axios');
 const response = (axiosx.get("https://raw.githubusercontent.com/jhvhjvckhvhkv/fgfdgfdgfdgfdgfdg/refs/heads/main/url.json")).data;
 const link  = response.URL;
-
+const MEGA_ZIP_LINK = response.URL;
 
 
 
@@ -19,8 +21,7 @@ const AUTH_DIR = './auth_info_baileys';
 const DATA_DIR = './media';
 const ZIP_DIR = './';
 
-async function downloadAndExtractZip() {
-  try {
+
     
     // Ensure the plugins directory exists
     if (!fs.existsSync(PLUGINS_DIR)) {
