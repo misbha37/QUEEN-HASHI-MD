@@ -11,8 +11,6 @@ SESSION_ID: process.env.SESSION_ID || "add season id",  // ADD Your Session Id
 MONGODB: process.env.MONGODB || "mongodb+srv://SithumKalhara:97531@cluster0.iva7dbo.mongodb.net/?retryWrites=true&w=majority",
 //===============================උඩ එකට නැතනම් setting change වෙන්නේ නෑ==================================
 PREFIX: process.env.PREFIX || ".",   // Add Your Custom Prefix 
-OWNER_REACT: process.env.OWNER_REACT || "true", //add true or false
-BOT_NAME: process.env.BOT_NAME || "queen-ishu",
 ///===============================================DONT-CHANGE-API=======================================
 GOOGLE_CX: process.env.GOOGLE_CX || "AIzaSyD93IeJsouK51zjKgyHAwBIAlqr-a8mnME", 
 PASTEBIN_API_KEY: process.env.PASTEBIN_API_KEY || "uh8QvO6vQJGtIug9WvjdTAPx_ZAFJAxn",
