@@ -57,20 +57,6 @@
       "value": "true"
     },
 
-  
-    "OWNER_REACT": {
-      "description": " OwnerReact.",
-      "required": true,
-      "value": "true"
-    
-    }, 
-
-    "HEART_REACT": {
-      "description": " reaction .",
-      "required": true,
-      "value": "true"
-    }
-
 },
 
      "buildpacks": [
