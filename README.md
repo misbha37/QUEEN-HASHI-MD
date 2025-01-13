@@ -23,7 +23,7 @@
 
 - 🔥 Get pair code
 
-- 📦 Diploy.
+-  📦 Diploy.
 
 <img src="https://i.imgur.com/dBaSKWF.gif" height="100" width="100%">
 <h2 align="center">🛠️ Steps to Get Started</h2
