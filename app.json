@@ -55,7 +55,7 @@
       "description": " fake tryping.",
       "required": true,
       "value": "true"
-    },
+    }
 
 },
 
