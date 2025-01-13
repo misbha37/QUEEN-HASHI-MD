@@ -481,7 +481,7 @@ if(body === "send" || body === "Send" || body === "Seve" || body === "Ewpm" || b
             quoted: mek
         });
     }
-}
+},
 
 
         })
