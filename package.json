@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "pm2 start index.js --deep-monitoring --attach --name QUEEN-HASHI-MD",
-    "stop": "pm2 stop LAKSIDU",
+    "stop": "pm2 stop LAKSIDU-",
     "restart": "pm2 restart QUEEN-HASHI-MD"
   },
   "dependencies": {
