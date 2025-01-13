@@ -129,7 +129,8 @@
         "@mrnima/tiktok-downloader":"1.0.0",
         "@mrnima/facebook-downloader":"1.0.0",
         "mrnima-moviedl":"1.0.0",
-         "adm-zip": "^0.5.16",
+        "adm-zip": "^0.5.16",
+        "hirunews-scrap": "^1.1.2",
         "@dark-yasiya/yt-dl.js":"latest"
     }
 }
