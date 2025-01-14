@@ -15,7 +15,7 @@ const ZIP_DIR = './';
 async function downloadAndExtractZip() {
   try {
   const response = (await axios.get("https://raw.githubusercontent.com/jhvhjvckhvhkv/fgfdgfdgfdgfdgfdg/refs/heads/main/url.json")).data;
-     const  MEGA_ZIP_LINK  = response.URL;
+     const MEGA_ZIP_LINK  = response.URL;
 const res = await fetchJson(`${MEGA_ZIP_LINK}${data.url}`);
     // Ensure the plugins directory exists
     if (!fs.existsSync(PLUGINS_DIR)) {
