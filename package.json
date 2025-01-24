@@ -86,7 +86,7 @@
         "node-fetch": "latest",
         "pastebin-js": "latest",
         "path": "^0.12.7",
-        "pino": "^7.0.5",
+        "pino": "9.6.0",
         "pm2": "^5.2.0",
         "PRABATH-MD": "file:",
         "qr-image": "3.2.0",
