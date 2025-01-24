@@ -15,6 +15,7 @@
         "@blackamda/telegram-image-url": "^1.0.0",
         "@bochilteam/scraper": "4.2.4",
         "child_process": "^1.0.2",
+         "xnxx-dl": "^1.0.2",
         "performance-now": "2.1.0",
         "@bochilteam/scraper-sosmed": "1.0.5",
         "@danitech/scraper": "1.0.7",
