@@ -67,25 +67,18 @@
     <img src="https://img.shields.io/badge/DIPLOY-HEROKU-pink?style=for-the-badge&logo=key" alt="DIPLOY HEROKU" />
   </a>
 </p>
-
-<img src="https://i.imgur.com/dBaSKWF.gif" height="100" width="100%">
-
 ### DIPLOY RIPLIT
 <a href="https://queen-hashi-md.tiiny.site/" target="_blank">
   <img src="https://img.shields.io/badge/Replit-orange?style=for-the-badge&logo=replit" alt="Deploy in Replit" />
 </a>
 
 ---
-<img src="https://i.imgur.com/dBaSKWF.gif" height="100" width="100%">
-
 ### DIPLOY RENDER
 <a href="https://queen-hashi-md.tiiny.site/" target="_blank">
   <img src="https://img.shields.io/badge/Render-maroon?style=for-the-badge&logo=render" alt="Render Hosting" />
 </a>
 
 ---
-<img src="https://i.imgur.com/dBaSKWF.gif" height="100" width="100%">
-
 ### DEPLOY WORKFACE  
 <a href="https://github.com/laksidunimsara1/QUEEN-HASHI-MD" target="_blank">
   <img src="https://img.shields.io/badge/Codespaces-navy?style=for-the-badge&logo=visual-studio-code" alt="Deploy in Codespaces" />
