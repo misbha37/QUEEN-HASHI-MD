@@ -54,9 +54,10 @@
 <a href="https://youtu.be/1f3JA8hMjaU" target="_blank">
   <img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube Tutorial" />
 </a>
+</p>
+<p align="center"><img src="https://moe-counter.glitch.me/get/@LUCKY_MD?theme=gelbooru" alt="Lucky_Md_Visits_Counter" /></p>
 
-<p align="center"><img src="https://moe-counter.glitch.me/get/@HASHI_MD?theme=gelbooru" alt="Hashi_Md_Visits_Counter" /></p>
-
+##
 
 <h2 align="center">📋 Deployment</h2>
 
