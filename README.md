@@ -10,8 +10,8 @@
 
 
 <h2 align="center">🚀 ꜰᴇᴀᴛᴜʀᴇꜱ</h2>
- - 🌟 Multi-Device Support.
-
+- 🌟 Multi-Device Support.
+ 
 - 🔥 Downloader Commands.
 
 - 📦 Movie Download
@@ -55,7 +55,6 @@
   <img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube Tutorial" />
 </a>
 
----
 <p align="center"><img src="https://moe-counter.glitch.me/get/@HASHI_MD?theme=gelbooru" alt="Hashi_Md_Visits_Counter" /></p>
 
 
@@ -74,13 +73,13 @@
   <img src="https://img.shields.io/badge/Replit-orange?style=for-the-badge&logo=replit" alt="Deploy in Replit" />
 </a>
 
----
+
 ### DIPLOY RENDER
 <a href="https://queen-hashi-md.tiiny.site/" target="_blank">
   <img src="https://img.shields.io/badge/Render-maroon?style=for-the-badge&logo=render" alt="Render Hosting" />
 </a>
 
----
+
 ### DEPLOY WORKFACE  
 <a href="https://github.com/laksidunimsara1/QUEEN-HASHI-MD" target="_blank">
   <img src="https://img.shields.io/badge/Codespaces-navy?style=for-the-badge&logo=visual-studio-code" alt="Deploy in Codespaces" />
