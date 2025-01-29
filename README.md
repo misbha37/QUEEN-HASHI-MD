@@ -37,8 +37,6 @@
   </a>
 </p>
 
-<img src="https://i.imgur.com/dBaSKWF.gif" height="100" width="100%">
-
 ### 2️⃣ Get Your Session ID
 
 <p align="left">
@@ -46,8 +44,6 @@
     <img src="https://img.shields.io/badge/Get%20Session-ID-blue?style=for-the-badge&logo=key" alt="Get Session ID" />
   </a>
 </p>
-
-<img src="https://i.imgur.com/dBaSKWF.gif" height="100" width="100%">
 
 ### 3️⃣ Get Bot Diploy
 
@@ -60,7 +56,7 @@
 </a>
 
 ---
-<img src="https://i.imgur.com/dBaSKWF.gif" height="100" width="100%">
+<p align="center"><img src="https://moe-counter.glitch.me/get/@LUCKY_MD?theme=gelbooru" alt="Lucky_Md_Visits_Counter" /></p>
 
 
 <h2 align="center">📋 Deployment</h2>
