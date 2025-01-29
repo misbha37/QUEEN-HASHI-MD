@@ -67,7 +67,8 @@
     <img src="https://img.shields.io/badge/DIPLOY-HEROKU-pink?style=for-the-badge&logo=key" alt="DIPLOY HEROKU" />
   </a>
 </p>
-### DIPLOY RIPLIT
+
+### DPLOY ROPLIT
 
 <a href="https://queen-hashi-md.tiiny.site/" target="_blank">
   <img src="https://img.shields.io/badge/Replit-orange?style=for-the-badge&logo=replit" alt="Deploy in Replit" />
