@@ -55,7 +55,7 @@
   <img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube Tutorial" />
 </a>
 </p>
---------
+
 
 <h2 align="center">📋 Deployment</h2>
 
@@ -87,6 +87,12 @@
 <p align="center">
   <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="Separator Line" />
 </p>
+<img src="https://i.imgur.com/dBaSKWF.gif" height="100" width="100%">
+
+
+<p align="center"><img src="https://moe-counter.glitch.me/get/@HASHI_MD?theme=gelbooru" alt="Hashi_Md_Visits_Counter" /></p>
+
+
 
 <h2 align="center">📲 Join the Community</h2>
 
