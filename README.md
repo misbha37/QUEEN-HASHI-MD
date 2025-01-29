@@ -68,6 +68,7 @@
   </a>
 </p>
 ### DIPLOY RIPLIT
+
 <a href="https://queen-hashi-md.tiiny.site/" target="_blank">
   <img src="https://img.shields.io/badge/Replit-orange?style=for-the-badge&logo=replit" alt="Deploy in Replit" />
 </a>
