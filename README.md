@@ -40,7 +40,7 @@
 ### 2️⃣ Get Your Session ID
 
 <p align="left">
-  <a href="https://queen-hashi-md.tiiny.site/" target="_blank">
+  <a href="https://queen-hashi-web.vercel.app/" target="_blank">
     <img src="https://img.shields.io/badge/Get%20Session-ID-blue?style=for-the-badge&logo=key" alt="Get Session ID" />
   </a>
 </p>
@@ -61,20 +61,20 @@
 
 ### DPLOY HEROKU
 <p align="left">
-  <a href="https://queen-hashi-md.tiiny.site/" target="_blank">
+  <a href="https://queen-hashi-web.vercel.app/" target="_blank">
     <img src="https://img.shields.io/badge/DIPLOY-HEROKU-pink?style=for-the-badge&logo=key" alt="DIPLOY HEROKU" />
   </a>
 </p>
 
 ### DPLOY ROPLIT
 
-<a href="https://queen-hashi-md.tiiny.site/" target="_blank">
+<a href="https://queen-hashi-web.vercel.app/" target="_blank">
   <img src="https://img.shields.io/badge/Replit-orange?style=for-the-badge&logo=replit" alt="Deploy in Replit" />
 </a>
 
 
 ### DIPLOY RENDER
-<a href="https://queen-hashi-md.tiiny.site/" target="_blank">
+<a href="https://queen-hashi-web.vercel.app/" target="_blank">
   <img src="https://img.shields.io/badge/Render-maroon?style=for-the-badge&logo=render" alt="Render Hosting" />
 </a>
 
